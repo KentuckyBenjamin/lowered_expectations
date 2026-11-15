@@ -74,6 +74,18 @@ window.CATALOG = [
     "poster": "https://i.pinimg.com/736x/e9/60/b1/e960b108afb0241fa4ef3cb6fbb2c55b.jpg"
   },
   {
+    "title": "Battleship Potemkin",
+    "type": "movie",
+    "id": "BattleshipPotemkin",
+    "tags": [
+      "actually good",
+      "no talking please"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/hZmsRLsCnE9Zshf1YJONUpCOhds.jpg",
+    "year": "1925",
+    "description": "Eisenstein's mutiny epic and the Odessa Steps sequence every film school still copies. Russian intertitles with English subtitles."
+  },
+  {
     "title": "The Beast of Yucca Flats",
     "type": "movie",
     "id": "Beast_of_Yucca_Flats_movie",
@@ -165,6 +177,7 @@ window.CATALOG = [
     "type": "movie",
     "id": "TheCabinetOfDr.Caligari1920FULLMOVIE",
     "tags": [
+      "actually good",
       "creature feature",
       "no talking please"
     ],
@@ -185,6 +198,7 @@ window.CATALOG = [
     "type": "movie",
     "id": "CarnivalofSouls",
     "tags": [
+      "actually good",
       "creature feature"
     ],
     "poster": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Carnival_of_Souls_%281962_pressbook_cover%29.jpg"
@@ -285,6 +299,19 @@ window.CATALOG = [
     "poster": "https://www.moviepostersgallery.com/wp-content/uploads/2018/C-D/Dementia131.jpg"
   },
   {
+    "title": "Detour",
+    "type": "movie",
+    "id": "Detour",
+    "tags": [
+      "actually good",
+      "rainy window",
+      "villain era"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/gJb9HRAs1V4bA0VKsWpT6mhv2RT.jpg",
+    "year": "1945",
+    "description": "A hitchhiker's luck goes from bad to catastrophically worse. Made in six days for almost nothing, now in the National Film Registry."
+  },
+  {
     "title": "Double Impact",
     "type": "movie",
     "id": "double-impact_202307",
@@ -360,6 +387,7 @@ window.CATALOG = [
     "type": "movie",
     "id": "fantastic-planet__1973",
     "tags": [
+      "actually good",
       "space cadets"
     ],
     "poster": "https://upload.wikimedia.org/wikipedia/en/1/12/Fantastic_Planet_film_poster.jpg"
@@ -405,6 +433,7 @@ window.CATALOG = [
     "type": "movie",
     "id": "The_General_Buster_Keaton",
     "tags": [
+      "actually good",
       "no talking please",
       "goofballs"
     ],
@@ -477,6 +506,30 @@ window.CATALOG = [
     "poster": "https://image.tmdb.org/t/p/w500/5gTaTSAkYfxC6oRIzjlwmPQQmnK.jpg",
     "year": "1988",
     "description": "A cop with nightmares hunts a serial killer hiding in an old theater. Chuck Norris goes slasher."
+  },
+  {
+    "title": "His Girl Friday",
+    "type": "movie",
+    "id": "his_girl_friday",
+    "tags": [
+      "actually good",
+      "goofballs"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lu86Y9zTPH3neCiUzLzHCEFHf7f.jpg",
+    "year": "1940",
+    "description": "Cary Grant and Rosalind Russell talk faster than any humans before or since. The screwball comedy gold standard."
+  },
+  {
+    "title": "The Hitch-Hiker",
+    "type": "movie",
+    "id": "Hitch_Hiker",
+    "tags": [
+      "actually good",
+      "villain era"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/9ORvQWC2o0FwIEl6zYU1jw9qH0X.jpg",
+    "year": "1953",
+    "description": "Two buddies on a fishing trip pick up a killer who never closes one eye. Directed by Ida Lupino, the only woman making noir at the time."
   },
   {
     "title": "Horrors of the Red Planet",
@@ -648,6 +701,19 @@ window.CATALOG = [
     "poster": "http://www.impawards.com/1987/posters/lost_boys.jpg"
   },
   {
+    "title": "Man with a Movie Camera",
+    "type": "movie",
+    "id": "ChelovekskinoapparatomManWithAMovieCamera",
+    "tags": [
+      "actually good",
+      "no talking please",
+      "space cadets"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/vJgAdgJWX54v0oXfIvhwjlZnmgn.jpg",
+    "year": "1929",
+    "description": "A day in Soviet city life, shot with every camera trick invented by 1929. No story, no intertitles, still feels like the future."
+  },
+  {
     "title": "Master of the Flying Guillotine",
     "type": "movie",
     "id": "master-of-the-flying-guillotine-1976",
@@ -659,6 +725,18 @@ window.CATALOG = [
     "poster": "https://image.tmdb.org/t/p/w500/upa8qI25kJrrQHgYz66IO2ccvoH.jpg",
     "year": "1976",
     "description": "A blind assassin with a hat that decapitates people hunts the One-Armed Boxer. Also: a tournament, and a guy whose arms stretch."
+  },
+  {
+    "title": "Meet John Doe",
+    "type": "movie",
+    "id": "meet_john_doe",
+    "tags": [
+      "actually good",
+      "emotional damage"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/dnBZbFE2OGlTGNGBVTn6t83tJtd.jpg",
+    "year": "1941",
+    "description": "Frank Capra, Gary Cooper and Barbara Stanwyck: a fake protest letter becomes a real movement, and things get complicated."
   },
   {
     "title": "Missing in Action 2: The Beginning",
@@ -689,6 +767,7 @@ window.CATALOG = [
     "type": "movie",
     "id": "Night.Of.The.Living.Dead_1080p",
     "tags": [
+      "actually good",
       "creature feature"
     ],
     "poster": "https://upload.wikimedia.org/wikipedia/en/9/91/Night_of_the_Living_Dead_%281968%29_poster.jpg"
@@ -710,6 +789,7 @@ window.CATALOG = [
     "type": "movie",
     "id": "Nosferatu_most_complete_version_93_mins.",
     "tags": [
+      "actually good",
       "creature feature",
       "no talking please"
     ],
@@ -724,6 +804,19 @@ window.CATALOG = [
       "saturday morning"
     ],
     "poster": "https://static1.moviewebimages.com/wordpress/wp-content/uploads/movie/y67QQ5jVFexSwfggTru26vuqKoVYCt.jpg"
+  },
+  {
+    "title": "The Phantom Carriage",
+    "type": "movie",
+    "id": "ThePhantomCarriage_201405",
+    "tags": [
+      "actually good",
+      "creature feature",
+      "emotional damage"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/yGNekNFaI4SeyDO8C0BkRXM6Byu.jpg",
+    "year": "1921",
+    "description": "Whoever dies last on New Year's Eve has to drive Death's carriage for a year. Ghostly double-exposure effects. Swedish with English subtitles."
   },
   {
     "title": "Plan 9 from Outer Space",
@@ -770,10 +863,24 @@ window.CATALOG = [
     "poster": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Santa_Claus_Conquers_the_Martians_1.jpg"
   },
   {
+    "title": "Scarlet Street",
+    "type": "movie",
+    "id": "ScarletStreet",
+    "tags": [
+      "actually good",
+      "emotional damage",
+      "villain era"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/eGEDor1BWSQGaLtOntPHUSqNzRC.jpg",
+    "year": "1945",
+    "description": "Fritz Lang's bleakest noir: Edward G. Robinson as a mild cashier who falls for exactly the wrong woman."
+  },
+  {
     "title": "Scenes from a Marriage",
     "type": "movie",
     "id": "scenes.-from.-a.-marriage.-1974",
     "tags": [
+      "actually good",
       "emotional damage"
     ],
     "poster": "https://cdn.posteritati.com/posters/000/000/062/973/scenes-from-a-marriage-md-web.jpg"
@@ -820,6 +927,19 @@ window.CATALOG = [
     "poster": "https://upload.wikimedia.org/wikipedia/en/4/42/Shaolin_and_Wu_Tang.jpg"
   },
   {
+    "title": "Sherlock Jr.",
+    "type": "movie",
+    "id": "MyMovie_20190318",
+    "tags": [
+      "actually good",
+      "goofballs",
+      "no talking please"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/1G9r3rqtbFAQuyWKOZm4Y5J5s7Q.jpg",
+    "year": "1924",
+    "description": "Buster Keaton plays a projectionist who dreams himself into the movie. 44 minutes of stunts that still make no sense how he did them."
+  },
+  {
     "title": "Sidekicks",
     "type": "movie",
     "id": "sidekicks-full-screen-1992",
@@ -855,6 +975,18 @@ window.CATALOG = [
     "poster": "https://image.tmdb.org/t/p/w500/r4okXfWfTdnZESaEkBeFnAJrTmI.jpg",
     "year": "1978",
     "description": "Jackie Chan holds the stolen Snake and Crane manual, and every clan in China wants it."
+  },
+  {
+    "title": "The Stranger",
+    "type": "movie",
+    "id": "TheStranger_0",
+    "tags": [
+      "actually good",
+      "villain era"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/bzjoPScBLUWpSu10m3GbSbSwVhS.jpg",
+    "year": "1946",
+    "description": "Orson Welles directs and stars as a Nazi war criminal hiding as a small-town Connecticut teacher. Edward G. Robinson is on his trail."
   },
   {
     "title": "The Street Fighter",
@@ -1001,6 +1133,7 @@ window.CATALOG = [
     "type": "movie",
     "id": "yojimbo_202012",
     "tags": [
+      "actually good",
       "kung fu grip"
     ],
     "poster": "https://image.tmdb.org/t/p/original/zvBmSzAaIJs8LxOSSaA8ZT7ysqW.jpg"
