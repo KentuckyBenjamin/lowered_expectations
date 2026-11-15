@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Lowered Expectations</title>
+  <meta name="description" content="A hand-picked screening room of films, series and music from the Internet Archive.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800;900&family=Figtree:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.svg?v=downtrend" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png?v=downtrend" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=downtrend">
+  <meta name="theme-color" content="#0f1517">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#" aria-label="Lowered Expectations home">
+        <img class="brand-mark" src="favicon.svg?v=downtrend" alt="" width="34" height="34">
+        <span class="brand-name">Lowered<br>Expectations</span>
+      </a>
+
+      <nav class="tabs" aria-label="Browse by type">
+        <button class="tab" data-type="all" aria-pressed="true">Everything</button>
+        <button class="tab" data-type="movie" aria-pressed="false">Movies</button>
+        <button class="tab" data-type="series" aria-pressed="false">Series</button>
+        <button class="tab" data-type="music" aria-pressed="false">Music</button>
+        <button class="tab" data-type="game" aria-pressed="false">Games</button>
+      </nav>
+
+      <label class="search">
+        <span class="visually-hidden">Search the catalog</span>
+        <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="M13 13l4.5 4.5"/></svg>
+        <input id="search" type="search" placeholder="Search titles, tags, years" autocomplete="off">
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero" aria-label="Featured"></section>
+
+    <div id="home" class="wrap">
+      <div class="filterbar">
+        <div id="tags" class="chips" role="group" aria-label="Filter by tag"></div>
+        <p id="count" class="count" aria-live="polite"></p>
+      </div>
+      <div id="shelves"></div>
+    </div>
+
+    <section id="series-view" class="series-view" aria-label="Series"></section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <p>Every title streams directly from the <a href="https://archive.org" target="_blank" rel="noopener">Internet Archive</a>, a non-profit library. This site only curates and links.</p>
+      <p>Poster art comes from <a href="https://commons.wikimedia.org" target="_blank" rel="noopener">Wikimedia Commons</a> and is in the public domain, except the posters for <em>Sita Sings the Blues</em> (by Nina Paley) and <em>Valkaama</em> (by valkaama.com), which are shared under <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a>.</p>
+      <p class="mono">Catalog entries are Archive identifiers. Programme subject to change.</p>
+    </div>
+  </footer>
+
+  <dialog id="player" class="player" aria-labelledby="player-title">
+    <div class="player-shell">
+      <div class="player-head">
+        <div class="player-meta">
+          <p id="player-kicker" class="kicker"></p>
+          <h2 id="player-title"></h2>
+        </div>
+        <button id="player-close" class="icon-btn" aria-label="Close player">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15"/></svg>
+        </button>
+      </div>
+      <div id="player-stage" class="player-stage"></div>
+      <div class="player-body">
+        <div id="episodes" class="episodes" hidden></div>
+        <p id="player-desc" class="player-desc"></p>
+        <a id="player-source" class="source-link" target="_blank" rel="noopener">Open on the Internet Archive ↗</a>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="catalog.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

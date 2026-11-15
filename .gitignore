@@ -1,0 +1,13 @@
+# Backups made while editing
+.backup-*/
+*.backup-*
+.*.xlsx
+ia_media_list.backup*
+
+# Personal listening history
+pandora_archive_matches.csv
+
+# Python / macOS clutter
+__pycache__/
+*.pyc
+.DS_Store
