@@ -235,9 +235,8 @@
   }
 
   function renderTags() {
-    // Biggest tags first, so the chip row reads from "lots of these" to "a rare treat".
-    const counts = items.flatMap((i) => i.tags).reduce((m, t) => m.set(t, (m.get(t) || 0) + 1), new Map());
-    const all = [...counts.keys()].sort((a, b) => counts.get(b) - counts.get(a) || a.localeCompare(b));
+    // Alphabetical, so a tag is always easy to find.
+    const all = [...new Set(items.flatMap((i) => i.tags))].sort((a, b) => a.localeCompare(b));
     const box = $("#tags");
     box.replaceChildren(
       ...["all", ...all].map((t) => el("button", {

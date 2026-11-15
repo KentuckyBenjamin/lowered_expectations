@@ -29,7 +29,7 @@ window.CATALOG = [
     "type": "movie",
     "id": "the-adventures-of-tom-sawyer-1938",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "poster": "http://www.impawards.com/1938/posters/adventures_of_tom_sawyer.jpg"
   },
@@ -42,6 +42,18 @@ window.CATALOG = [
       "space cadets"
     ],
     "poster": "https://image.tmdb.org/t/p/original/5shLKraupCKx0FGenwbomAxyTVZ.jpg"
+  },
+  {
+    "title": "Anchorman: The Legend of Ron Burgundy",
+    "type": "movie",
+    "id": "download-anchorman-the-legend-of-ron-burgundy-2004",
+    "tags": [
+      "goofballs",
+      "quote-along"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/mhZIcRePT7U8viFQVjt1ZjYIsR4.jpg",
+    "year": "2004",
+    "description": "San Diego's top newsman versus a woman in the newsroom, a jazz flute and a trident fight. Stay classy."
   },
   {
     "title": "Army of Darkness",
@@ -74,6 +86,19 @@ window.CATALOG = [
     "poster": "https://i.pinimg.com/736x/e9/60/b1/e960b108afb0241fa4ef3cb6fbb2c55b.jpg"
   },
   {
+    "title": "Austin Powers: International Man of Mystery",
+    "type": "movie",
+    "id": "austin-powers-international-man-of-mystery-720p",
+    "tags": [
+      "goofballs",
+      "quote-along",
+      "villain era"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/5uD4dxNX8JKFjWKYMHyOsqhi5pN.jpg",
+    "year": "1997",
+    "description": "A swinging 60s spy is thawed out in 1997. Dr. Evil demands one million dollars. Yeah, baby."
+  },
+  {
     "title": "Battleship Potemkin",
     "type": "movie",
     "id": "BattleshipPotemkin",
@@ -96,22 +121,46 @@ window.CATALOG = [
     "poster": "https://upload.wikimedia.org/wikipedia/commons/5/53/The_Beast_of_Yucca_Flats_poster.webp"
   },
   {
+    "title": "Best in Show",
+    "type": "movie",
+    "id": "best-in-show-christopher-guest-2000-vhs",
+    "tags": [
+      "goofballs",
+      "quote-along"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/qkYBCMN26SxkQww4gLxUXQm5vr4.jpg",
+    "year": "2000",
+    "description": "Christopher Guest's mockumentary about very serious dog-show people. Fred Willard steals the whole thing. From VHS."
+  },
+  {
     "title": "Big Trouble in Little China",
     "type": "movie",
     "id": "big-trouble-little-china",
     "tags": [
-      "kung fu grip",
-      "explosions"
+      "explosions",
+      "kung fu grip"
     ],
     "poster": "https://image.tmdb.org/t/p/original/gI2Qs1yTTj3NcESJyttCkbmJ4k9.jpg"
+  },
+  {
+    "title": "Billy Madison",
+    "type": "movie",
+    "id": "billy-madison_202603",
+    "tags": [
+      "goofballs",
+      "quote-along"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/sOdgtJdFalL9kRKaeJItARLTAEq.jpg",
+    "year": "1995",
+    "description": "A rich man-child repeats grades 1 through 12 in 24 weeks to inherit the family company. Shampoo is better."
   },
   {
     "title": "Bloodsport",
     "type": "movie",
     "id": "bloodsport-1988-blu-ray-720p-fzmovies.net-f-691b-95240238c-8c-792ed-1f-28281e-3fe",
     "tags": [
-      "roundhouse kick",
-      "explosions"
+      "explosions",
+      "roundhouse kick"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/kndxR9TRK0kJ5hxzDprRSS80F2W.jpg",
     "year": "1988",
@@ -155,8 +204,8 @@ window.CATALOG = [
     "id": "BruceLeeFightsBackFromTheGrave1976",
     "tags": [
       "chop-socky",
-      "so bad it's good",
-      "goofballs"
+      "goofballs",
+      "so bad it's good"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/5wLCC4wM94oLaThz0na1PzcDUiV.jpg",
     "year": "1976",
@@ -182,6 +231,18 @@ window.CATALOG = [
       "no talking please"
     ],
     "poster": "https://upload.wikimedia.org/wikipedia/commons/5/52/Das_Cabinet_des_Dr._Caligari.JPG"
+  },
+  {
+    "title": "Caddyshack",
+    "type": "movie",
+    "id": "caddyshack-from-the-original-vhs-release-in-1983",
+    "tags": [
+      "goofballs",
+      "quote-along"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lXnNz7zOXCsftMDVoU3VSo0Eioi.jpg",
+    "year": "1980",
+    "description": "Bill Murray versus a gopher, Rodney Dangerfield versus the country club. From a thrift-store 1983 VHS."
   },
   {
     "title": "Cade the Tortured Crossing by Neil Breen",
@@ -217,9 +278,9 @@ window.CATALOG = [
     "type": "movie",
     "id": "code-of-silence_202312",
     "tags": [
+      "explosions",
       "roundhouse kick",
-      "villain era",
-      "explosions"
+      "villain era"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/yE1Xh7Q7M6uDrm28ib0MMcuhO4L.jpg",
     "year": "1985",
@@ -258,8 +319,8 @@ window.CATALOG = [
     "id": "DeathMachines",
     "tags": [
       "chop-socky",
-      "so bad it's good",
-      "explosions"
+      "explosions",
+      "so bad it's good"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/8VrRmslz4Da1xisgMOIqo0iNPKA.jpg",
     "year": "1976",
@@ -282,8 +343,8 @@ window.CATALOG = [
     "type": "movie",
     "id": "ezcap0010",
     "tags": [
-      "roundhouse kick",
-      "explosions"
+      "explosions",
+      "roundhouse kick"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/jBx4an9yU7FFbXv4tWc1HRJomGJ.jpg",
     "year": "1986",
@@ -316,8 +377,8 @@ window.CATALOG = [
     "type": "movie",
     "id": "double-impact_202307",
     "tags": [
-      "roundhouse kick",
-      "goofballs"
+      "goofballs",
+      "roundhouse kick"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/tmzwvSqoMC37Tgqwj4mA2dHNSmw.jpg",
     "year": "1991",
@@ -328,9 +389,9 @@ window.CATALOG = [
     "type": "movie",
     "id": "double-team-1998",
     "tags": [
+      "goofballs",
       "roundhouse kick",
-      "so bad it's good",
-      "goofballs"
+      "so bad it's good"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/tUzF2S15iX4Hn6ikbFX1YP3SDEQ.jpg",
     "year": "1997",
@@ -354,8 +415,8 @@ window.CATALOG = [
     "id": "drunken-wu-tang-aka-taoism-drunkard",
     "tags": [
       "chop-socky",
-      "goofballs",
-      "creature feature"
+      "creature feature",
+      "goofballs"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/rOOuGV6yi7vsYp5IxhUNI3svW1s.jpg",
     "year": "1983",
@@ -369,6 +430,19 @@ window.CATALOG = [
       "emotional damage"
     ],
     "poster": "https://www.themoviedb.org/t/p/original/e0FqKFvGPdQNWG8tF9cZBtev9Em.jpg"
+  },
+  {
+    "title": "Elf",
+    "type": "movie",
+    "id": "elf-2003-trailers.to",
+    "tags": [
+      "goofballs",
+      "kids",
+      "quote-along"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/oOleziEempUPu96jkGs0Pj6tKxj.jpg",
+    "year": "2003",
+    "description": "Will Ferrell is a human raised by elves who goes to New York to find his dad. Son of a nutcracker!"
   },
   {
     "title": "Enter the Fat Dragon",
@@ -429,15 +503,41 @@ window.CATALOG = [
     "description": "A wandering Shaolin master and a scrappy kid take on the bad guys. Aka Shaolin Master and the Kid."
   },
   {
+    "title": "Galaxy Quest",
+    "type": "movie",
+    "id": "title-01_20220430",
+    "tags": [
+      "goofballs",
+      "quote-along",
+      "space cadets"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/fZXSwgZknp81vmciTb86rw0MejV.jpg",
+    "year": "1999",
+    "description": "Washed-up sci-fi TV actors get recruited by real aliens who think the show was a documentary. Never give up, never surrender."
+  },
+  {
     "title": "The General",
     "type": "movie",
     "id": "The_General_Buster_Keaton",
     "tags": [
       "actually good",
-      "no talking please",
-      "goofballs"
+      "goofballs",
+      "no talking please"
     ],
     "poster": "https://upload.wikimedia.org/wikipedia/commons/0/0c/The_General_%281926%29_-_Movie_Poster_2.png"
+  },
+  {
+    "title": "Ghostbusters",
+    "type": "movie",
+    "id": "ghostbusters-from-the-original-vhs-release-in-1985",
+    "tags": [
+      "creature feature",
+      "goofballs",
+      "quote-along"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7E8nLijS9AwwUEPu2oFYOVKhdFA.jpg",
+    "year": "1984",
+    "description": "Who you gonna call? Bill Murray, a Stay Puft Marshmallow Man and the original 1985 VHS release."
   },
   {
     "title": "Godzilla vs Mechagodzilla",
@@ -454,8 +554,8 @@ window.CATALOG = [
     "type": "movie",
     "id": "1986-wpwr-good-guys-wear-black-wgn-forced-vengeance",
     "tags": [
-      "roundhouse kick",
-      "rainy window"
+      "rainy window",
+      "roundhouse kick"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/3vcpL3edFZKt6vIiSFDnZ7bglq4.jpg",
     "year": "1986",
@@ -466,7 +566,7 @@ window.CATALOG = [
     "type": "movie",
     "id": "gullivers_travels1939",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "poster": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Gullivers_travel_poster_3.jpg"
   },
@@ -484,12 +584,25 @@ window.CATALOG = [
     "description": "A humble guy hides his kung fu until a gang of martial-arts ladies makes that impossible."
   },
   {
+    "title": "Happy Gilmore",
+    "type": "movie",
+    "id": "happy.gilmore.1996.1080p.bluray.dd5.1.hevc.x265.rmteam",
+    "tags": [
+      "goofballs",
+      "quote-along",
+      "rage quit"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/4RnCeRzvI1xk5tuNWjpDKzSnJDk.jpg",
+    "year": "1996",
+    "description": "A failed hockey player discovers he can hit a golf ball 400 yards. Bob Barker throws hands."
+  },
+  {
     "title": "Hard Target",
     "type": "movie",
     "id": "hard-target-fan-edit-uncut-1hr-45min-cut",
     "tags": [
-      "roundhouse kick",
-      "explosions"
+      "explosions",
+      "roundhouse kick"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/mXCM7pmUFUGp7QzSmare3RITe6n.jpg",
     "year": "1993",
@@ -500,8 +613,8 @@ window.CATALOG = [
     "type": "movie",
     "id": "ok-15_202603",
     "tags": [
-      "roundhouse kick",
-      "creature feature"
+      "creature feature",
+      "roundhouse kick"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/5gTaTSAkYfxC6oRIzjlwmPQQmnK.jpg",
     "year": "1988",
@@ -555,8 +668,8 @@ window.CATALOG = [
     "type": "movie",
     "id": "invasion-u.-s.-a._202403",
     "tags": [
-      "roundhouse kick",
       "explosions",
+      "roundhouse kick",
       "so bad it's good"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/mE5dSRTKW1dzV7D0pgP8sMxyIa9.jpg",
@@ -568,8 +681,8 @@ window.CATALOG = [
     "type": "movie",
     "id": "cco_jackandthebeanstalk",
     "tags": [
-      "saturday morning",
-      "goofballs"
+      "goofballs",
+      "kids"
     ],
     "poster": "https://i.pinimg.com/originals/3e/97/44/3e97449f0420b0052cc4fac5a2f27514.jpg"
   },
@@ -578,8 +691,8 @@ window.CATALOG = [
     "type": "movie",
     "id": "kickboxer-1989-full-movie-english-jean-claude-van-damme-you-tube_20220130",
     "tags": [
-      "roundhouse kick",
-      "kitchen dance party"
+      "kitchen dance party",
+      "roundhouse kick"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/tXSD8U5aVdGscQNcyY6C2ANVEuh.jpg",
     "year": "1989",
@@ -612,9 +725,9 @@ window.CATALOG = [
     "type": "movie",
     "id": "knock-off-1998",
     "tags": [
+      "goofballs",
       "roundhouse kick",
-      "so bad it's good",
-      "goofballs"
+      "so bad it's good"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/hK7hKDA51FCbtFCuXZNiQ6gPq3S.jpg",
     "year": "1998",
@@ -643,8 +756,8 @@ window.CATALOG = [
     "type": "movie",
     "id": "lionheart-1990-full-movie",
     "tags": [
-      "roundhouse kick",
-      "emotional damage"
+      "emotional damage",
+      "roundhouse kick"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/kf3qx5fzsYyLv7PEAORUGxwzQEk.jpg",
     "year": "1990",
@@ -655,8 +768,8 @@ window.CATALOG = [
     "type": "movie",
     "id": "little_princess",
     "tags": [
-      "saturday morning",
-      "emotional damage"
+      "emotional damage",
+      "kids"
     ],
     "poster": "https://c8.alamy.com/comp/EYK3R9/the-little-princess-1939-movie-poster-EYK3R9.jpg"
   },
@@ -719,8 +832,8 @@ window.CATALOG = [
     "id": "master-of-the-flying-guillotine-1976",
     "tags": [
       "chop-socky",
-      "villain era",
-      "so bad it's good"
+      "so bad it's good",
+      "villain era"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/upa8qI25kJrrQHgYz66IO2ccvoH.jpg",
     "year": "1976",
@@ -743,12 +856,24 @@ window.CATALOG = [
     "type": "movie",
     "id": "missing-in-action-2-the-beginning-1985",
     "tags": [
-      "roundhouse kick",
-      "explosions"
+      "explosions",
+      "roundhouse kick"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/vOgiL2KQYyTHJ225lT5QB5B9kO0.jpg",
     "year": "1985",
     "description": "The prequel that came out second. Chuck Norris escapes a POW camp, and a rat-in-a-bag scene."
+  },
+  {
+    "title": "Monty Python and the Holy Grail",
+    "type": "movie",
+    "id": "Monty.Python.And.The.Holy.Grail.1975.720p.BluRay.x264YTS.AM",
+    "tags": [
+      "goofballs",
+      "quote-along"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7nTkHjETdGMYK1phHwDbPsrzbYl.jpg",
+    "year": "1975",
+    "description": "King Arthur, coconut horses, a killer rabbit and the Knights Who Say Ni. It's only a flesh wound."
   },
   {
     "title": "The Mystery of Chess Boxing",
@@ -761,6 +886,19 @@ window.CATALOG = [
     "poster": "https://image.tmdb.org/t/p/w500/wF8FQKNI1LZ5UQBXhgAvAqEDfUl.jpg",
     "year": "1979",
     "description": "A kid learns kung fu from a chess master to fight the Ghost Faced Killer. Yes, that's where Ghostface got the name."
+  },
+  {
+    "title": "Napoleon Dynamite",
+    "type": "movie",
+    "id": "napoleon-dynamite-2004.1080p",
+    "tags": [
+      "goofballs",
+      "kitchen dance party",
+      "quote-along"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/6Iv6Uwa2SBLN0dSGM00rdrwN4MJ.jpg",
+    "year": "2004",
+    "description": "Tater tots, ligers, nunchuck skills and the dance that won the election. Vote for Pedro."
   },
   {
     "title": "Night of the Living Dead",
@@ -796,12 +934,25 @@ window.CATALOG = [
     "poster": "https://i.pinimg.com/originals/b2/3b/7a/b23b7a2912366c53ca6ca617cbe00a55.jpg"
   },
   {
+    "title": "Office Space",
+    "type": "movie",
+    "id": "TrjAGzmtdc8Lw4g92bRzcnp35dfOcY83CdjS9Ad3Ka47roQdvmha3e047KNxRgah",
+    "tags": [
+      "emotional damage",
+      "goofballs",
+      "quote-along"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/iEmTwOkUaLziMQCUZii5wPQBIAO.jpg",
+    "year": "1999",
+    "description": "TPS reports, a red stapler and a printer that deserved it. Every office worker's revenge fantasy."
+  },
+  {
     "title": "Pee Wees Big Adventure",
     "type": "movie",
     "id": "pee-wees-big-adventure-1985-vhs-rip",
     "tags": [
       "goofballs",
-      "saturday morning"
+      "kids"
     ],
     "poster": "https://static1.moviewebimages.com/wordpress/wp-content/uploads/movie/y67QQ5jVFexSwfggTru26vuqKoVYCt.jpg"
   },
@@ -921,8 +1072,8 @@ window.CATALOG = [
     "id": "shaolin-vs-wu-tang-gordon-lau",
     "tags": [
       "chop-socky",
-      "kung fu grip",
-      "goofballs"
+      "goofballs",
+      "kung fu grip"
     ],
     "poster": "https://upload.wikimedia.org/wikipedia/en/4/42/Shaolin_and_Wu_Tang.jpg"
   },
@@ -944,9 +1095,9 @@ window.CATALOG = [
     "type": "movie",
     "id": "sidekicks-full-screen-1992",
     "tags": [
-      "roundhouse kick",
+      "emotional damage",
       "goofballs",
-      "emotional damage"
+      "roundhouse kick"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/p4n2gLg7Iqko72GMJwfaHHCdVg4.jpg",
     "year": "1992",
@@ -977,6 +1128,32 @@ window.CATALOG = [
     "description": "Jackie Chan holds the stolen Snake and Crane manual, and every clan in China wants it."
   },
   {
+    "title": "Spaceballs",
+    "type": "movie",
+    "id": "spaceballs-1987-vhs-english-film",
+    "tags": [
+      "goofballs",
+      "quote-along",
+      "space cadets"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/kNbaxEsnCyWBTfANVPHayujBsxp.jpg",
+    "year": "1987",
+    "description": "Mel Brooks spoofs Star Wars. May the Schwartz be with you. From VHS."
+  },
+  {
+    "title": "Step Brothers",
+    "type": "movie",
+    "id": "step.-brothers.-blu-ray.-1080p",
+    "tags": [
+      "goofballs",
+      "kitchen dance party",
+      "quote-along"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/nvggBbEraUTAVR6ffP3AaBUWSHs.jpg",
+    "year": "2008",
+    "description": "Two 40-year-old man-children become stepbrothers and bunk beds become a problem. Boats 'n Hoes."
+  },
+  {
     "title": "The Stranger",
     "type": "movie",
     "id": "TheStranger_0",
@@ -1002,6 +1179,18 @@ window.CATALOG = [
     "description": "Sonny Chiba rips out a guy's throat with his bare hands and the X-ray cam shows you the skull cracking. The first film rated X for violence alone."
   },
   {
+    "title": "Superbad",
+    "type": "movie",
+    "id": "superbad.-2007.-unrated.-1080p.-blu-ray.x-264.-aac-5.1-yts.-mx",
+    "tags": [
+      "goofballs",
+      "quote-along"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ek8e8txUyUwd2BNqj6lFEerJfbq.jpg",
+    "year": "2007",
+    "description": "Two best friends, one party and one fake ID that says McLovin. Unrated cut."
+  },
+  {
     "title": "T.N.T. Jackson",
     "type": "movie",
     "id": "T.n.t.Jackson",
@@ -1015,11 +1204,23 @@ window.CATALOG = [
     "description": "Jeannie Bell goes to Hong Kong to find her brother's killer. Pure 70s grindhouse, dynamite included in the title only."
   },
   {
+    "title": "Talladega Nights: The Ballad of Ricky Bobby",
+    "type": "movie",
+    "id": "talladega.-nights.-the.-ballad.-of.-ricky.-bobby.-2006",
+    "tags": [
+      "goofballs",
+      "quote-along"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/3iCiTqsmJz1mO85AHzTiHNkRmb6.jpg",
+    "year": "2006",
+    "description": "If you ain't first, you're last. NASCAR, Sacha Baron Cohen and a very specific dinner prayer."
+  },
+  {
     "title": "Teenage Mutant Ninja Turtles",
     "type": "movie",
     "id": "teenage-mutant-ninja-turtles-1990-vhs-rip",
     "tags": [
-      "saturday morning",
+      "kids",
       "kung fu grip"
     ],
     "poster": "https://image.tmdb.org/t/p/original/peHneWWQZa3yOuTDeJrmtv8t8wU.jpg"
@@ -1029,7 +1230,7 @@ window.CATALOG = [
     "type": "movie",
     "id": "teenage-mutant-ninja-turtles-ii-1991-vhs-rip",
     "tags": [
-      "saturday morning",
+      "kids",
       "kung fu grip"
     ],
     "poster": "https://m.media-amazon.com/images/M/MV5BYzQwYzlhMjctMTcxYS00N2NmLTg4YzYtNjJjZjNhZTA0MzFlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
@@ -1042,6 +1243,19 @@ window.CATALOG = [
       "creature feature"
     ],
     "poster": "https://upload.wikimedia.org/wikipedia/commons/9/93/The_Terror_%281963%29_-_Poster.png"
+  },
+  {
+    "title": "This Is Spinal Tap",
+    "type": "movie",
+    "id": "this-is-spinal-tap-1984",
+    "tags": [
+      "goofballs",
+      "mosh pit",
+      "quote-along"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/b3lllDltoBws5uKZzBYVSjpjjJx.jpg",
+    "year": "1984",
+    "description": "The rockumentary about Britain's loudest band. These go to eleven."
   },
   {
     "title": "True Lies",
@@ -1057,8 +1271,8 @@ window.CATALOG = [
     "type": "movie",
     "id": "universal-soldier-1992-pal-vhs",
     "tags": [
-      "roundhouse kick",
       "explosions",
+      "roundhouse kick",
       "space cadets"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/fp0mWrHl1SW9PhP8QcsgYPoVYFc.jpg",
@@ -1070,9 +1284,9 @@ window.CATALOG = [
     "type": "movie",
     "id": "universal-soldier-the-return",
     "tags": [
+      "explosions",
       "roundhouse kick",
-      "so bad it's good",
-      "explosions"
+      "so bad it's good"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/qlcPJK0Me8aUtDPwk3TqN2RdKH4.jpg",
     "year": "1999",
@@ -1092,22 +1306,60 @@ window.CATALOG = [
     "type": "movie",
     "id": "VoyagetothePlanetofPrehistoricWomen",
     "tags": [
-      "space cadets",
-      "so bad it's good"
+      "so bad it's good",
+      "space cadets"
     ],
     "poster": "http://www.ohmygore.com/movies/voyage_to_the_planet_of_prehistoric_women/poster_01.jpg"
+  },
+  {
+    "title": "Walk Hard: The Dewey Cox Story",
+    "type": "movie",
+    "id": "walk-hard-the-dewey-cox-story_20240620",
+    "tags": [
+      "dad rock",
+      "goofballs",
+      "quote-along"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/Aa1IQ4Cuin3d7qIahvPheMmR4E5.jpg",
+    "year": "2007",
+    "description": "Every music biopic cliché at once. The wrong kid died. Includes both cuts of the film."
   },
   {
     "title": "The Way of the Dragon",
     "type": "movie",
     "id": "the.-way.-of.-the.-dragon",
     "tags": [
-      "roundhouse kick",
-      "kung fu grip"
+      "kung fu grip",
+      "roundhouse kick"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/m7AIITQ624sfldI4SsX4htXPH1f.jpg",
     "year": "1972",
     "description": "Bruce Lee goes to Rome and fights Chuck Norris in the Colosseum. Chest hair has never been so important."
+  },
+  {
+    "title": "Wayne's World",
+    "type": "movie",
+    "id": "waynes-world-1993-vhs",
+    "tags": [
+      "goofballs",
+      "mosh pit",
+      "quote-along"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/fHwZnFNWR7PaS9t5EBwTvGPeoYQ.jpg",
+    "year": "1992",
+    "description": "Party time, excellent. Bohemian Rhapsody in an AMC Gremlin. From the original VHS tape."
+  },
+  {
+    "title": "Wedding Crashers",
+    "type": "movie",
+    "id": "wedding.-crashers.-2005.-brrip.x-264.-yify_202606",
+    "tags": [
+      "goofballs",
+      "quote-along"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lFM3lk2zVzC1YFnKm0r6LbFPyRu.jpg",
+    "year": "2005",
+    "description": "Vince Vaughn and Owen Wilson crash weddings for fun until one of them falls for a bridesmaid. Ma! The meatloaf!"
   },
   {
     "title": "Wild Texas Wind - Dolly Parton & Gary Busey",
@@ -1123,8 +1375,8 @@ window.CATALOG = [
     "type": "movie",
     "id": "OliverHardyTheWizardOfOz1925",
     "tags": [
-      "no talking please",
-      "saturday morning"
+      "kids",
+      "no talking please"
     ],
     "poster": "https://image.tmdb.org/t/p/original/l7bVLGopGoTwmuirB0WZdUc47ns.jpg"
   },
@@ -1143,7 +1395,7 @@ window.CATALOG = [
     "type": "series",
     "id": "1983-alvin-and-the-chipmunks-complete",
     "tags": [
-      "saturday morning",
+      "kids",
       "kitchen dance party"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/rmx8Khnutah9dnbpkYjJZSMzSID.jpg",
@@ -1155,8 +1407,8 @@ window.CATALOG = [
     "type": "series",
     "id": "beastwarstransformers1080p",
     "tags": [
-      "saturday morning",
-      "explosions"
+      "explosions",
+      "kids"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/v0tGICAWwtXawt3YQpp8SOdtspb.jpg",
     "year": "1996",
@@ -1167,7 +1419,7 @@ window.CATALOG = [
     "type": "series",
     "id": "the-berenstain-bears-1985",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "poster": "https://images.theposterdb.com/prod/public/images/posters/optimized/shows/26535/season_1/nwBm9BCzKNzi62uE8mtnVyDZ4S1TbEhF8N88tni8.jpg"
   },
@@ -1176,7 +1428,7 @@ window.CATALOG = [
     "type": "series",
     "id": "BettyBoopCartoons",
     "tags": [
-      "saturday morning",
+      "kids",
       "kitchen dance party"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/bgmWJB7O5pb6bJtuisMHOEOfUIg.jpg",
@@ -1200,8 +1452,8 @@ window.CATALOG = [
     "type": "series",
     "id": "dexters-laboratory-the-complete-series",
     "tags": [
-      "saturday morning",
-      "goofballs"
+      "goofballs",
+      "kids"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/inJJn8lUPWdvdy2h259UnoHWVqC.jpg",
     "year": "1996",
@@ -1212,8 +1464,8 @@ window.CATALOG = [
     "type": "series",
     "id": "Ducktales-Complete-Series",
     "tags": [
-      "saturday morning",
-      "goofballs"
+      "goofballs",
+      "kids"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/l39HDf6WYzV8VLY5EnCRC81DWOy.jpg",
     "year": "1987",
@@ -1225,7 +1477,7 @@ window.CATALOG = [
     "id": "freakazoid_202210",
     "tags": [
       "goofballs",
-      "saturday morning"
+      "kids"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/ig0pc2AhY5d3GEghcxEWwo9AUtg.jpg",
     "year": "1995",
@@ -1236,8 +1488,8 @@ window.CATALOG = [
     "type": "series",
     "id": "gi-joe-2",
     "tags": [
-      "saturday morning",
-      "explosions"
+      "explosions",
+      "kids"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/nq3hyd68PeUbm1Wz3nQMkUUaYZ1.jpg",
     "year": "1985",
@@ -1248,9 +1500,9 @@ window.CATALOG = [
     "type": "series",
     "id": "gargoyles-1080p-ai-upscale",
     "tags": [
-      "saturday morning",
-      "villain era",
-      "rainy window"
+      "kids",
+      "rainy window",
+      "villain era"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/yDTZYbiRUapeWRJL6EU3ZtLUAYA.jpg",
     "year": "1994",
@@ -1261,7 +1513,7 @@ window.CATALOG = [
     "type": "series",
     "id": "he-man-and-the-masters-of-the-universe-s01",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "poster": "https://image.pmgstatic.com/cache/resized/w663/files/images/film/posters/169/398/169398406_p2sdd9.jpg"
   },
@@ -1270,7 +1522,7 @@ window.CATALOG = [
     "type": "series",
     "id": "he-man-and-the-masters-of-the-universe-s02",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "poster": "https://www.themoviedb.org/t/p/original/tawmMe0D3ncyzEmmfMraGucXBCA.jpg"
   },
@@ -1279,8 +1531,8 @@ window.CATALOG = [
     "type": "series",
     "id": "inspector-gadget-go-go-gadget-series",
     "tags": [
-      "saturday morning",
-      "goofballs"
+      "goofballs",
+      "kids"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/1Wcx99T1zbJzJXCqevOL4MNPdKz.jpg",
     "year": "1983",
@@ -1291,8 +1543,8 @@ window.CATALOG = [
     "type": "series",
     "id": "looney-tunes-classics-public-domain-collection",
     "tags": [
-      "saturday morning",
-      "goofballs"
+      "goofballs",
+      "kids"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/7NzmQdfNvkjpQhQCSLgIlW1yZm7.jpg",
     "year": "1930",
@@ -1303,7 +1555,7 @@ window.CATALOG = [
     "type": "series",
     "id": "MSBTVSeries",
     "tags": [
-      "saturday morning",
+      "kids",
       "space cadets"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/3A70wxUpplD4V3IcL8WmNFBgAbV.jpg",
@@ -1315,8 +1567,8 @@ window.CATALOG = [
     "type": "series",
     "id": "Superman_cartoons",
     "tags": [
-      "saturday morning",
-      "explosions"
+      "explosions",
+      "kids"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/fqwlHx8FXeUHQGqC8K1cp5hY4F.jpg",
     "year": "1941",
@@ -1336,7 +1588,7 @@ window.CATALOG = [
     "type": "series",
     "id": "popeye-the-sailor-the-complete-series",
     "tags": [
-      "saturday morning",
+      "kids",
       "kung fu grip"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/6rxLtEk2TPus04C7mCjWasEdRgE.jpg",
@@ -1348,7 +1600,7 @@ window.CATALOG = [
     "type": "series",
     "id": "the-powerpuff-girls-1998-the-complete-series",
     "tags": [
-      "saturday morning",
+      "kids",
       "kung fu grip"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/468mmhMd21pY4Yx0S0woqeEcxtL.jpg",
@@ -1360,9 +1612,9 @@ window.CATALOG = [
     "type": "series",
     "id": "the-real-ghostbusters",
     "tags": [
-      "saturday morning",
       "creature feature",
-      "goofballs"
+      "goofballs",
+      "kids"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/kLquadlhGPfpKHkVNRgrq0tzHkL.jpg",
     "year": "1986",
@@ -1373,9 +1625,9 @@ window.CATALOG = [
     "type": "series",
     "id": "20240727_20240727_0523",
     "tags": [
-      "saturday morning",
       "creature feature",
-      "goofballs"
+      "goofballs",
+      "kids"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/skSXbbYJiVOHFfrDwYVTUXtnEco.jpg",
     "year": "1976",
@@ -1386,9 +1638,9 @@ window.CATALOG = [
     "type": "series",
     "id": "06-a-highland-fling-with-a-monstrous-thing",
     "tags": [
-      "saturday morning",
       "creature feature",
-      "goofballs"
+      "goofballs",
+      "kids"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/lTzUSCtXR77CmGmEHcaxpxu2b4h.jpg",
     "year": "1978",
@@ -1399,7 +1651,7 @@ window.CATALOG = [
     "type": "series",
     "id": "she-ra-princess-of-power_202506",
     "tags": [
-      "saturday morning",
+      "kids",
       "villain era"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/49ZbBp4eUQnXYRvm6HjNI6sSrdW.jpg",
@@ -1411,8 +1663,8 @@ window.CATALOG = [
     "type": "series",
     "id": "the-smurfs-classic-720p-season-1",
     "tags": [
-      "saturday morning",
-      "goofballs"
+      "goofballs",
+      "kids"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/cezQyM5cO454vUdLiLOkv78K64D.jpg",
     "year": "1981",
@@ -1423,7 +1675,7 @@ window.CATALOG = [
     "type": "series",
     "id": "Spider-Man-67-Collection",
     "tags": [
-      "saturday morning",
+      "kids",
       "so bad it's good"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/y85QOYMhcZsEfHbrntBv5SZXH1w.jpg",
@@ -1435,7 +1687,7 @@ window.CATALOG = [
     "type": "series",
     "id": "spider-man-5000-1981-season-1-x264-mkv",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "poster": "https://i.pinimg.com/originals/22/d6/48/22d6483667e62d5d4797561a1a9458dc.jpg"
   },
@@ -1444,7 +1696,7 @@ window.CATALOG = [
     "type": "series",
     "id": "tmnt-s05",
     "tags": [
-      "saturday morning",
+      "kids",
       "kung fu grip"
     ],
     "poster": "https://media.themoviedb.org/t/p/w500/xOF5weSlbjveQ36n79dWwE2CMkj.jpg"
@@ -1454,7 +1706,7 @@ window.CATALOG = [
     "type": "series",
     "id": "thunder-cats-season-01-1985",
     "tags": [
-      "saturday morning",
+      "kids",
       "kung fu grip",
       "space cadets"
     ],
@@ -1467,7 +1719,7 @@ window.CATALOG = [
     "type": "series",
     "id": "the-tom-and-jerry-show-s-4-e-1-gym-rat",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "poster": "https://images.theposterdb.com/prod/public/images/posters/optimized/shows/7732/season_4/M4FmavU1KFfapsfWSGG2lBRcSCAkfaWojxmtEJdu.jpg"
   },
@@ -1476,7 +1728,7 @@ window.CATALOG = [
     "type": "series",
     "id": "the-tom-and-jerry-show-s-3-e-1-someones-in-the-kitchen-with-mynah",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "poster": "https://images.theposterdb.com/prod/public/images/posters/optimized/shows/7732/season_3/M1NDxxmtNDyuCZoWUCobylyCCR0w6p21JX8IL4x9.jpg"
   },
@@ -1485,7 +1737,7 @@ window.CATALOG = [
     "type": "series",
     "id": "the-tom-and-jerry-show-s-2-e-1-dental-case",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "poster": "https://images.theposterdb.com/prod/public/images/posters/optimized/shows/7732/season_2/VHmNFNuTBIQqSqExBYFLtn3INH2zR4GYu1JMDIyG.jpg"
   },
@@ -1494,8 +1746,8 @@ window.CATALOG = [
     "type": "series",
     "id": "transformers-season-1",
     "tags": [
-      "saturday morning",
       "explosions",
+      "kids",
       "kung fu grip"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/h0BLnOet7BtgrDpkU5KSSmiqQTg.jpg",
@@ -1507,9 +1759,9 @@ window.CATALOG = [
     "type": "series",
     "id": "x-men-the-animated-series-1080p-ai-upscale_202204",
     "tags": [
-      "saturday morning",
-      "villain era",
-      "emotional damage"
+      "emotional damage",
+      "kids",
+      "villain era"
     ],
     "poster": "https://image.tmdb.org/t/p/w500/2OFwsFhAobczgJWnVdwd9oZAF2N.jpg",
     "year": "1992",
@@ -1561,8 +1813,8 @@ window.CATALOG = [
     "type": "music",
     "id": "angus-julia-stone-chocolates-cigarettes",
     "tags": [
-      "sad flannel",
-      "emotional damage"
+      "emotional damage",
+      "sad flannel"
     ],
     "artist": "Angus & Julia Stone",
     "poster": "https://coverartarchive.org/release/27064596-7769-366c-817b-01d544646fc5/7870848614-500.jpg"
@@ -1582,8 +1834,8 @@ window.CATALOG = [
     "type": "music",
     "id": "since-i-left-you",
     "tags": [
-      "kitchen dance party",
-      "goofballs"
+      "goofballs",
+      "kitchen dance party"
     ],
     "artist": "The Avalanches",
     "poster": "https://coverartarchive.org/release/0fbb1443-86b4-4fd5-829a-4620386e1ff7/28243512694-500.jpg"
@@ -1593,8 +1845,8 @@ window.CATALOG = [
     "type": "music",
     "id": "wildflower_avalanches",
     "tags": [
-      "kitchen dance party",
-      "goofballs"
+      "goofballs",
+      "kitchen dance party"
     ],
     "artist": "The Avalanches",
     "poster": "https://upload.wikimedia.org/wikipedia/en/7/76/Wildflower_Avalanches_cover_art.png"
@@ -1615,8 +1867,8 @@ window.CATALOG = [
     "type": "music",
     "id": "Odelay",
     "tags": [
-      "kitchen dance party",
-      "goofballs"
+      "goofballs",
+      "kitchen dance party"
     ],
     "artist": "Beck",
     "poster": "https://coverartarchive.org/release/c81f226e-4cf3-42bb-89a8-a92aa2055e6e/42051541914-500.jpg"
@@ -1726,8 +1978,8 @@ window.CATALOG = [
     "type": "music",
     "id": "chris-isaak-heart-shaped-world",
     "tags": [
-      "emotional damage",
-      "dad rock"
+      "dad rock",
+      "emotional damage"
     ],
     "artist": "Chris Isaak",
     "poster": "https://coverartarchive.org/release/4f9612f3-673b-4245-b95e-3f2a48e76599/5976076640-500.jpg"
@@ -1797,8 +2049,8 @@ window.CATALOG = [
     "type": "music",
     "id": "the-mouse-and-the-mask-flac",
     "tags": [
-      "villain era",
-      "goofballs"
+      "goofballs",
+      "villain era"
     ],
     "artist": "Danger Doom",
     "poster": "https://upload.wikimedia.org/wikipedia/en/1/1e/Dangerdoom.jpg"
@@ -2143,8 +2395,8 @@ window.CATALOG = [
     "type": "music",
     "id": "ironman1996",
     "tags": [
-      "kung fu grip",
-      "boom bap"
+      "boom bap",
+      "kung fu grip"
     ],
     "artist": "Ghostface Killah",
     "poster": "https://coverartarchive.org/release/d07c5ce9-7091-4f1c-b78c-ef56a7371598/4437137920-500.jpg"
@@ -2154,8 +2406,8 @@ window.CATALOG = [
     "type": "music",
     "id": "supreme-clientele_202603",
     "tags": [
-      "kung fu grip",
-      "boom bap"
+      "boom bap",
+      "kung fu grip"
     ],
     "artist": "Ghostface Killah",
     "poster": "https://coverartarchive.org/release/55c57300-5bc4-4dec-85a3-7d8698c9bc90/955219996-500.jpg"
@@ -2165,8 +2417,8 @@ window.CATALOG = [
     "type": "music",
     "id": "liquid-swords-gza-wu-tang",
     "tags": [
-      "kung fu grip",
-      "boom bap"
+      "boom bap",
+      "kung fu grip"
     ],
     "artist": "GZA",
     "poster": "https://upload.wikimedia.org/wikipedia/en/9/90/Liquidswords1995.png"
@@ -2176,8 +2428,8 @@ window.CATALOG = [
     "type": "music",
     "id": "so-hows-your-girl",
     "tags": [
-      "goofballs",
-      "boom bap"
+      "boom bap",
+      "goofballs"
     ],
     "artist": "Handsome Boy Modeling School",
     "poster": "https://coverartarchive.org/release/7f819b42-38be-480f-9c6a-b0b66bf5019c/45390267469-500.jpg"
@@ -2217,8 +2469,8 @@ window.CATALOG = [
     "type": "music",
     "id": "the_martyr_immortal_technique",
     "tags": [
-      "villain era",
-      "boom bap"
+      "boom bap",
+      "villain era"
     ],
     "artist": "Immortal Technique",
     "poster": "https://coverartarchive.org/release/ea371fe8-bf9d-4b42-956d-2c3b4d86eb7e/5267879679-500.jpg"
@@ -2228,8 +2480,8 @@ window.CATALOG = [
     "type": "music",
     "id": "revolutionary-vol.-1",
     "tags": [
-      "villain era",
-      "boom bap"
+      "boom bap",
+      "villain era"
     ],
     "artist": "Immortal Technique",
     "poster": "https://upload.wikimedia.org/wikipedia/en/1/19/Revolutionary_Vol_1.jpg"
@@ -2239,8 +2491,8 @@ window.CATALOG = [
     "type": "music",
     "id": "revolutionary-vol.-2",
     "tags": [
-      "villain era",
-      "boom bap"
+      "boom bap",
+      "villain era"
     ],
     "artist": "Immortal Technique",
     "poster": "https://coverartarchive.org/release/6a8dd677-dff5-4175-93a2-26cbfea8e647/3082007842-500.jpg"
@@ -2310,8 +2562,8 @@ window.CATALOG = [
     "type": "music",
     "id": "09-stick-em-up",
     "tags": [
-      "goofballs",
-      "boom bap"
+      "boom bap",
+      "goofballs"
     ],
     "artist": "Ludacris",
     "poster": "https://coverartarchive.org/release/38f4062d-8162-4044-b4d2-645858b6cc56/2729959140-500.jpg"
@@ -2351,8 +2603,8 @@ window.CATALOG = [
     "type": "music",
     "id": "all-your-sisters",
     "tags": [
-      "rainy window",
-      "emotional damage"
+      "emotional damage",
+      "rainy window"
     ],
     "artist": "Mazzy Star",
     "poster": "https://coverartarchive.org/release/3ee6bd30-4a23-40cb-9958-d0c321ccdff3/17361537089-500.jpg"
@@ -2362,8 +2614,8 @@ window.CATALOG = [
     "type": "music",
     "id": "so-tonight-that-i-might-see",
     "tags": [
-      "rainy window",
-      "emotional damage"
+      "emotional damage",
+      "rainy window"
     ],
     "artist": "Mazzy Star",
     "poster": "https://coverartarchive.org/release/f3686430-4792-4e0f-b105-45f68c459c64/37044044892-500.jpg"
@@ -2403,8 +2655,8 @@ window.CATALOG = [
     "type": "music",
     "id": "mm-food-flac",
     "tags": [
-      "villain era",
-      "boom bap"
+      "boom bap",
+      "villain era"
     ],
     "artist": "MF DOOM",
     "poster": "https://coverartarchive.org/release/263d7827-4c0e-4d7f-a8f1-5877194fe532/25498831242-500.jpg"
@@ -2414,8 +2666,8 @@ window.CATALOG = [
     "type": "music",
     "id": "operation-doomsday-disc1-flac",
     "tags": [
-      "villain era",
-      "boom bap"
+      "boom bap",
+      "villain era"
     ],
     "artist": "MF DOOM",
     "poster": "https://coverartarchive.org/release/2ed8a86a-7396-4aef-8b0f-21e6dc6ade9a/4821683390-500.jpg"
@@ -2425,8 +2677,8 @@ window.CATALOG = [
     "type": "music",
     "id": "special-herbs-vol-1",
     "tags": [
-      "villain era",
-      "rainy window"
+      "rainy window",
+      "villain era"
     ],
     "artist": "MF DOOM",
     "poster": "https://coverartarchive.org/release/6f64810c-8226-4e5a-a93f-19add1d3a2d5/43107593069-500.jpg"
@@ -2436,8 +2688,8 @@ window.CATALOG = [
     "type": "music",
     "id": "special-herbs-vol-1-2-flac",
     "tags": [
-      "villain era",
-      "rainy window"
+      "rainy window",
+      "villain era"
     ],
     "artist": "MF DOOM",
     "poster": "https://upload.wikimedia.org/wikipedia/en/5/54/SH_Vol_2.jpg"
@@ -2447,8 +2699,8 @@ window.CATALOG = [
     "type": "music",
     "id": "special-herbs-vol-3-4-flac",
     "tags": [
-      "villain era",
-      "rainy window"
+      "rainy window",
+      "villain era"
     ],
     "artist": "MF DOOM",
     "poster": "https://upload.wikimedia.org/wikipedia/en/d/d6/SH_Vol_4.jpg"
@@ -2458,8 +2710,8 @@ window.CATALOG = [
     "type": "music",
     "id": "special-herbs-vol-5-6-flac",
     "tags": [
-      "villain era",
-      "rainy window"
+      "rainy window",
+      "villain era"
     ],
     "artist": "MF DOOM",
     "poster": "https://upload.wikimedia.org/wikipedia/en/c/c2/Special_Herbs_5_%26_6_cover.jpg"
@@ -2469,8 +2721,8 @@ window.CATALOG = [
     "type": "music",
     "id": "special-herbs-vol-7-8-flac",
     "tags": [
-      "villain era",
-      "rainy window"
+      "rainy window",
+      "villain era"
     ],
     "artist": "MF DOOM",
     "poster": "https://upload.wikimedia.org/wikipedia/en/4/4d/Specialherbs7%268.jpg"
@@ -2480,8 +2732,8 @@ window.CATALOG = [
     "type": "music",
     "id": "special-herbs-vol-9-0-flac",
     "tags": [
-      "villain era",
-      "rainy window"
+      "rainy window",
+      "villain era"
     ],
     "artist": "MF DOOM",
     "poster": "https://upload.wikimedia.org/wikipedia/en/3/33/SH_Vol_9_0.jpg"
@@ -2672,8 +2924,8 @@ window.CATALOG = [
     "type": "music",
     "id": "portishead-dummy_20261027",
     "tags": [
-      "rainy window",
-      "emotional damage"
+      "emotional damage",
+      "rainy window"
     ],
     "artist": "Portishead",
     "poster": "https://coverartarchive.org/release/76df3287-6cda-33eb-8e9a-044b5e15ffdd/829521842-500.jpg"
@@ -2795,8 +3047,8 @@ window.CATALOG = [
     "type": "music",
     "id": "the-sinister-urge_202601",
     "tags": [
-      "mosh pit",
-      "creature feature"
+      "creature feature",
+      "mosh pit"
     ],
     "artist": "Rob Zombie",
     "poster": "https://upload.wikimedia.org/wikipedia/en/6/62/Rob_Zombie_-_Sinister_Urge.jpg"
@@ -2866,8 +3118,8 @@ window.CATALOG = [
     "type": "music",
     "id": "rtj-1-4",
     "tags": [
-      "villain era",
-      "mosh pit"
+      "mosh pit",
+      "villain era"
     ],
     "artist": "Run The Jewels",
     "poster": "https://coverartarchive.org/release/f088b664-4e40-42d6-b2ca-f86ff631c1be/4472891407-500.jpg"
@@ -2877,8 +3129,8 @@ window.CATALOG = [
     "type": "music",
     "id": "rza-as-bobby-digital-bobby-digital-in-stereo-1998",
     "tags": [
-      "villain era",
-      "kung fu grip"
+      "kung fu grip",
+      "villain era"
     ],
     "artist": "RZA",
     "poster": "https://coverartarchive.org/release/12cdf383-706a-4646-a31c-d8b45442df66/5695783765-500.jpg"
@@ -3184,8 +3436,8 @@ window.CATALOG = [
     "type": "music",
     "id": "pinkerton-special-edition",
     "tags": [
-      "sad flannel",
-      "emotional damage"
+      "emotional damage",
+      "sad flannel"
     ],
     "artist": "Weezer",
     "poster": "https://coverartarchive.org/release/ea71991d-cf38-44fc-acc4-467eb94ed799/38221121992-500.jpg"
@@ -3206,8 +3458,8 @@ window.CATALOG = [
     "type": "music",
     "id": "1995-white-zombie-astro-creep-2000",
     "tags": [
-      "mosh pit",
-      "creature feature"
+      "creature feature",
+      "mosh pit"
     ],
     "artist": "White Zombie",
     "poster": "https://coverartarchive.org/release/d230b467-d3a8-41f9-aa45-2387839dbe76/11254464928-500.jpg"
@@ -3217,8 +3469,8 @@ window.CATALOG = [
     "type": "music",
     "id": "01-welcome-to-planet-motherfucker-psychoholic-slag",
     "tags": [
-      "mosh pit",
-      "creature feature"
+      "creature feature",
+      "mosh pit"
     ],
     "artist": "White Zombie",
     "poster": "https://upload.wikimedia.org/wikipedia/en/2/21/White_Zombie_La_Sexorcisto_Devil_Music%2C_Vol._1.jpg"
@@ -3228,8 +3480,8 @@ window.CATALOG = [
     "type": "music",
     "id": "enter-the-wu-tang-36-chambers_20240925",
     "tags": [
-      "kung fu grip",
-      "boom bap"
+      "boom bap",
+      "kung fu grip"
     ],
     "artist": "Wu-Tang Clan",
     "poster": "https://coverartarchive.org/release/2a059e43-e66c-4d6d-9a4f-dea9a6919061/10112836421-500.jpg"
@@ -3239,8 +3491,8 @@ window.CATALOG = [
     "type": "music",
     "id": "wu-tang-clan-iron-flag_202510",
     "tags": [
-      "kung fu grip",
-      "boom bap"
+      "boom bap",
+      "kung fu grip"
     ],
     "artist": "Wu-Tang Clan",
     "poster": "https://coverartarchive.org/release/48a2bc44-a0c4-49db-9adb-7dab7cd1d77c/34319323168-500.jpg"
@@ -3301,7 +3553,7 @@ window.CATALOG = [
     "type": "game",
     "id": "adventure_nes",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "Hudson Soft",
     "poster": "https://upload.wikimedia.org/wikipedia/en/3/3c/Adventureisland.jpg",
@@ -3436,7 +3688,7 @@ window.CATALOG = [
     "type": "game",
     "id": "darkwing_nes",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "Capcom",
     "poster": "https://upload.wikimedia.org/wikipedia/en/c/c3/Darkwing_Duck_NES_Cover.png",
@@ -3496,7 +3748,7 @@ window.CATALOG = [
     "type": "game",
     "id": "ducktales_nes_2",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "Capcom",
     "poster": "https://upload.wikimedia.org/wikipedia/en/6/64/DuckTales_NES_Cover.png",
@@ -3526,7 +3778,7 @@ window.CATALOG = [
     "type": "game",
     "id": "excitebike-japan-usa",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "Nintendo",
     "poster": "https://upload.wikimedia.org/wikipedia/en/f/f8/Excitebike_cover.jpg",
@@ -3556,8 +3808,8 @@ window.CATALOG = [
     "type": "game",
     "id": "ghostsn-goblins-usa_202301",
     "tags": [
-      "rage quit",
-      "creature feature"
+      "creature feature",
+      "rage quit"
     ],
     "artist": "Capcom",
     "poster": "https://upload.wikimedia.org/wikipedia/en/a/a1/GhostsnGoblins_flyer.jpg",
@@ -3602,7 +3854,7 @@ window.CATALOG = [
     "type": "game",
     "id": "kirbys-adventure_1993",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "Nintendo",
     "poster": "https://upload.wikimedia.org/wikipedia/en/a/ae/Kirby%27s_Adventure_Coverart.png",
@@ -3617,7 +3869,7 @@ window.CATALOG = [
     "type": "game",
     "id": "zelda_nes_2",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "Nintendo",
     "poster": "https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png",
@@ -3677,8 +3929,8 @@ window.CATALOG = [
     "type": "game",
     "id": "mega-man-2-u",
     "tags": [
-      "rage quit",
-      "kitchen dance party"
+      "kitchen dance party",
+      "rage quit"
     ],
     "artist": "Capcom",
     "poster": "https://upload.wikimedia.org/wikipedia/en/b/be/Megaman2_box.jpg",
@@ -3723,8 +3975,8 @@ window.CATALOG = [
     "type": "game",
     "id": "metroid_20240911_1811",
     "tags": [
-      "space cadets",
-      "creature feature"
+      "creature feature",
+      "space cadets"
     ],
     "artist": "Nintendo",
     "poster": "https://upload.wikimedia.org/wikipedia/en/5/5d/Metroid_boxart.jpg",
@@ -3878,7 +4130,7 @@ window.CATALOG = [
     "type": "game",
     "id": "smb_nes_4",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "Nintendo",
     "poster": "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png",
@@ -3893,8 +4145,8 @@ window.CATALOG = [
     "type": "game",
     "id": "super-mario-bros.-2_202405",
     "tags": [
-      "saturday morning",
-      "goofballs"
+      "goofballs",
+      "kids"
     ],
     "artist": "Nintendo",
     "poster": "https://upload.wikimedia.org/wikipedia/en/7/78/Super_Mario_Bros._2_box_art.png",
@@ -3909,7 +4161,7 @@ window.CATALOG = [
     "type": "game",
     "id": "super-mario-bros.-3-usa_202401",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "Nintendo",
     "poster": "https://upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png",
@@ -3939,7 +4191,7 @@ window.CATALOG = [
     "type": "game",
     "id": "tmnt_nes_2",
     "tags": [
-      "saturday morning",
+      "kids",
       "rage quit"
     ],
     "artist": "Ultra Games",
@@ -3970,7 +4222,7 @@ window.CATALOG = [
     "type": "game",
     "id": "tmnt3_nes_2",
     "tags": [
-      "saturday morning",
+      "kids",
       "kung fu grip"
     ],
     "artist": "Konami",
@@ -4061,7 +4313,7 @@ window.CATALOG = [
     "type": "game",
     "id": "sg_Aladdin_1993_Sega_Virgin_US",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "Sega / Virgin",
     "poster": "https://upload.wikimedia.org/wikipedia/en/0/0d/Aladdingenesis.jpg",
@@ -4200,8 +4452,8 @@ window.CATALOG = [
     "type": "game",
     "id": "sg_Mortal_Kombat_II_1994_Acclaim_Midway_Probe",
     "tags": [
-      "kung fu grip",
-      "creature feature"
+      "creature feature",
+      "kung fu grip"
     ],
     "artist": "Acclaim",
     "poster": "https://upload.wikimedia.org/wikipedia/en/d/df/Mortal_Kombat_II_boxart.png",
@@ -4231,7 +4483,7 @@ window.CATALOG = [
     "type": "game",
     "id": "sg_Ristar_1995_Sega_EU-US_en",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "Sega",
     "poster": "https://upload.wikimedia.org/wikipedia/en/b/b2/RistarGenesisCover.jpeg",
@@ -4246,8 +4498,8 @@ window.CATALOG = [
     "type": "game",
     "id": "sg_Rocket_Knight_Adventures_1993_Konami_US",
     "tags": [
-      "saturday morning",
-      "explosions"
+      "explosions",
+      "kids"
     ],
     "artist": "Konami",
     "poster": "https://upload.wikimedia.org/wikipedia/en/9/92/Rocket_Knight_Adventures_North_American_Genesis_box_art.jpg",
@@ -4277,7 +4529,7 @@ window.CATALOG = [
     "type": "game",
     "id": "sg_Sonic_Classics_Rev_1_1997_Sega_EU-US_en",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "Sega",
     "poster": "https://archive.org/services/img/sg_Sonic_Classics_Rev_1_1997_Sega_EU-US_en",
@@ -4292,7 +4544,7 @@ window.CATALOG = [
     "type": "game",
     "id": "Sonic_The_Hedgehog_3",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "Sega",
     "poster": "https://upload.wikimedia.org/wikipedia/en/0/07/Sonic3-box-us-225.jpg",
@@ -4322,8 +4574,8 @@ window.CATALOG = [
     "type": "game",
     "id": "sg_Streets_of_Rage_2_1992_Sega_US",
     "tags": [
-      "kung fu grip",
-      "kitchen dance party"
+      "kitchen dance party",
+      "kung fu grip"
     ],
     "artist": "Sega",
     "poster": "https://upload.wikimedia.org/wikipedia/en/2/26/Streets_of_Rage_2.jpg",
@@ -4369,8 +4621,8 @@ window.CATALOG = [
     "type": "game",
     "id": "Alien_Crush_USA",
     "tags": [
-      "space cadets",
-      "creature feature"
+      "creature feature",
+      "space cadets"
     ],
     "artist": "NEC / Naxat",
     "poster": "https://upload.wikimedia.org/wikipedia/en/1/19/Alien_Crush_Coverart.png",
@@ -4385,8 +4637,8 @@ window.CATALOG = [
     "type": "game",
     "id": "Blazing_Lazers_USA",
     "tags": [
-      "space cadets",
-      "explosions"
+      "explosions",
+      "space cadets"
     ],
     "artist": "NEC / Hudson Soft",
     "poster": "https://upload.wikimedia.org/wikipedia/en/b/ba/Blazing_Lazers_boxart.jpg",
@@ -4417,7 +4669,7 @@ window.CATALOG = [
     "type": "game",
     "id": "Bonks_Adventure_USA",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "NEC / Hudson Soft",
     "poster": "https://upload.wikimedia.org/wikipedia/en/7/7b/Bonkadventure.jpg",
@@ -4432,7 +4684,7 @@ window.CATALOG = [
     "type": "game",
     "id": "Bonks_Revenge_USA",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "NEC / Hudson Soft",
     "poster": "https://upload.wikimedia.org/wikipedia/en/d/d9/Bonk%27s_Revenge_cover.jpg",
@@ -4447,7 +4699,7 @@ window.CATALOG = [
     "type": "game",
     "id": "Cadash_USA",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "Taito",
     "poster": "https://upload.wikimedia.org/wikipedia/en/9/96/Cadash_Arcade_Flyer.png",
@@ -4522,7 +4774,7 @@ window.CATALOG = [
     "type": "game",
     "id": "Legend_of_Hero_Tonma_USA",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "NEC / Irem",
     "poster": "https://upload.wikimedia.org/wikipedia/en/1/18/LegendofHeroTonma_arcadeflyer.png",
@@ -4552,7 +4804,7 @@ window.CATALOG = [
     "type": "game",
     "id": "Neutopia_USA",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "NEC / Hudson Soft",
     "poster": "https://upload.wikimedia.org/wikipedia/en/4/4d/Neutopia_boxart.jpg",
@@ -4567,7 +4819,7 @@ window.CATALOG = [
     "type": "game",
     "id": "New_Adventure_Island_USA",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "Hudson Soft",
     "poster": "https://upload.wikimedia.org/wikipedia/en/1/1a/New_Adventure_Island.jpg",
@@ -4612,8 +4864,8 @@ window.CATALOG = [
     "type": "game",
     "id": "R-Type_USA",
     "tags": [
-      "space cadets",
-      "rage quit"
+      "rage quit",
+      "space cadets"
     ],
     "artist": "NEC / Irem",
     "poster": "https://upload.wikimedia.org/wikipedia/en/8/80/R-Type_arcade_flyer.jpg",
@@ -4643,8 +4895,8 @@ window.CATALOG = [
     "type": "game",
     "id": "Soldier_Blade_USA",
     "tags": [
-      "space cadets",
-      "explosions"
+      "explosions",
+      "space cadets"
     ],
     "artist": "Hudson Soft",
     "poster": "https://upload.wikimedia.org/wikipedia/en/9/9b/Soldier_blade_boxart.jpg",
@@ -4674,7 +4926,7 @@ window.CATALOG = [
     "type": "game",
     "id": "atari_2600_adventure",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "Atari",
     "poster": "https://upload.wikimedia.org/wikipedia/en/6/60/Adventure_Box_Front.jpg",
@@ -4779,7 +5031,7 @@ window.CATALOG = [
     "type": "game",
     "id": "atari_2600_frogger_1982_parker_brothers_ed_english_david_lamkins_pb5300",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "Parker Brothers",
     "poster": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Sega_-_Gremlin_-_Frogger_-_December_1st_1981_Play_Meter_advert.jpg",
@@ -4794,7 +5046,7 @@ window.CATALOG = [
     "type": "game",
     "id": "atari_2600_h.e.r.o._1984_activision_john_van_ryzin_az-036-04",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "Activision",
     "poster": "https://archive.org/services/img/atari_2600_h.e.r.o._1984_activision_john_van_ryzin_az-036-04",
@@ -4839,8 +5091,8 @@ window.CATALOG = [
     "type": "game",
     "id": "atari_2600_megamania_-_a_space_nightmare_1982_activision_steve_cartwright_ax-017_",
     "tags": [
-      "space cadets",
-      "goofballs"
+      "goofballs",
+      "space cadets"
     ],
     "artist": "Activision",
     "poster": "https://upload.wikimedia.org/wikipedia/en/3/31/Megamania-game-cover-atari-2600.jpg",
@@ -4855,8 +5107,8 @@ window.CATALOG = [
     "type": "game",
     "id": "atari_2600_missile_command_1981_atari_rob_fulop_-_sears_cx2638_-_49-75166",
     "tags": [
-      "explosions",
-      "emotional damage"
+      "emotional damage",
+      "explosions"
     ],
     "artist": "Atari",
     "poster": "https://upload.wikimedia.org/wikipedia/en/c/c7/Missile_Command_flyer.jpg",
@@ -4886,7 +5138,7 @@ window.CATALOG = [
     "type": "game",
     "id": "atari_2600_pitfall_ii_-_lost_caverns_1983_activision_david_crane_ab-035-04",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "Activision",
     "poster": "https://upload.wikimedia.org/wikipedia/en/3/3b/Pitfall2.png",
@@ -4990,8 +5242,8 @@ window.CATALOG = [
     "type": "game",
     "id": "birdswithguns-5",
     "tags": [
-      "one more run",
-      "explosions"
+      "explosions",
+      "one more run"
     ],
     "artist": "Yolwoocle",
     "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_birdswithguns-5.png",
@@ -5117,8 +5369,8 @@ window.CATALOG = [
     "type": "game",
     "id": "thelair-0",
     "tags": [
-      "one more run",
-      "creature feature"
+      "creature feature",
+      "one more run"
     ],
     "artist": "krajzeg",
     "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_thelair-0.png",
@@ -5132,7 +5384,7 @@ window.CATALOG = [
     "type": "game",
     "id": "56576",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "Krystman",
     "poster": "https://www.lexaloffle.com/bbs/thumbs/pico56576.png",
@@ -5189,8 +5441,8 @@ window.CATALOG = [
     "type": "game",
     "id": "picohot-0",
     "tags": [
-      "kung fu grip",
-      "explosions"
+      "explosions",
+      "kung fu grip"
     ],
     "artist": "pirx_vr",
     "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_picohot-0.png",
@@ -5233,8 +5485,8 @@ window.CATALOG = [
     "type": "game",
     "id": "porklike-2",
     "tags": [
-      "one more run",
-      "goofballs"
+      "goofballs",
+      "one more run"
     ],
     "artist": "Krystman",
     "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_porklike-2.png",
@@ -5248,7 +5500,7 @@ window.CATALOG = [
     "type": "game",
     "id": "terra_1cart-43",
     "tags": [
-      "saturday morning"
+      "kids"
     ],
     "artist": "cubee",
     "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_terra_1cart-43.png",
