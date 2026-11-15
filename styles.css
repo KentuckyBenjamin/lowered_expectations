@@ -423,9 +423,29 @@ body:not([data-view="series"]) #series-view { display: none; }
 @keyframes eq { from { height: 20%; } to { height: 100%; } }
 @media (prefers-reduced-motion: reduce) { .album.is-playing .track[aria-current="true"] .eq i { animation: none; height: 70%; } }
 
+/* audiobooks: skip buttons, speed and sleep timer, and a marker on the chapter you stopped in */
+.album.is-book .transport { gap: 10px; }
+.t-skip { position: relative; }
+.t-skip svg { width: 18px; height: 18px; }
+.t-skip span { position: absolute; font-size: .5rem; font-weight: 700; top: 55%; left: 50%; transform: translate(-50%, -50%); }
+.book-tools { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+.book-tool {
+  padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface);
+  color: var(--muted); font-size: .72rem; cursor: pointer; font-variant-numeric: tabular-nums;
+}
+.book-tool:hover { border-color: var(--muted); color: var(--fg); }
+.book-tool.on { border-color: var(--accent); color: var(--accent); }
+.track.resume:not([aria-current="true"]) .track-title::after {
+  content: "  · you stopped here"; color: var(--accent); font-size: .75rem; font-weight: 500;
+}
+
 @media (max-width: 900px) {
   .album { grid-template-columns: 1fr; gap: 18px; padding: 16px; }
-  .album-side { position: static; display: grid; grid-template-columns: 112px 1fr; grid-template-areas: "cover np" "cover transport" "seek seek"; gap: 10px 16px; align-items: center; }
+  .album-side { position: static; display: grid; grid-template-columns: 112px 1fr; grid-template-areas: "cover np" "cover transport" "seek seek" "tools tools"; gap: 10px 16px; align-items: center; }
+  .book-tools { grid-area: tools; }
+  .album.is-book .transport { gap: 6px; }
+  .album.is-book .t-btn { width: 36px; height: 36px; }
+  .album.is-book .t-play { width: 46px; height: 46px; }
   .album-cover { grid-area: cover; }
   .np { grid-area: np; }
   .transport { grid-area: transport; justify-content: flex-start; gap: 10px; }

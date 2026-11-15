@@ -9,11 +9,11 @@ CSV columns (first row is the header, order doesn't matter):
     title     - display title (optional: filled in from the Archive if left blank)
     artist    - the artist/band for music; 'n/a' or blank is ignored
                 (for music, filled in from the Archive if left blank)
-    type      - movie | series | music | game (optional: guessed from the Archive if blank)
+    type      - movie | series | music | audiobook | game (optional: guessed from the Archive if blank)
     link      - an archive.org/details/... link (or just the identifier). REQUIRED.
                 For games: a PICO-8 cart link on Lexaloffle, like
                 https://www.lexaloffle.com/bbs/?pid=celeste_classic_2-5
-    description - optional, a short blurb (games use it; the Archive's text is used otherwise)
+    description - optional, a short blurb (used instead of the Archive's own text; left blank, the Archive's is shown)
     embed     - PICO-8 games only: "yes" if the cart's author lets it play inside other sites
                 (otherwise the app offers a "Play on Lexaloffle" button)
     platform  - games only: nes, genesis, atari2600 or tg16 (emulated Archive items) or pico8 (a Lexaloffle cart).
@@ -40,9 +40,10 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-VALID_TYPES = {"movie", "series", "music", "game"}
+VALID_TYPES = {"movie", "series", "music", "audiobook", "game"}
 TYPE_ALIASES = {"movies": "movie", "film": "movie", "show": "series", "shows": "series",
                 "tv": "series", "song": "music", "songs": "music", "album": "music", "audio": "music",
+                "audiobooks": "audiobook", "audio book": "audiobook", "book": "audiobook", "books": "audiobook",
                 "games": "game", "pico-8": "game", "pico8": "game", "cart": "game"}
 MEDIATYPE_TO_TYPE = {"movies": "movie", "audio": "music", "etree": "music"}
 BLANKS = {"", "n/a", "na", "none", "-", "—"}
@@ -203,7 +204,7 @@ def main():
             problems.append(f"row {n}: no title, and the Archive lookup didn't give one")
             continue
         if kind not in VALID_TYPES:
-            problems.append(f"row {n}: type '{rec.get('type')}' should be movie, series, music or game")
+            problems.append(f"row {n}: type '{rec.get('type')}' should be movie, series, music, audiobook or game")
             continue
 
         item = {"title": title, "type": kind, "id": ident, "tags": [t.lower() for t in split_list(rec.get("tags"))]}

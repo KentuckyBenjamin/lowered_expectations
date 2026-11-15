@@ -49,8 +49,19 @@
     movie: { label: "Movies", one: "Feature film", square: false },
     series: { label: "Series", one: "Series", square: false },
     music: { label: "Music", one: "Album", square: true },
+    audiobook: { label: "Audiobooks", one: "Audiobook", square: true },
     game: { label: "Games", one: "PICO-8 game", square: true },
   };
+
+  const isAudio = (item) => item.type === "music" || item.type === "audiobook";
+
+  // Audiobooks remember where you stopped (chapter + position) and your reading speed, per browser.
+  const store = {
+    get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (_) { return null; } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (_) {} },
+    del(k) { try { localStorage.removeItem(k); } catch (_) {} },
+  };
+  const bookSpot = (id) => { const s = store.get("le-book:" + id); return s && Number.isInteger(s.i) ? s : null; };
 
   const items = (window.CATALOG || []).map((it, i) => ({
     ...it, tags: it.tags || [], order: i,
@@ -92,6 +103,7 @@
     if (!r) return null;
     if (/^\d+(\.\d+)?$/.test(String(r))) {
       const mins = Math.round(Number(r) / 60);
+      if (mins >= 180) return `${Math.floor(mins / 60)} hr ${mins % 60} min`;
       return mins >= 1 ? `${mins} min` : null;
     }
     const parts = String(r).split(":").map(Number);
@@ -103,7 +115,9 @@
   }
   async function enrich(item) {
     if (item.type === "game") return item; // games carry their own details; nothing to look up on the Archive
-    if (cache[item.id]) return Object.assign(item, cache[item.id]);
+    // A description written in the media list wins over the Archive's own text.
+    const merge = (extra) => Object.assign(item, extra, item.description ? { description: item.description } : {});
+    if (cache[item.id]) return merge(cache[item.id]);
     try {
       const res = await fetch(IA.meta(item.id));
       if (!res.ok) return item;
@@ -116,10 +130,11 @@
         if (vid) runtime = formatRuntime(vid.length);
       }
       let tracks = null;
-      if (item.type === "music" && Array.isArray(data.files)) {
+      if (isAudio(item) && Array.isArray(data.files)) {
         const audio = data.files.filter((f) => f.source === "original" && /mp3|flac|ogg vorbis|wave|aiff|m4a|aac/i.test(f.format || ""));
         if (audio.length) {
-          tracks = `${audio.length} track${audio.length === 1 ? "" : "s"}`;
+          const word = item.type === "audiobook" ? "chapter" : "track";
+          tracks = `${audio.length} ${word}${audio.length === 1 ? "" : "s"}`;
           const secs = audio.reduce((a, f) => a + (parseFloat(f.length) || 0), 0);
           if (!runtime && secs > 60) runtime = formatRuntime(secs);
         }
@@ -139,7 +154,7 @@
       };
       cache[item.id] = extra;
       try { sessionStorage.setItem(CACHE_KEY, JSON.stringify(cache)); } catch (_) {}
-      return Object.assign(item, extra);
+      return merge(extra);
     } catch (_) {
       return item; // offline or blocked: the card still works with title + poster
     }
@@ -163,6 +178,10 @@
 
   function subline(item) {
     if (item.type === "music") return [item.year, item.tracks, item.runtime, TYPES.music.one].filter(Boolean);
+    if (item.type === "audiobook") {
+      const spot = bookSpot(item.id);
+      return [spot ? `Chapter ${spot.i + 1} · in progress` : item.tracks, item.runtime, TYPES.audiobook.one].filter(Boolean);
+    }
     if (item.type === "game" && RETRO[item.platform]) return [item.year, RETRO[item.platform].one].filter(Boolean);
     if (item.type === "game") return [TYPES.game.one, item.embed ? "Plays right here" : "Plays on Lexaloffle"];
     if (item.type === "series") {
@@ -172,7 +191,7 @@
     return [item.year, item.runtime, TYPES[item.type] && TYPES[item.type].one].filter(Boolean);
   }
   // Artist from the media list wins; otherwise fall back to the Archive's creator field for music.
-  const byline = (item) => item.artist || (item.type === "music" ? item.creator : null) || null;
+  const byline = (item) => item.artist || (isAudio(item) ? item.creator : null) || null;
 
   function card(item) {
     const square = item.type === "game" ? !RETRO[item.platform] : TYPES[item.type] && TYPES[item.type].square;
@@ -632,7 +651,7 @@
 
     if (item.type === "game") {
       if (RETRO[item.platform]) renderRetro(item); else renderGame(item);
-    } else if (item.type === "music") {
+    } else if (isAudio(item)) {
       stage.className = "player-stage album-stage";
       stage.replaceChildren(el("p", { class: "ep-status album-loading" }, "Loading tracks…"));
       renderAlbum(item, key);
@@ -742,8 +761,10 @@
     const albumArtist = (byline(item) || item.creator || "").toLowerCase();
     const tracks = originals.map((f) => {
       // Big lossless files stream through the Archive's MP3 copy when there is one.
-      const mp3 = LOSSY_FILE.test(f.name) ? null :
-        files.find((d) => d.original === f.name && /\.mp3$/i.test(d.name || ""));
+      const mp3 = item.type === "audiobook"
+        ? files.find((d) => d.original === f.name && /64kbps mp3/i.test(d.format || "")) || null
+        : LOSSY_FILE.test(f.name) ? null :
+          files.find((d) => d.original === f.name && /\.mp3$/i.test(d.name || ""));
       const artist = f.artist && String(f.artist).toLowerCase() !== albumArtist ? String(f.artist) : null;
       return {
         title: trackTitle(f), artist, disc: groupOf(f),
@@ -768,9 +789,14 @@
     pause: '<path d="M3 2h3.5v12H3zM9.5 2H13v12H9.5z"/>',
     prev: '<path d="M2 2h2v12H2zM14 2v12L5 8z"/>',
     next: '<path d="M12 2h2v12h-2zM2 2v12l9-6z"/>',
+    back: '<path d="M8 3V0L3.5 4 8 8V5a4.5 4.5 0 1 1-4.5 4.5H1.5A6.5 6.5 0 1 0 8 3z"/>',
+    fwd: '<path d="M8 3V0l4.5 4L8 8V5a4.5 4.5 0 1 0 4.5 4.5h2A6.5 6.5 0 1 1 8 3z"/>',
   };
+  const SPEEDS = [0.75, 1, 1.25, 1.5, 1.75, 2];
+  const SLEEPS = [0, 15, 30, 45, 60, -1]; // minutes; -1 = at the end of this chapter
 
   function stopAlbum() {
+    if (albumAudio && albumAudio.beforeStop) albumAudio.beforeStop();
     if (albumAudio) { albumAudio.pause(); albumAudio.removeAttribute("src"); albumAudio.load(); }
     albumAudio = null;
     if ("mediaSession" in navigator) navigator.mediaSession.metadata = null;
@@ -794,14 +820,30 @@
     const audio = el("audio", { preload: "none" });
     albumAudio = audio;
     let cur = -1;
+    const book = item.type === "audiobook";
+    const unit = book ? "chapter" : "track";
+    const Unit = book ? "Chapter" : "Track";
+    const spot = book ? bookSpot(item.id) : null;
+    let pendingSeek = 0;
+    let saveSpot = () => {}, setSleep = () => {};
 
     const cover = el("img", { class: "album-cover", alt: `${item.title} cover`, loading: "lazy" });
     setArt(cover, item);
-    const npTitle = el("p", { class: "np-title" }, "Pick a track, or press play");
-    const npSub = el("p", { class: "np-sub mono" }, `${tracks.length} track${tracks.length === 1 ? "" : "s"}`);
+    const npTitle = el("p", { class: "np-title" }, spot && tracks[spot.i] ? "Pick up where you left off" : `Pick a ${unit}, or press play`);
+    const npSub = el("p", { class: "np-sub mono" }, spot && tracks[spot.i]
+      ? `${tracks[spot.i].title} · ${clock(spot.t)}`
+      : `${tracks.length} ${unit}${tracks.length === 1 ? "" : "s"}`);
     const playBtn = el("button", { class: "t-btn t-play", type: "button", "aria-label": "Play" }, svg(ICON.play));
-    const prevBtn = el("button", { class: "t-btn", type: "button", "aria-label": "Previous track" }, svg(ICON.prev));
-    const nextBtn = el("button", { class: "t-btn", type: "button", "aria-label": "Next track" }, svg(ICON.next));
+    const prevBtn = el("button", { class: "t-btn", type: "button", "aria-label": `Previous ${unit}` }, svg(ICON.prev));
+    const nextBtn = el("button", { class: "t-btn", type: "button", "aria-label": `Next ${unit}` }, svg(ICON.next));
+    const backBtn = book ? el("button", { class: "t-btn t-skip", type: "button", "aria-label": "Back 15 seconds" },
+      svg(ICON.back), el("span", { class: "mono" }, "15")) : null;
+    const fwdBtn = book ? el("button", { class: "t-btn t-skip", type: "button", "aria-label": "Forward 30 seconds" },
+      svg(ICON.fwd), el("span", { class: "mono" }, "30")) : null;
+    let speed = book ? (SPEEDS.includes(store.get("le-book-speed")) ? store.get("le-book-speed") : 1) : 1;
+    const speedBtn = book ? el("button", { class: "book-tool mono", type: "button", title: "Reading speed" }) : null;
+    let sleepIdx = 0, sleepAt = 0, sleepTick = null;
+    const sleepBtn = book ? el("button", { class: "book-tool mono", type: "button", title: "Sleep timer" }, "Sleep: off") : null;
     const seek = el("input", { type: "range", min: 0, max: 0, step: "any", value: 0, "aria-label": "Seek" });
     const tCur = el("span", {}, "0:00"), tDur = el("span", {}, "–:––");
 
@@ -833,9 +875,11 @@
       el("div", { class: "album-side" },
         cover,
         el("div", { class: "np" }, el("p", { class: "np-label mono" }, "Now playing"), npTitle, npSub),
-        el("div", { class: "transport" }, prevBtn, playBtn, nextBtn),
-        el("div", { class: "seek mono" }, tCur, seek, tDur)),
+        el("div", { class: "transport" }, prevBtn, backBtn, playBtn, fwdBtn, nextBtn),
+        el("div", { class: "seek mono" }, tCur, seek, tDur),
+        book ? el("div", { class: "book-tools" }, speedBtn, sleepBtn) : null),
       list, audio);
+    if (book) root.classList.add("is-book");
     stage.replaceChildren(root);
 
     function setPlayingUI() {
@@ -845,16 +889,18 @@
       playBtn.setAttribute("aria-label", on ? "Pause" : "Play");
       if ("mediaSession" in navigator) navigator.mediaSession.playbackState = on ? "playing" : "paused";
     }
-    function play(i) {
+    function play(i, at) {
       if (i < 0 || i >= tracks.length) return;
       cur = i;
+      pendingSeek = at > 0 ? at : 0;
       const t = tracks[i];
       rows.forEach((r, j) => r.setAttribute("aria-current", String(j === i)));
       rows[i].scrollIntoView({ block: "nearest", behavior: "smooth" });
       npTitle.textContent = t.title;
-      npSub.textContent = `Track ${i + 1} of ${tracks.length}${t.artist ? " · " + t.artist : ""}`;
+      npSub.textContent = `${Unit} ${i + 1} of ${tracks.length}${t.artist ? " · " + t.artist : ""}`;
       prevBtn.disabled = false; nextBtn.disabled = i >= tracks.length - 1;
       audio.src = t.src;
+      audio.defaultPlaybackRate = speed; audio.playbackRate = speed;
       seek.value = 0; tCur.textContent = "0:00"; tDur.textContent = t.length ? clock(t.length) : "–:––";
       audio.play().catch(() => setPlayingUI());
       if ("mediaSession" in navigator) {
@@ -865,7 +911,7 @@
       }
     }
     function toggle() {
-      if (cur < 0) return play(0);
+      if (cur < 0) return spot && tracks[spot.i] ? play(spot.i, spot.t) : play(0);
       if (audio.paused) audio.play().catch(() => {}); else audio.pause();
     }
 
@@ -876,6 +922,11 @@
     audio.addEventListener("pause", setPlayingUI);
     audio.addEventListener("loadedmetadata", () => {
       if (Number.isFinite(audio.duration)) { seek.max = audio.duration; tDur.textContent = clock(audio.duration); }
+      if (pendingSeek) {
+        audio.currentTime = Number.isFinite(audio.duration) ? Math.min(pendingSeek, audio.duration - 1) : pendingSeek;
+        pendingSeek = 0;
+      }
+      audio.playbackRate = speed;
     });
     let dragging = false;
     seek.addEventListener("input", () => { dragging = true; tCur.textContent = clock(Number(seek.value)); });
@@ -885,7 +936,69 @@
       seek.value = audio.currentTime; tCur.textContent = clock(audio.currentTime);
     });
     // Roll on to the next track; skip any file the Archive won't serve.
-    audio.addEventListener("ended", () => { if (cur < tracks.length - 1) play(cur + 1); else setPlayingUI(); });
+    audio.addEventListener("ended", () => {
+      if (book && SLEEPS[sleepIdx] === -1) { setSleep(0); if (cur < tracks.length - 1) saveSpot(cur + 1, 0); setPlayingUI(); return; }
+      if (cur < tracks.length - 1) play(cur + 1);
+      else { if (book) { store.del("le-book:" + item.id); refreshSublines(); } setPlayingUI(); }
+    });
+
+    if (book) {
+      // Bookmark: save the chapter and position every few seconds and whenever playback stops.
+      let lastSave = 0;
+      saveSpot = (i, t) => store.set("le-book:" + item.id, { i, t: Math.floor(t) });
+      audio.beforeStop = () => { if (cur >= 0 && !pendingSeek && !audio.ended) saveSpot(cur, audio.currentTime); refreshSublines(); };
+      audio.addEventListener("timeupdate", () => {
+        if (cur < 0 || pendingSeek) return;
+        const now = Date.now();
+        if (now - lastSave > 5000) { lastSave = now; saveSpot(cur, audio.currentTime); }
+      });
+      audio.addEventListener("pause", () => {
+        if (cur >= 0 && !audio.ended && !pendingSeek && audio.getAttribute("src")) { saveSpot(cur, audio.currentTime); refreshSublines(); }
+      });
+      if (spot && rows[spot.i]) rows[spot.i].classList.add("resume");
+
+      const skip = (d) => {
+        if (cur < 0) return;
+        const t = audio.currentTime + d;
+        if (t < 0 && cur > 0 && d < 0) return play(cur - 1, Math.max(0, (tracks[cur - 1].length || 0) + t));
+        audio.currentTime = Math.max(0, Math.min(t, (audio.duration || t) - 0.5));
+      };
+      backBtn.addEventListener("click", () => skip(-15));
+      fwdBtn.addEventListener("click", () => skip(30));
+
+      const showSpeed = () => { speedBtn.textContent = `Speed: ${speed}×`; };
+      showSpeed();
+      speedBtn.addEventListener("click", () => {
+        speed = SPEEDS[(SPEEDS.indexOf(speed) + 1) % SPEEDS.length];
+        audio.defaultPlaybackRate = speed; audio.playbackRate = speed;
+        store.set("le-book-speed", speed); showSpeed();
+      });
+
+      // Sleep timer: tap to step through off / 15 / 30 / 45 / 60 minutes / end of chapter.
+      function showSleep() {
+        const m = SLEEPS[sleepIdx];
+        if (m === 0) sleepBtn.textContent = "Sleep: off";
+        else if (m === -1) sleepBtn.textContent = "Sleep: end of chapter";
+        else sleepBtn.textContent = `Sleep: ${clock(Math.max(0, (sleepAt - Date.now()) / 1000))}`;
+        sleepBtn.classList.toggle("on", m !== 0);
+      }
+      setSleep = (idx) => {
+        sleepIdx = idx;
+        clearInterval(sleepTick); sleepTick = null;
+        const m = SLEEPS[idx];
+        if (m > 0) {
+          sleepAt = Date.now() + m * 60000;
+          sleepTick = setInterval(() => {
+            if (!albumAudio || albumAudio !== audio) return clearInterval(sleepTick);
+            if (Date.now() >= sleepAt) { audio.pause(); setSleep(0); return; }
+            showSleep();
+          }, 1000);
+        }
+        showSleep();
+      };
+      sleepBtn.addEventListener("click", () => setSleep((sleepIdx + 1) % SLEEPS.length));
+      showSleep();
+    }
     audio.addEventListener("error", () => {
       if (cur < 0 || !audio.getAttribute("src")) return;
       rows[cur].classList.add("err");
@@ -899,6 +1012,10 @@
         ms.setActionHandler("pause", () => audio.pause());
         ms.setActionHandler("previoustrack", () => play(Math.max(0, cur - 1)));
         ms.setActionHandler("nexttrack", () => play(cur + 1));
+        if (book) {
+          ms.setActionHandler("seekbackward", () => { if (cur >= 0) audio.currentTime = Math.max(0, audio.currentTime - 15); });
+          ms.setActionHandler("seekforward", () => { if (cur >= 0) audio.currentTime += 30; });
+        }
       } catch (_) {}
     }
     prevBtn.disabled = true;

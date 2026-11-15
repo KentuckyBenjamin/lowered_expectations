@@ -3549,6 +3549,300 @@ window.CATALOG = [
     "poster": "https://coverartarchive.org/release/20c2c561-7346-4443-8acb-530e4d333429/45322656349-500.jpg"
   },
   {
+    "title": "Adventures of Huckleberry Finn",
+    "type": "audiobook",
+    "id": "huck_finn_librivox",
+    "tags": [
+      "emotional damage"
+    ],
+    "artist": "Mark Twain",
+    "year": "1884",
+    "description": "Huck and Jim raft down the Mississippi. The great American novel, read by Annie Coleman."
+  },
+  {
+    "title": "The Adventures of Sherlock Holmes",
+    "type": "audiobook",
+    "id": "adventures_sherlockholmes_1007_librivox",
+    "tags": [
+      "rainy window"
+    ],
+    "artist": "Arthur Conan Doyle",
+    "year": "1892",
+    "description": "Twelve cases, one violin, zero patience for Scotland Yard. Read by Mark F."
+  },
+  {
+    "title": "The Adventures of Tom Sawyer",
+    "type": "audiobook",
+    "id": "tom_sawyer_librivox",
+    "tags": [
+      "goofballs",
+      "kids"
+    ],
+    "artist": "Mark Twain",
+    "year": "1876",
+    "description": "Fence painting, a buried treasure and a graveyard at midnight. Read by John Greenman."
+  },
+  {
+    "title": "Alice's Adventures in Wonderland",
+    "type": "audiobook",
+    "id": "alices_adventures_1003",
+    "tags": [
+      "goofballs",
+      "kids"
+    ],
+    "artist": "Lewis Carroll",
+    "year": "1865",
+    "description": "Down the rabbit hole with a mad hatter, a grinning cat and a queen who loves executions. Read by Kara Shallenberg."
+  },
+  {
+    "title": "The Art of War",
+    "type": "audiobook",
+    "id": "art_of_war_librivox",
+    "tags": [
+      "kung fu grip",
+      "villain era"
+    ],
+    "artist": "Sun Tzu",
+    "description": "Ancient strategy in about an hour. LibriVox's most downloaded book of all time."
+  },
+  {
+    "title": "The Call of the Wild",
+    "type": "audiobook",
+    "id": "call_ofthe_wild_1010_librivox",
+    "tags": [
+      "emotional damage",
+      "kids"
+    ],
+    "artist": "Jack London",
+    "year": "1903",
+    "description": "Buck, a pampered house dog, is stolen and sent to the Klondike. Bring tissues."
+  },
+  {
+    "title": "A Christmas Carol",
+    "type": "audiobook",
+    "id": "christmascarol_librivox",
+    "tags": [
+      "kids",
+      "rainy window"
+    ],
+    "artist": "Charles Dickens",
+    "year": "1843",
+    "description": "Three ghosts, one miser and the original holiday redemption arc. Read by Glen Hallstrom."
+  },
+  {
+    "title": "The Count of Monte Cristo",
+    "type": "audiobook",
+    "id": "count_montecristo_1308_librivox",
+    "tags": [
+      "emotional damage",
+      "villain era"
+    ],
+    "artist": "Alexandre Dumas",
+    "year": "1844",
+    "description": "Wrongly imprisoned, a sailor escapes, gets rich and spends 54 hours of audio getting even. Read by David Clarke."
+  },
+  {
+    "title": "Dracula",
+    "type": "audiobook",
+    "id": "dracula_1006_librivox",
+    "tags": [
+      "creature feature",
+      "villain era"
+    ],
+    "artist": "Bram Stoker",
+    "year": "1897",
+    "description": "The original count, told through diaries, letters and one very bad real-estate deal in Transylvania."
+  },
+  {
+    "title": "Frankenstein",
+    "type": "audiobook",
+    "id": "frankenstein_cs_librivox",
+    "tags": [
+      "creature feature",
+      "emotional damage"
+    ],
+    "artist": "Mary Shelley",
+    "year": "1818",
+    "description": "A scientist builds a man and immediately regrets it. The 1818 text, read by Cori Samuel."
+  },
+  {
+    "title": "The Hound of the Baskervilles",
+    "type": "audiobook",
+    "id": "hound_baskervilles_librivox",
+    "tags": [
+      "creature feature",
+      "rainy window"
+    ],
+    "artist": "Arthur Conan Doyle",
+    "year": "1902",
+    "description": "A family curse, a foggy moor and a very large dog. Holmes at his best. Read by Laurie Anne Walden."
+  },
+  {
+    "title": "The Invisible Man",
+    "type": "audiobook",
+    "id": "invisible_man_librivox",
+    "tags": [
+      "creature feature",
+      "goofballs"
+    ],
+    "artist": "H. G. Wells",
+    "year": "1897",
+    "description": "A scientist turns himself invisible and becomes the worst houseguest in England. Read by Alex Foster."
+  },
+  {
+    "title": "The Legend of Sleepy Hollow",
+    "type": "audiobook",
+    "id": "sleepy_hollow_librivox",
+    "tags": [
+      "creature feature",
+      "rainy window"
+    ],
+    "artist": "Washington Irving",
+    "year": "1820",
+    "description": "Ichabod Crane, a pumpkin and a headless horseman. A one-sitting listen, about 90 minutes."
+  },
+  {
+    "title": "The Lost World",
+    "type": "audiobook",
+    "id": "lost_world_mfs_librivox",
+    "tags": [
+      "creature feature",
+      "explosions"
+    ],
+    "artist": "Arthur Conan Doyle",
+    "year": "1912",
+    "description": "Professor Challenger leads an expedition to a South American plateau where the dinosaurs never got the memo."
+  },
+  {
+    "title": "The Metamorphosis",
+    "type": "audiobook",
+    "id": "metamorphosis_librivox",
+    "tags": [
+      "creature feature",
+      "emotional damage"
+    ],
+    "artist": "Franz Kafka",
+    "year": "1915",
+    "description": "Gregor Samsa wakes up as a giant bug and his main worry is being late for work. Read by David Barnes."
+  },
+  {
+    "title": "Moby Dick",
+    "type": "audiobook",
+    "id": "moby_dick_librivox",
+    "tags": [
+      "emotional damage",
+      "villain era"
+    ],
+    "artist": "Herman Melville",
+    "year": "1851",
+    "description": "Call me Ishmael. A captain, a whale and about 25 hours of chapters on whales. Read by Stewart Wills."
+  },
+  {
+    "title": "Pride and Prejudice",
+    "type": "audiobook",
+    "id": "prideandprejudice_1005_librivox",
+    "tags": [
+      "emotional damage"
+    ],
+    "artist": "Jane Austen",
+    "year": "1813",
+    "description": "Elizabeth Bennet versus Mr. Darcy's first impressions. Read by Elizabeth Klett."
+  },
+  {
+    "title": "A Princess of Mars",
+    "type": "audiobook",
+    "id": "princess_mars_0810_librivox",
+    "tags": [
+      "explosions",
+      "space cadets"
+    ],
+    "artist": "Edgar Rice Burroughs",
+    "year": "1912",
+    "description": "A Civil War veteran wakes up on Mars, jumps really high and fights four-armed giants. Read by Mark Nelson."
+  },
+  {
+    "title": "The Secret Garden",
+    "type": "audiobook",
+    "id": "secret_garden_version2_librivox",
+    "tags": [
+      "kids",
+      "rainy window"
+    ],
+    "artist": "Frances Hodgson Burnett",
+    "year": "1911",
+    "description": "A grumpy orphan finds a locked garden and slowly un-grumps. Read by Karen Savage."
+  },
+  {
+    "title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+    "type": "audiobook",
+    "id": "jekyll_and_hyde_librivox",
+    "tags": [
+      "creature feature",
+      "villain era"
+    ],
+    "artist": "Robert Louis Stevenson",
+    "year": "1886",
+    "description": "A respectable doctor discovers his worst self has a name and a curfew. About 3 hours, read by David Barnes."
+  },
+  {
+    "title": "The Time Machine",
+    "type": "audiobook",
+    "id": "timemachine_sjm_librivox",
+    "tags": [
+      "space cadets"
+    ],
+    "artist": "H. G. Wells",
+    "year": "1895",
+    "description": "A Victorian inventor rides to the year 802,701 and does not like what he finds. Read by Mark Nelson."
+  },
+  {
+    "title": "Treasure Island",
+    "type": "audiobook",
+    "id": "treasure_island_ap_librivox",
+    "tags": [
+      "kids",
+      "villain era"
+    ],
+    "artist": "Robert Louis Stevenson",
+    "year": "1883",
+    "description": "Pirates, a treasure map and Long John Silver, the original charming bad guy. Read by Adrian Praetzellis."
+  },
+  {
+    "title": "The War of the Worlds",
+    "type": "audiobook",
+    "id": "war_worlds_solo_librivox",
+    "tags": [
+      "explosions",
+      "space cadets"
+    ],
+    "artist": "H. G. Wells",
+    "year": "1898",
+    "description": "Martians land in Surrey and things go badly for Surrey. The solo version."
+  },
+  {
+    "title": "The Wind in the Willows",
+    "type": "audiobook",
+    "id": "wind_willows_ap_librivox",
+    "tags": [
+      "kids",
+      "rainy window"
+    ],
+    "artist": "Kenneth Grahame",
+    "year": "1908",
+    "description": "Mole, Rat, Badger and the deeply irresponsible Mr. Toad. Poop-poop! Read by Adrian Praetzellis."
+  },
+  {
+    "title": "The Wonderful Wizard of Oz",
+    "type": "audiobook",
+    "id": "wizard_of_oz",
+    "tags": [
+      "kids"
+    ],
+    "artist": "L. Frank Baum",
+    "year": "1900",
+    "description": "The original Oz, where the slippers are silver and the Tin Man has a backstory. Under 4 hours."
+  },
+  {
     "title": "Adventure Island",
     "type": "game",
     "id": "adventure_nes",

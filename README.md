@@ -19,8 +19,8 @@ A static front end for a hand-picked Internet Archive catalog. No server, no bui
 
 1. Add a row to `ia_media_list.csv`:
    - **title** – what to show on the card
-   - **artist** – optional; the artist or band for music (shown under the title). Use `n/a` or leave blank for films
-   - **type** – `movie`, `series` or `music`
+   - **artist** – optional; the artist or band for music, or the author for audiobooks (shown under the title). Use `n/a` or leave blank for films
+   - **type** – `movie`, `series`, `music`, `audiobook` or `game`
    - **link** – the `https://archive.org/details/...` link
    - **tags** – optional, comma-separated (`kids, animation`)
    - optional extra columns: **year**, **featured** (`yes` puts it in the big banner), **episodes** (series only: comma-separated Archive links, one per episode)
@@ -42,6 +42,16 @@ Upload the folder to any static host: GitHub Pages, Netlify (drag the folder ont
 Films play in the Archive's own embedded player (`archive.org/embed/<identifier>`).
 
 Albums play in the app's own player: the cover, play / previous / next, a seek bar and the full track list, read from the item's files on the Archive. Tracks are ordered by disc folder and track number, lossless files stream through the Archive's MP3 copy, the next track starts on its own, and a file that won't play is crossed out and skipped. Phone lock screens and keyboard media keys work too. If an item's file list can't be read, the album falls back to the Archive's embedded player. A watch link like `index.html#watch=fantastic-planet__1973` opens straight into the player, so titles can be shared.
+
+## Audiobooks
+
+Audiobooks (type `audiobook`) use the album player with a few extras for long listens. Chapters are the tracks, streamed from the Archive's light 64kbps MP3 copies. The player:
+- remembers the chapter and spot where you stopped, per book (stored in the browser), and marks it in the chapter list; the card shows "in progress"
+- has 15-second back and 30-second forward buttons (also on phone lock screens)
+- has a speed button (0.75× to 2×, remembered across books)
+- has a sleep timer: tap to step through 15 / 30 / 45 / 60 minutes or the end of the chapter
+
+LibriVox (`https://archive.org/details/librivoxaudio`) is the best source: free public-domain books, often with several recordings of the same title, so pick a well-rated solo reading.
 
 ## Series
 
