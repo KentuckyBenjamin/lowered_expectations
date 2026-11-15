@@ -23,7 +23,7 @@ A static front end for a hand-picked Internet Archive catalog. No server, no bui
    - **type** – `movie`, `series`, `music`, `audiobook` or `game`
    - **link** – the `https://archive.org/details/...` link
    - **tags** – optional, comma-separated (`kids, animation`)
-   - optional extra columns: **year**, **featured** (`yes` puts it in the big banner), **episodes** (series only: comma-separated Archive links, one per episode)
+   - optional extra columns: **year**, **featured** (a random movie fills the big banner on every visit; `yes` gives a movie three times the chance), **episodes** (series only: comma-separated Archive links, one per episode)
 2. Run `python3 build_catalog.py ia_media_list.csv` (no extra packages needed).
 3. Refresh the page.
 

@@ -208,9 +208,21 @@
     );
   }
 
+  // A different movie headlines every visit: picked at random from the films, never the
+  // same one twice in a row. Rows marked "featured" get extra tickets in the draw.
+  const heroItem = (() => {
+    const films = items.filter((i) => i.type === "movie");
+    if (!films.length) return items.find((i) => i.featured) || items[0];
+    const last = store.get("le-hero-last");
+    const pool = films.flatMap((i) => (i.featured ? [i, i, i] : [i])).filter((i) => films.length < 2 || i.id !== last);
+    const pick = pool[Math.floor(Math.random() * pool.length)];
+    store.set("le-hero-last", pick.id);
+    return pick;
+  })();
+
   function renderHero() {
     const hero = $("#hero");
-    const item = items.find((i) => i.featured) || items[0];
+    const item = heroItem;
     hero.replaceChildren();
     if (!item) { hero.hidden = true; return; }
 

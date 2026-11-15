@@ -20,7 +20,7 @@ CSV columns (first row is the header, order doesn't matter):
                 Optional: Lexaloffle links are pico8, Archive links are nes.
     tags      - optional, comma-separated (e.g. "kids, animation")
     year      - optional, overrides what the Archive reports
-    featured  - optional, put "yes" to make it the big hero title
+    featured  - optional, "yes" gives a movie extra chances to be the hero title (a random movie headlines each visit)
     episodes  - optional, series only: comma-separated archive.org links/identifiers
     poster    - optional, a link to an image to use as the poster
     External Poster Link - optional, a link to any image; wins over every other image
