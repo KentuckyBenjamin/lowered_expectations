@@ -5720,10 +5720,27 @@ window.CATALOG = [
     "embed": true
   },
   {
+    "title": "Air Pico",
+    "type": "game",
+    "id": "mot_airpico-1",
+    "tags": [
+      "best of 2025",
+      "rainy window"
+    ],
+    "artist": "Mot",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_mot_airpico-1.png",
+    "year": "2025",
+    "description": "A cozy flight sim: deliveries, charters and crop dusting around the Pico Isles.",
+    "platform": "pico8",
+    "source": "https://www.lexaloffle.com/bbs/?pid=mot_airpico-1",
+    "embed": false
+  },
+  {
     "title": "Ascent",
     "type": "game",
     "id": "ascent-0",
     "tags": [
+      "hall of fame",
       "rage quit"
     ],
     "artist": "johanp",
@@ -5739,6 +5756,7 @@ window.CATALOG = [
     "id": "birdswithguns-5",
     "tags": [
       "explosions",
+      "hall of fame",
       "one more run"
     ],
     "artist": "Yolwoocle",
@@ -5753,6 +5771,7 @@ window.CATALOG = [
     "type": "game",
     "id": "bunnysurvivor-9",
     "tags": [
+      "hall of fame",
       "one more run"
     ],
     "artist": "unikotoast",
@@ -5763,24 +5782,43 @@ window.CATALOG = [
     "embed": true
   },
   {
+    "title": "Cattle Crisis",
+    "type": "game",
+    "id": "cattlecrisis-1",
+    "tags": [
+      "best of 2025",
+      "explosions",
+      "goofballs"
+    ],
+    "artist": "Krystman",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_cattlecrisis-1.png",
+    "year": "2025",
+    "description": "A short arcade shmup: fly your jet, blast the aliens, save the cows.",
+    "platform": "pico8",
+    "source": "https://www.lexaloffle.com/bbs/?pid=cattlecrisis-1",
+    "embed": false
+  },
+  {
     "title": "Celeste Classic",
     "type": "game",
-    "id": "celeste-3",
+    "id": "15133",
     "tags": [
+      "hall of fame",
       "rage quit"
     ],
     "artist": "Maddy Thorson & Noel Berry",
     "poster": "https://www.lexaloffle.com/bbs/thumbs/pico15133.png",
     "description": "The tiny mountain-climbing platformer that grew up into the hit game Celeste. Jump, dash, die, repeat.",
     "platform": "pico8",
-    "source": "https://www.lexaloffle.com/bbs/?pid=celeste-3",
-    "embed": true
+    "source": "https://www.lexaloffle.com/bbs/?pid=15133",
+    "embed": false
   },
   {
     "title": "Celeste Classic 2: Lani's Trek",
     "type": "game",
     "id": "celeste_classic_2-5",
     "tags": [
+      "hall of fame",
       "rage quit"
     ],
     "artist": "Maddy Thorson & Noel Berry",
@@ -5791,11 +5829,45 @@ window.CATALOG = [
     "embed": true
   },
   {
+    "title": "Crimson Night",
+    "type": "game",
+    "id": "crimson_night-7",
+    "tags": [
+      "best of 2025",
+      "creature feature",
+      "one more run"
+    ],
+    "artist": "Fictionity",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_crimson_night-7.png",
+    "year": "2025",
+    "description": "How long can you last against the demon horde?",
+    "platform": "pico8",
+    "source": "https://www.lexaloffle.com/bbs/?pid=crimson_night-7",
+    "embed": true
+  },
+  {
+    "title": "Cryomancer",
+    "type": "game",
+    "id": "cryomancer-4",
+    "tags": [
+      "best of 2025",
+      "one more run"
+    ],
+    "artist": "suezou",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_cryomancer-4.png",
+    "year": "2025",
+    "description": "The pyromancer set fire monsters loose in the ice tower. Put them out with ice magic.",
+    "platform": "pico8",
+    "source": "https://www.lexaloffle.com/bbs/?pid=cryomancer-4",
+    "embed": false
+  },
+  {
     "title": "Dank Tomb",
     "type": "game",
     "id": "dank_tomb-0",
     "tags": [
-      "creature feature"
+      "creature feature",
+      "hall of fame"
     ],
     "artist": "krajzeg",
     "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_dank_tomb-0.png",
@@ -5805,10 +5877,27 @@ window.CATALOG = [
     "embed": false
   },
   {
+    "title": "Dino Sort",
+    "type": "game",
+    "id": "dino_sort-1",
+    "tags": [
+      "best of 2025",
+      "kids"
+    ],
+    "artist": "Adam Atomic",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_dino_sort-1.png",
+    "year": "2025",
+    "description": "There are dinosaurs. You sort them. A puzzle game by the maker of Canabalt.",
+    "platform": "pico8",
+    "source": "https://www.lexaloffle.com/bbs/?pid=dino_sort-1",
+    "embed": true
+  },
+  {
     "title": "Dusk Child",
     "type": "game",
     "id": "39705",
     "tags": [
+      "hall of fame",
       "rainy window"
     ],
     "artist": "SophieHoulden",
@@ -5819,11 +5908,28 @@ window.CATALOG = [
     "embed": false
   },
   {
+    "title": "From Rust To Ash",
+    "type": "game",
+    "id": "fromrust_a-4",
+    "tags": [
+      "best of 2025",
+      "one more run"
+    ],
+    "artist": "LokiStriker",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_fromrust_a-4.png",
+    "year": "2025",
+    "description": "A roguelike auto-battler where your items are your build. Fight, loot, scavenge, arrange your backpack.",
+    "platform": "pico8",
+    "source": "https://www.lexaloffle.com/bbs/?pid=fromrust_a-4",
+    "embed": false
+  },
+  {
     "title": "Fuz",
     "type": "game",
     "id": "fuz_v1-1",
     "tags": [
-      "goofballs"
+      "goofballs",
+      "hall of fame"
     ],
     "artist": "Jusiv",
     "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_fuz_v1-1.png",
@@ -5837,6 +5943,7 @@ window.CATALOG = [
     "type": "game",
     "id": "highstakes-2",
     "tags": [
+      "hall of fame",
       "one more run"
     ],
     "artist": "Krystman",
@@ -5851,6 +5958,7 @@ window.CATALOG = [
     "type": "game",
     "id": "49232",
     "tags": [
+      "hall of fame",
       "rage quit"
     ],
     "artist": "bridgs",
@@ -5866,6 +5974,7 @@ window.CATALOG = [
     "id": "thelair-0",
     "tags": [
       "creature feature",
+      "hall of fame",
       "one more run"
     ],
     "artist": "krajzeg",
@@ -5876,10 +5985,27 @@ window.CATALOG = [
     "embed": false
   },
   {
+    "title": "Libryinth",
+    "type": "game",
+    "id": "libryinth-10",
+    "tags": [
+      "best of 2025",
+      "goofballs"
+    ],
+    "artist": "Munro",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_libryinth-10.png",
+    "year": "2025",
+    "description": "A tiny library sim: keep the Dark Lord's ghoulish patrons supplied with books. Two-player co-op too.",
+    "platform": "pico8",
+    "source": "https://www.lexaloffle.com/bbs/?pid=libryinth-10",
+    "embed": false
+  },
+  {
     "title": "Mai-Chan's Sweet Buns",
     "type": "game",
     "id": "56576",
     "tags": [
+      "hall of fame",
       "kids"
     ],
     "artist": "Krystman",
@@ -5894,6 +6020,7 @@ window.CATALOG = [
     "type": "game",
     "id": "marble_merger-5",
     "tags": [
+      "hall of fame",
       "rainy window"
     ],
     "artist": "2darray",
@@ -5904,18 +6031,67 @@ window.CATALOG = [
     "embed": false
   },
   {
+    "title": "Mole Mole",
+    "type": "game",
+    "id": "molemole-1",
+    "tags": [
+      "best of 2025",
+      "kids"
+    ],
+    "artist": "Adam Atomic",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_molemole-1.png",
+    "year": "2025",
+    "description": "About 25 levels of digging, bomb-placing puzzle fun.",
+    "platform": "pico8",
+    "source": "https://www.lexaloffle.com/bbs/?pid=molemole-1",
+    "embed": true
+  },
+  {
+    "title": "Mouse Required",
+    "type": "game",
+    "id": "mouse_required-1",
+    "tags": [
+      "best of 2025",
+      "rage quit"
+    ],
+    "artist": "Werxzy",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_mouse_required-1.png",
+    "year": "2025",
+    "description": "Find and free your cursor friends. Needs a mouse.",
+    "platform": "pico8",
+    "source": "https://www.lexaloffle.com/bbs/?pid=mouse_required-1",
+    "embed": false
+  },
+  {
+    "title": "Neath",
+    "type": "game",
+    "id": "binaryeye_neath-1",
+    "tags": [
+      "best of 2025",
+      "rainy window"
+    ],
+    "artist": "binaryeye",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_binaryeye_neath-1.png",
+    "year": "2025",
+    "description": "A platformer where elemental powers let you dash, ride geysers and break through.",
+    "platform": "pico8",
+    "source": "https://www.lexaloffle.com/bbs/?pid=binaryeye_neath-1",
+    "embed": false
+  },
+  {
     "title": "Oblivion Eve",
     "type": "game",
-    "id": "oblivion_eve-3",
+    "id": "oblivion_eve-12",
     "tags": [
       "explosions",
+      "hall of fame",
       "space cadets"
     ],
     "artist": "SmartAlloc",
-    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_oblivion_eve-3.png",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_oblivion_eve-12.png",
     "description": "A bullet-packed shoot-'em-up.",
     "platform": "pico8",
-    "source": "https://www.lexaloffle.com/bbs/?pid=oblivion_eve-3",
+    "source": "https://www.lexaloffle.com/bbs/?pid=oblivion_eve-12",
     "embed": true
   },
   {
@@ -5923,6 +6099,7 @@ window.CATALOG = [
     "type": "game",
     "id": "fnf_menu-6",
     "tags": [
+      "hall of fame",
       "kitchen dance party"
     ],
     "artist": "CarsonK",
@@ -5933,11 +6110,45 @@ window.CATALOG = [
     "embed": true
   },
   {
+    "title": "PICO-BALL",
+    "type": "game",
+    "id": "pico_ball-5",
+    "tags": [
+      "best of 2025",
+      "goofballs",
+      "kids"
+    ],
+    "artist": "Munchkin",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_pico_ball-5.png",
+    "year": "2025",
+    "description": "Tennis, volleyball and squash mashed together, starring Jelpi. Two bounces on your side and it's their point. Solo or two players.",
+    "platform": "pico8",
+    "source": "https://www.lexaloffle.com/bbs/?pid=pico_ball-5",
+    "embed": true
+  },
+  {
+    "title": "Picocraft",
+    "type": "game",
+    "id": "start_picocraft_1-3",
+    "tags": [
+      "best of 2025",
+      "villain era"
+    ],
+    "artist": "dhostin",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_start_picocraft_1-3.png",
+    "year": "2025",
+    "description": "Warcraft III, demade for PICO-8 after three years of tinkering.",
+    "platform": "pico8",
+    "source": "https://www.lexaloffle.com/bbs/?pid=start_picocraft_1-3",
+    "embed": false
+  },
+  {
     "title": "Picohot",
     "type": "game",
     "id": "picohot-0",
     "tags": [
       "explosions",
+      "hall of fame",
       "kung fu grip"
     ],
     "artist": "pirx_vr",
@@ -5952,7 +6163,8 @@ window.CATALOG = [
     "type": "game",
     "id": "picoware-20",
     "tags": [
-      "goofballs"
+      "goofballs",
+      "hall of fame"
     ],
     "artist": "szczm_",
     "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_picoware-20.png",
@@ -5962,12 +6174,29 @@ window.CATALOG = [
     "embed": true
   },
   {
+    "title": "Pole Station",
+    "type": "game",
+    "id": "pavilion_polestation_1-0",
+    "tags": [
+      "best of 2025",
+      "rainy window"
+    ],
+    "artist": "Pavilion",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_pavilion_polestation_1-0.png",
+    "year": "2025",
+    "description": "A short 2-bit platformer packed with secret pineapples.",
+    "platform": "pico8",
+    "source": "https://www.lexaloffle.com/bbs/?pid=pavilion_polestation_1-0",
+    "embed": true
+  },
+  {
     "title": "Poom",
     "type": "game",
     "id": "poom_0-9",
     "tags": [
       "creature feature",
-      "explosions"
+      "explosions",
+      "hall of fame"
     ],
     "artist": "freds72",
     "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_poom_0-9.png",
@@ -5982,6 +6211,7 @@ window.CATALOG = [
     "id": "porklike-2",
     "tags": [
       "goofballs",
+      "hall of fame",
       "one more run"
     ],
     "artist": "Krystman",
@@ -5992,17 +6222,130 @@ window.CATALOG = [
     "embed": false
   },
   {
+    "title": "Province",
+    "type": "game",
+    "id": "province-4",
+    "tags": [
+      "best of 2025",
+      "rainy window"
+    ],
+    "artist": "Perfoon",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_province-4.png",
+    "year": "2025",
+    "description": "A tiny tile-placing village builder: raise enough knights to impress the king.",
+    "platform": "pico8",
+    "source": "https://www.lexaloffle.com/bbs/?pid=province-4",
+    "embed": true
+  },
+  {
+    "title": "Skeleton Gelatin",
+    "type": "game",
+    "id": "skeleton_gelatin-2",
+    "tags": [
+      "best of 2025",
+      "goofballs"
+    ],
+    "artist": "Adam Atomic",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_skeleton_gelatin-2.png",
+    "year": "2025",
+    "description": "Possibly the world's first blobtroidvania: no jumping, no dying, no problem.",
+    "platform": "pico8",
+    "source": "https://www.lexaloffle.com/bbs/?pid=skeleton_gelatin-2",
+    "embed": true
+  },
+  {
+    "title": "Snekburd",
+    "type": "game",
+    "id": "snekburd-8",
+    "tags": [
+      "best of 2025",
+      "rage quit"
+    ],
+    "artist": "Werxzy",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_snekburd-8.png",
+    "year": "2025",
+    "description": "A demake of the puzzle game Snakebird with new puzzles: steer the snake-birds to the fruit and through the portal.",
+    "platform": "pico8",
+    "source": "https://www.lexaloffle.com/bbs/?pid=snekburd-8",
+    "embed": false
+  },
+  {
+    "title": "SPHONGOS",
+    "type": "game",
+    "id": "mk_sphongos-0",
+    "tags": [
+      "best of 2025",
+      "space cadets"
+    ],
+    "artist": "mkoloch",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_mk_sphongos-0.png",
+    "year": "2025",
+    "description": "Gather samples from a strange world and research them in the lab to unlock new abilities.",
+    "platform": "pico8",
+    "source": "https://www.lexaloffle.com/bbs/?pid=mk_sphongos-0",
+    "embed": false
+  },
+  {
+    "title": "Super Hat Girl!",
+    "type": "game",
+    "id": "super_hat_girl-1",
+    "tags": [
+      "best of 2025",
+      "kids"
+    ],
+    "artist": "benvium",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_super_hat_girl-1.png",
+    "year": "2025",
+    "description": "A cheerful platformer where your hat has powers.",
+    "platform": "pico8",
+    "source": "https://www.lexaloffle.com/bbs/?pid=super_hat_girl-1",
+    "embed": true
+  },
+  {
     "title": "Terra",
     "type": "game",
-    "id": "terra_1cart-43",
+    "id": "terra_1cart-44",
     "tags": [
+      "hall of fame",
       "kids"
     ],
     "artist": "cubee",
-    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_terra_1cart-43.png",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_terra_1cart-44.png",
     "description": "A Terraria demake: dig, build and explore a little sandbox world.",
     "platform": "pico8",
-    "source": "https://www.lexaloffle.com/bbs/?pid=terra_1cart-43",
+    "source": "https://www.lexaloffle.com/bbs/?pid=terra_1cart-44",
     "embed": false
+  },
+  {
+    "title": "Top Speed!",
+    "type": "game",
+    "id": "top_speed-3",
+    "tags": [
+      "best of 2025",
+      "one more run"
+    ],
+    "artist": "benvium",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_top_speed-3.png",
+    "year": "2025",
+    "description": "Top-down racing with trophies and practice laps.",
+    "platform": "pico8",
+    "source": "https://www.lexaloffle.com/bbs/?pid=top_speed-3",
+    "embed": true
+  },
+  {
+    "title": "Walker",
+    "type": "game",
+    "id": "walkeramiga-2",
+    "tags": [
+      "best of 2025",
+      "explosions"
+    ],
+    "artist": "buzzard1337",
+    "poster": "https://www.lexaloffle.com/bbs/thumbs/pico8_walkeramiga-2.png",
+    "year": "2025",
+    "description": "A side-scrolling mech shooter, a tribute to the Amiga classic.",
+    "platform": "pico8",
+    "source": "https://www.lexaloffle.com/bbs/?pid=walkeramiga-2",
+    "embed": true
   }
 ];
