@@ -34,6 +34,19 @@ window.CATALOG = [
     "poster": "http://www.impawards.com/1938/posters/adventures_of_tom_sawyer.jpg"
   },
   {
+    "title": "All Dogs Go to Heaven",
+    "type": "movie",
+    "id": "all-dogs-go-to-heaven_202204",
+    "tags": [
+      "emotional damage",
+      "kids",
+      "villain era"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/nmWh1NglDinfkHD9zCNqGWyhl7Q.jpg",
+    "year": "1989",
+    "description": "A con-artist German shepherd sneaks back from heaven to settle a score. Burt Reynolds and Dom DeLuise as dogs."
+  },
+  {
     "title": "The Amazing Transparent Man",
     "type": "movie",
     "id": "TheAmazingTransparentMan1960",
@@ -42,6 +55,30 @@ window.CATALOG = [
       "space cadets"
     ],
     "poster": "https://image.tmdb.org/t/p/original/5shLKraupCKx0FGenwbomAxyTVZ.jpg"
+  },
+  {
+    "title": "An American Tail",
+    "type": "movie",
+    "id": "an-american-tail-original-1986-theatrical-version",
+    "tags": [
+      "emotional damage",
+      "kids"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/51pLurrIQDhXZab4cv8lHP32UiR.jpg",
+    "year": "1986",
+    "description": "Fievel Mousekewitz gets separated from his family on the way to America. Somewhere Out There will wreck you. The original 1986 theatrical version."
+  },
+  {
+    "title": "An American Tail: Fievel Goes West",
+    "type": "movie",
+    "id": "an-american-tail-fievel-goes-west-1992-vhs_202505",
+    "tags": [
+      "goofballs",
+      "kids"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/k4aLupAkHWwHiEDwvqsZFAnUYF.jpg",
+    "year": "1991",
+    "description": "Fievel heads west and meets his hero, a lawdog voiced by Jimmy Stewart. From the original VHS."
   },
   {
     "title": "Anchorman: The Legend of Ron Burgundy",
@@ -187,6 +224,43 @@ window.CATALOG = [
     "featured": true
   },
   {
+    "title": "The Brave Little Toaster",
+    "type": "movie",
+    "id": "thebravelittletoaster1987720pupscale",
+    "tags": [
+      "emotional damage",
+      "kids"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/mEZcPMNRqTcotOZSttN5MtmJbu1.jpg",
+    "year": "1987",
+    "description": "A toaster, a lamp, a radio, an electric blanket and a vacuum go looking for their owner. Then the junkyard scene happens. (Upscaled.)"
+  },
+  {
+    "title": "The Brave Little Toaster Goes to Mars",
+    "type": "movie",
+    "id": "thebravelittletoastergoestomars1998720pupscale",
+    "tags": [
+      "goofballs",
+      "kids",
+      "space cadets"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/zO6SF0qLZfgSVRIfk8Y8l4hmN5e.jpg",
+    "year": "1998",
+    "description": "The appliances blast off to Mars to rescue a baby. As one does. (Upscaled.)"
+  },
+  {
+    "title": "The Brave Little Toaster to the Rescue",
+    "type": "movie",
+    "id": "thebravelittletoastertotherescue720pupscale",
+    "tags": [
+      "goofballs",
+      "kids"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/zCJEMzVnxQC6fdxY9W3eDf3EFfl.jpg",
+    "year": "1997",
+    "description": "The appliances try to save the animals at a veterinary lab. (Upscaled.)"
+  },
+  {
     "title": "Breaker! Breaker!",
     "type": "movie",
     "id": "breaker-breaker-1977-rare-70s-vhsrip-chucknorris",
@@ -255,6 +329,18 @@ window.CATALOG = [
     "poster": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/1740139/TGNm1s1MRSXo8DCEDLcXOGBte6PQcrArSULlkFuK.jpg"
   },
   {
+    "title": "The Care Bears Movie",
+    "type": "movie",
+    "id": "the-care-bears-movie-vestron-video-original-1985-release_202109",
+    "tags": [
+      "kids",
+      "kitchen dance party"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/hInHHG8oiKLLXPtO87aUZ9txX4q.jpg",
+    "year": "1985",
+    "description": "The Care Bears versus an evil spirit in a magic book. Care Bear Stare! The original 1985 Vestron Video tape."
+  },
+  {
     "title": "Carnival of Souls",
     "type": "movie",
     "id": "CarnivalofSouls",
@@ -303,6 +389,19 @@ window.CATALOG = [
       "creature feature"
     ],
     "poster": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/24eedd36243493.5715248212b93.jpg"
+  },
+  {
+    "title": "The Dark Crystal",
+    "type": "movie",
+    "id": "the-dark-crystal-vhs-release-1994",
+    "tags": [
+      "creature feature",
+      "kids",
+      "villain era"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/fZPxRaa6gvCyGCh9Xk5kyPqz7fp.jpg",
+    "year": "1982",
+    "description": "Jim Henson's all-puppet fantasy: a Gelfling must heal the crystal before the Skeksis take over for good. The 1994 VHS."
   },
   {
     "title": "Dawn of the Dead",
@@ -562,6 +661,31 @@ window.CATALOG = [
     "description": "A Chuck Norris double feature as it aired on Chicago TV in 1986, commercials and all. Nearly four hours of time travel."
   },
   {
+    "title": "A Goofy Movie",
+    "type": "movie",
+    "id": "a-goofy-movie_202101",
+    "tags": [
+      "goofballs",
+      "kids",
+      "kitchen dance party"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/bycmMhO3iIoEDzP768sUjq2RV4T.jpg",
+    "year": "1995",
+    "description": "Goofy drags Max on a father-son road trip right when Max needs to be at a Powerline concert. Stand Out!"
+  },
+  {
+    "title": "The Great Muppet Caper",
+    "type": "movie",
+    "id": "muppets-the-great-muppet-caper",
+    "tags": [
+      "goofballs",
+      "kids"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lnJc4B4njeyNHWqG00ozuUIhtu5.jpg",
+    "year": "1981",
+    "description": "Kermit and Fozzie (twins) go to London to crack a jewel heist. From VHS."
+  },
+  {
     "title": "Gulliver's Travels",
     "type": "movie",
     "id": "gullivers_travels1939",
@@ -645,6 +769,18 @@ window.CATALOG = [
     "description": "Two buddies on a fishing trip pick up a killer who never closes one eye. Directed by Ida Lupino, the only woman making noir at the time."
   },
   {
+    "title": "Homeward Bound: The Incredible Journey",
+    "type": "movie",
+    "id": "disneys-homeward-bound-the-incredible-journey-1996-vhs",
+    "tags": [
+      "emotional damage",
+      "kids"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/el6dJEpK97OJRQiQhuiSGk2jkV5.jpg",
+    "year": "1993",
+    "description": "Two dogs and a cat cross the Sierra Nevada to get home. Michael J. Fox voices the bulldog. From VHS."
+  },
+  {
     "title": "Horrors of the Red Planet",
     "type": "movie",
     "id": "HorrorsOfTheRedPlanet",
@@ -677,6 +813,19 @@ window.CATALOG = [
     "description": "Chuck Norris single-handedly stops a Soviet invasion of Florida with two Uzis and a calm voice."
   },
   {
+    "title": "The Iron Giant",
+    "type": "movie",
+    "id": "iron-giant-vhs",
+    "tags": [
+      "emotional damage",
+      "kids",
+      "space cadets"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/k1Cv5CHJvqGWK1xJDUJz8DojFEy.jpg",
+    "year": "1999",
+    "description": "A boy befriends a giant robot from space in 1957 Maine. Superman. From a well-loved VHS with a few wobbly spots."
+  },
+  {
     "title": "Jack and the Beanstalk",
     "type": "movie",
     "id": "cco_jackandthebeanstalk",
@@ -685,6 +834,19 @@ window.CATALOG = [
       "kids"
     ],
     "poster": "https://i.pinimg.com/originals/3e/97/44/3e97449f0420b0052cc4fac5a2f27514.jpg"
+  },
+  {
+    "title": "Jumanji",
+    "type": "movie",
+    "id": "1995-jumangi-1996-columbia-tri-star-vhs-480p-h-264",
+    "tags": [
+      "creature feature",
+      "explosions",
+      "kids"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/58TFZp1kLi1r4HKEsWzvyokFj7D.jpg",
+    "year": "1995",
+    "description": "A board game unleashes a jungle on a small New England town, plus Robin Williams. The 1996 Columbia TriStar VHS."
   },
   {
     "title": "Kickboxer",
@@ -734,6 +896,19 @@ window.CATALOG = [
     "description": "Counterfeit jeans, microbombs and Rob Schneider in Hong Kong. The camera never stops spinning."
   },
   {
+    "title": "The Land Before Time",
+    "type": "movie",
+    "id": "TheLandBeforeTime1_201703",
+    "tags": [
+      "creature feature",
+      "emotional damage",
+      "kids"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7phV1ETZnQrLsEeuk4hNeceEl25.jpg",
+    "year": "1988",
+    "description": "Littlefoot and friends search for the Great Valley. Yep, yep, yep. Have tissues ready for the first 20 minutes."
+  },
+  {
     "title": "The Last Man on Earth",
     "type": "movie",
     "id": "last-man-on-earth",
@@ -741,6 +916,19 @@ window.CATALOG = [
       "creature feature"
     ],
     "poster": "https://image.tmdb.org/t/p/original/2IAQ28BwILdhrCAGQZMvARsPSri.jpg"
+  },
+  {
+    "title": "The Last Unicorn",
+    "type": "movie",
+    "id": "vintage-vhs-the-last-unicorn",
+    "tags": [
+      "emotional damage",
+      "kids",
+      "rainy window"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/MRHFtXTjxC74MGCzHACcuqvHiw.jpg",
+    "year": "1982",
+    "description": "The last unicorn sets out to find the others, with music by America. From a lovingly decoded vintage VHS."
   },
   {
     "title": "The Last Woman on Earth",
@@ -762,6 +950,18 @@ window.CATALOG = [
     "poster": "https://image.tmdb.org/t/p/w500/kf3qx5fzsYyLv7PEAORUGxwzQEk.jpg",
     "year": "1990",
     "description": "A Foreign Legion deserter wins underground street fights to support his late brother's family. Van Damme cries. You might too."
+  },
+  {
+    "title": "Little Nemo: Adventures in Slumberland",
+    "type": "movie",
+    "id": "little-nemo-adventures-in-slumberland",
+    "tags": [
+      "kids",
+      "rainy window"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/uVyqRtRaIGrHJvfxImrHHFaQNxM.jpg",
+    "year": "1989",
+    "description": "A boy is invited to become the prince of Slumberland, then accidentally unleashes the Nightmare King."
   },
   {
     "title": "The Little Princess",
@@ -840,6 +1040,18 @@ window.CATALOG = [
     "description": "A blind assassin with a hat that decapitates people hunts the One-Armed Boxer. Also: a tournament, and a guy whose arms stretch."
   },
   {
+    "title": "Matilda",
+    "type": "movie",
+    "id": "matilda-1996_202405",
+    "tags": [
+      "kids",
+      "villain era"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/wYoDpWInsBEVSmWStnRH06ddoyk.jpg",
+    "year": "1996",
+    "description": "A brilliant girl with telekinetic powers versus her awful parents and the Trunchbull. Roald Dahl, directed by Danny DeVito."
+  },
+  {
     "title": "Meet John Doe",
     "type": "movie",
     "id": "meet_john_doe",
@@ -874,6 +1086,56 @@ window.CATALOG = [
     "poster": "https://image.tmdb.org/t/p/w500/7nTkHjETdGMYK1phHwDbPsrzbYl.jpg",
     "year": "1975",
     "description": "King Arthur, coconut horses, a killer rabbit and the Knights Who Say Ni. It's only a flesh wound."
+  },
+  {
+    "title": "Mrs. Doubtfire",
+    "type": "movie",
+    "id": "mrs....-doubtfire..-full-movie..-hd",
+    "tags": [
+      "goofballs",
+      "kids"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ualFkVe5zYDphGuJv37byW2Suim.jpg",
+    "year": "1993",
+    "description": "Robin Williams disguises himself as a Scottish nanny to stay close to his kids. Hellooo!"
+  },
+  {
+    "title": "The Muppet Movie",
+    "type": "movie",
+    "id": "the-muppet-movie-1979_202408",
+    "tags": [
+      "goofballs",
+      "kids",
+      "kitchen dance party"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/8LUjnIW5ph6pHoXDE3Zg4iVi6BV.jpg",
+    "year": "1979",
+    "description": "Kermit heads to Hollywood and picks up the whole gang along the way. Rainbow Connection."
+  },
+  {
+    "title": "Muppet Treasure Island",
+    "type": "movie",
+    "id": "muppet-treasure-island-vhs-1996",
+    "tags": [
+      "goofballs",
+      "kids",
+      "villain era"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/k4KW2CUkzDKaCy4H4cS02cO8gvV.jpg",
+    "year": "1996",
+    "description": "Tim Curry as Long John Silver, with Muppets as pirates. From the 1996 VHS."
+  },
+  {
+    "title": "My Little Pony: The Movie",
+    "type": "movie",
+    "id": "mlpmovieg1",
+    "tags": [
+      "kids",
+      "villain era"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/rB0nNtMedX30xiymlGxArmh2BQL.jpg",
+    "year": "1986",
+    "description": "The original 1986 ponies versus the Smooze, a purple ooze that's honestly terrifying. From the Blu-ray."
   },
   {
     "title": "The Mystery of Chess Boxing",
@@ -911,6 +1173,19 @@ window.CATALOG = [
     ],
     "year": "1993",
     "description": "A real home-taped VHS: Mad About You, Wings, Seinfeld and Frasier off Orlando's NBC station, then Home Improvement and Grace Under Fire off ABC, commercials and all."
+  },
+  {
+    "title": "The NeverEnding Story",
+    "type": "movie",
+    "id": "the-neverending-story_202406",
+    "tags": [
+      "creature feature",
+      "emotional damage",
+      "kids"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/ddYCa91iDXfJCxaqSYzwi2fjfnl.jpg",
+    "year": "1984",
+    "description": "A bullied kid reads a magic book and Fantasia needs him. Also Artax and the Swamp of Sadness. From VHS."
   },
   {
     "title": "Night of the Living Dead",
@@ -959,6 +1234,18 @@ window.CATALOG = [
     "description": "TPS reports, a red stapler and a printer that deserved it. Every office worker's revenge fantasy."
   },
   {
+    "title": "The Pagemaster",
+    "type": "movie",
+    "id": "the-pagemaster",
+    "tags": [
+      "creature feature",
+      "kids"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/iIWUuCjN8VND7BDugvf45LveA6p.jpg",
+    "year": "1994",
+    "description": "Macaulay Culkin gets sucked into a library and has to escape through the books, with Patrick Stewart, Whoopi Goldberg and Leonard Nimoy."
+  },
+  {
     "title": "Pee Wees Big Adventure",
     "type": "movie",
     "id": "pee-wees-big-adventure-1985-vhs-rip",
@@ -992,6 +1279,19 @@ window.CATALOG = [
     "poster": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Plan_9_Alternative_poster.jpg"
   },
   {
+    "title": "The Princess Bride",
+    "type": "movie",
+    "id": "the-princess-bride_202402",
+    "tags": [
+      "goofballs",
+      "kids",
+      "villain era"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/2FC9L9MrjBoGHYjYZjdWQdopVYb.jpg",
+    "year": "1987",
+    "description": "Fencing, fighting, torture, revenge, giants, monsters, chases, escapes, true love, miracles. Inconceivable!"
+  },
+  {
     "title": "Return of the Kung Fu Dragon",
     "type": "movie",
     "id": "ReturnOfTheKungFuDragon",
@@ -1014,6 +1314,31 @@ window.CATALOG = [
     "poster": "https://image.tmdb.org/t/p/w500/4eZz8xkIiGDpt7Q4TLzu7wfY7U4.jpg",
     "year": "1980",
     "description": "Gordon Liu again, this time as a con man pretending to be a Shaolin monk. Learns kung fu by building scaffolding."
+  },
+  {
+    "title": "Rock-a-Doodle",
+    "type": "movie",
+    "id": "rock-a-doodle.-1991.1080p.-blu-ray.x-264.-aac-yts.-mx",
+    "tags": [
+      "goofballs",
+      "kids",
+      "kitchen dance party"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/q5xSS8MNmrwR3em6VB6OC3992d6.jpg",
+    "year": "1991",
+    "description": "A rooster who thinks his crowing raises the sun runs off to become an Elvis-style star in the city."
+  },
+  {
+    "title": "The Sandlot",
+    "type": "movie",
+    "id": "the-sandlot-1993-vhs-full-60fps",
+    "tags": [
+      "goofballs",
+      "kids"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7PYqz0viEuW8qTvuGinUMjDWMnj.jpg",
+    "year": "1993",
+    "description": "A summer of neighborhood baseball, s'mores and the Beast. You're killing me, Smalls! The full 1993 Fox VHS."
   },
   {
     "title": "Santa Claus Conquers the Martians",
@@ -1057,6 +1382,18 @@ window.CATALOG = [
       "so bad it's good"
     ],
     "poster": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Poster_for_The_Screaming_Skull.jpg"
+  },
+  {
+    "title": "The Secret of NIMH",
+    "type": "movie",
+    "id": "the-secret-of-nimh-1982_202511",
+    "tags": [
+      "kids",
+      "rainy window"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/prNrnOKlkV9wl5Sl3zwHu1f3t2z.jpg",
+    "year": "1982",
+    "description": "Widowed field mouse Mrs. Brisby turns to a colony of super-smart rats to save her family. Don Bluth's gorgeous first feature."
   },
   {
     "title": "Shaolin Drunken Fight",
@@ -1203,6 +1540,18 @@ window.CATALOG = [
     "description": "Two best friends, one party and one fake ID that says McLovin. Unrated cut."
   },
   {
+    "title": "The Swan Princess",
+    "type": "movie",
+    "id": "the-swan-princess-1994_202406",
+    "tags": [
+      "kids",
+      "villain era"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/f5YvIPrkJ9HCsNbgzWJJyxXVNhj.jpg",
+    "year": "1994",
+    "description": "A sorcerer turns Princess Odette into a swan by day. Prince Derek has some explaining to do."
+  },
+  {
     "title": "T.N.T. Jackson",
     "type": "movie",
     "id": "T.n.t.Jackson",
@@ -1268,6 +1617,18 @@ window.CATALOG = [
     "poster": "https://image.tmdb.org/t/p/w500/b3lllDltoBws5uKZzBYVSjpjjJx.jpg",
     "year": "1984",
     "description": "The rockumentary about Britain's loudest band. These go to eleven."
+  },
+  {
+    "title": "Thumbelina",
+    "type": "movie",
+    "id": "thumbelinafullmovie1994",
+    "tags": [
+      "kids",
+      "rainy window"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/eBvSSfwAKgcjF4eyaeNSzTCpfaF.jpg",
+    "year": "1994",
+    "description": "A girl no bigger than a thumb, a fairy prince and a lot of very persistent suitors. Don Bluth does Hans Christian Andersen."
   },
   {
     "title": "True Lies",
@@ -1495,6 +1856,18 @@ window.CATALOG = [
     "poster": "https://image.tmdb.org/t/p/w500/l39HDf6WYzV8VLY5EnCRC81DWOy.jpg",
     "year": "1987",
     "description": "Woo-oo! Scrooge McDuck and the nephews chase treasure and dodge the Beagle Boys."
+  },
+  {
+    "title": "Fox Animation Triple Feature",
+    "type": "series",
+    "id": "fox-animation-renaissance-triple-feature",
+    "tags": [
+      "kids",
+      "rainy window"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/xkJxdeaibcrcsi1XHvT0IuOjdzB.jpg",
+    "year": "1992",
+    "description": "Three early-90s Fox animated films in one place: FernGully: The Last Rainforest, Once Upon a Forest and The Pagemaster."
   },
   {
     "title": "Freakazoid!",
