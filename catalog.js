@@ -901,6 +901,18 @@ window.CATALOG = [
     "description": "Tater tots, ligers, nunchuck skills and the dance that won the election. Vote for Pedro."
   },
   {
+    "title": "NBC Thursday, November 1993 (VHS)",
+    "type": "movie",
+    "id": "vhs-tape-1993-11-06-wesh-mad-about-you-wings-seinfeld-frasier-1993-11-24-wftv-ho",
+    "tags": [
+      "goofballs",
+      "rainy window",
+      "tv dinner"
+    ],
+    "year": "1993",
+    "description": "A real home-taped VHS: Mad About You, Wings, Seinfeld and Frasier off Orlando's NBC station, then Home Improvement and Grace Under Fire off ABC, commercials and all."
+  },
+  {
     "title": "Night of the Living Dead",
     "type": "movie",
     "id": "Night.Of.The.Living.Dead_1080p",
@@ -1391,6 +1403,19 @@ window.CATALOG = [
     "poster": "https://image.tmdb.org/t/p/original/zvBmSzAaIJs8LxOSSaA8ZT7ysqW.jpg"
   },
   {
+    "title": "ALF",
+    "type": "series",
+    "id": "ALF-The-Complete-Series",
+    "tags": [
+      "goofballs",
+      "space cadets",
+      "tv dinner"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/shRed7ZrCRjdIMEYNx2YBVFkkNu.jpg",
+    "year": "1986",
+    "description": "A furry alien crash-lands in a suburban garage and tries very hard not to eat the cat. All four seasons, plus the unaired pilot."
+  },
+  {
     "title": "Alvin and the Chipmunks",
     "type": "series",
     "id": "1983-alvin-and-the-chipmunks-complete",
@@ -1509,6 +1534,43 @@ window.CATALOG = [
     "description": "Stone by day, warriors by night. Disney's Shakespearean monster drama, all three seasons (AI upscaled)."
   },
   {
+    "title": "Get Smart",
+    "type": "series",
+    "id": "get-smart",
+    "tags": [
+      "goofballs",
+      "tv dinner"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/AqhPucVAvnocglq5WYXbh6t9wuE.jpg",
+    "year": "1965",
+    "description": "Agent 86 Maxwell Smart, his shoe phone and the Cone of Silence versus KAOS. Missed it by that much. All five seasons."
+  },
+  {
+    "title": "Gilligan's Island",
+    "type": "series",
+    "id": "gilligans-island-complete-tv-series",
+    "tags": [
+      "goofballs",
+      "tv dinner"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7PjIzzCh43hNU77C8oKLdL7XXge.jpg",
+    "year": "1964",
+    "description": "A three-hour tour, a castaway crew and a professor who can build anything except a boat. All three seasons plus the pilot."
+  },
+  {
+    "title": "The Golden Girls",
+    "type": "series",
+    "id": "the-golden-girls-complete-480p-x264",
+    "tags": [
+      "goofballs",
+      "kitchen dance party",
+      "tv dinner"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/1qoHn5J0Qclte98j1olNbOQOXVz.jpg",
+    "year": "1985",
+    "description": "Four retirees, one Miami house and an endless supply of cheesecake. Picture it: Sicily, 1922. All seven seasons."
+  },
+  {
     "title": "He-Man and the Masters of the Universe Season 01",
     "type": "series",
     "id": "he-man-and-the-masters-of-the-universe-s01",
@@ -1525,6 +1587,18 @@ window.CATALOG = [
       "kids"
     ],
     "poster": "https://www.themoviedb.org/t/p/original/tawmMe0D3ncyzEmmfMraGucXBCA.jpg"
+  },
+  {
+    "title": "Home Improvement",
+    "type": "series",
+    "id": "home-improvement-complete-dvd-rip",
+    "tags": [
+      "goofballs",
+      "tv dinner"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/aBBXL6YIYbUPBRAVYdEUW46oqsA.jpg",
+    "year": "1991",
+    "description": "More power! Tim 'The Tool Man' Taylor, Al, Wilson's fence and the whole run of Tool Time. All eight seasons."
   },
   {
     "title": "Inspector Gadget",
@@ -1551,6 +1625,18 @@ window.CATALOG = [
     "description": "68 vintage Warner Bros. shorts that slipped into the public domain. Daffy, Porky and early Bugs."
   },
   {
+    "title": "MacGyver",
+    "type": "series",
+    "id": "macgyver-collection-1985--to-1994",
+    "tags": [
+      "explosions",
+      "tv dinner"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/zhgJNHbFxGkqdsKdkZLBrDWagOv.jpg",
+    "year": "1985",
+    "description": "A mullet, a Swiss Army knife and a roll of duct tape solve every problem. Seasons 1 to 7 plus the TV movies."
+  },
+  {
     "title": "The Magic School Bus",
     "type": "series",
     "id": "MSBTVSeries",
@@ -1561,6 +1647,19 @@ window.CATALOG = [
     "poster": "https://image.tmdb.org/t/p/w500/3A70wxUpplD4V3IcL8WmNFBgAbV.jpg",
     "year": "1994",
     "description": "Take chances, make mistakes, get messy. Ms. Frizzle's field trips go everywhere, including inside Ralphie."
+  },
+  {
+    "title": "Married... with Children",
+    "type": "series",
+    "id": "lime-torrents.lol-married....with.-children.-1987.-complete.-seasons.-1.to.-11.-tvrip.x-264.i-c",
+    "tags": [
+      "goofballs",
+      "tv dinner",
+      "villain era"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/qxdOgESOkBMmfcWUizL01mbdqzl.jpg",
+    "year": "1987",
+    "description": "Al Bundy: shoe salesman, four touchdowns in one game, and the least happy family on TV. All eleven seasons."
   },
   {
     "title": "Max Fleischer's Superman",
@@ -1575,6 +1674,45 @@ window.CATALOG = [
     "description": "The gorgeous 1940s Fleischer shorts: mad scientists, giant robots, art deco everything."
   },
   {
+    "title": "Mr. Bean",
+    "type": "series",
+    "id": "Mr.Bean_TV_Series",
+    "tags": [
+      "goofballs",
+      "no talking please",
+      "tv dinner"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/pUNQV35kDaKuejnXGNiUeEBurNE.jpg",
+    "year": "1990",
+    "description": "Rowan Atkinson barely says a word and still gets into every possible kind of trouble. The original TV series plus specials."
+  },
+  {
+    "title": "The Munsters",
+    "type": "series",
+    "id": "munsters_the",
+    "tags": [
+      "creature feature",
+      "goofballs",
+      "tv dinner"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/4jkCx8m87aMA89X9KB9Adwgep2t.jpg",
+    "year": "1964",
+    "description": "A perfectly normal suburban family who happen to be Frankenstein, vampires and a werewolf. 38 episodes."
+  },
+  {
+    "title": "Mystery Science Theater 3000",
+    "type": "series",
+    "id": "the-ultimate-mst3k",
+    "tags": [
+      "so bad it's good",
+      "space cadets",
+      "tv dinner"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/nNeb35RFoeLwxu0CFzZ9NAI5UTA.jpg",
+    "year": "1988",
+    "description": "A guy and two robots stuck in space are forced to watch terrible movies, and heckle every one. 248 episodes, including the early KTMA years."
+  },
+  {
     "title": "Neil Breen Film Series",
     "type": "series",
     "id": "double-down-2005_202208",
@@ -1582,6 +1720,19 @@ window.CATALOG = [
       "so bad it's good"
     ],
     "poster": "https://cdn.happeningnext.com/events10/banners/7621c02552cf731ca9c59c78ed747d4db43f7b491ef2fc423470ee4f9f5af7d8-rimg-w742-h960-gmir.jpg?v=1686793149"
+  },
+  {
+    "title": "Pee-wee's Playhouse",
+    "type": "series",
+    "id": "peewee-playhouse",
+    "tags": [
+      "goofballs",
+      "kids",
+      "tv dinner"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/whb9VJJdDlRjJLrRrQl1NkyD3Dc.jpg",
+    "year": "1986",
+    "description": "Chairry, Conky, the Secret Word and the King of Cartoons. All 45 episodes plus the Christmas special."
   },
   {
     "title": "Popeye the Sailor: The Complete Series",
@@ -1619,6 +1770,19 @@ window.CATALOG = [
     "poster": "https://image.tmdb.org/t/p/w500/kLquadlhGPfpKHkVNRgrq0tzHkL.jpg",
     "year": "1986",
     "description": "The cartoon that out-ghosted the movies. All seven seasons, 135 episodes of slime."
+  },
+  {
+    "title": "Red Dwarf",
+    "type": "series",
+    "id": "red-dwarf-s-13-e-01-the-promised-land-pt-1",
+    "tags": [
+      "goofballs",
+      "space cadets",
+      "tv dinner"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/cU9RFlyvJXbzyCzCGRqRmZrTDZU.jpg",
+    "year": "1988",
+    "description": "The last human alive, a hologram, a cat who evolved into a man and a robot, three million years from Earth. Smeg. The complete series."
   },
   {
     "title": "The Scooby-Doo Show Season 1",
@@ -1753,6 +1917,44 @@ window.CATALOG = [
     "poster": "https://image.tmdb.org/t/p/w500/h0BLnOet7BtgrDpkU5KSSmiqQTg.jpg",
     "year": "1984",
     "description": "Robots in disguise wage the very first war for Earth's energy. More than meets the eye, less than meets the budget."
+  },
+  {
+    "title": "The Twilight Zone Season 1",
+    "type": "series",
+    "id": "the-twilight-zone-1959-s-01-e-00-original-pilot",
+    "tags": [
+      "creature feature",
+      "rainy window",
+      "tv dinner"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/7uY4pCOxbEdv4M8jTE4uMPVoSIW.jpg",
+    "year": "1959",
+    "description": "Rod Serling's anthology of the strange and twisty. The whole first season plus the original pilot."
+  },
+  {
+    "title": "Twin Peaks",
+    "type": "series",
+    "id": "season-2-episode-8-drive-with-a-dead-girl",
+    "tags": [
+      "creature feature",
+      "rainy window",
+      "tv dinner"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/lA9CNSdo50iQPZ8A2fyVpMvJZAf.jpg",
+    "year": "1990",
+    "description": "Who killed Laura Palmer? Damn fine coffee, cherry pie and a Log Lady. Both original seasons plus a heap of extras; the upload is messy, so some episodes appear twice."
+  },
+  {
+    "title": "The Wonder Years",
+    "type": "series",
+    "id": "thewonderyear",
+    "tags": [
+      "emotional damage",
+      "tv dinner"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/tkaduqdhFrF1vp8L55OJfB5jw8Z.jpg",
+    "year": "1988",
+    "description": "Kevin Arnold grows up in the suburbs, 1968 to 1973, with Winnie, Paul and a narrator who knows how it all ends. All six seasons."
   },
   {
     "title": "X-Men: The Animated Series",

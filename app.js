@@ -378,7 +378,10 @@
       [/(?<![0-9])(\d{1,2})x(\d{2,3})(?![0-9])/, (m) => [+m[1], +m[2]]],                     // 1x03
       [/(?<![0-9])(\d{1,2}),(\d{2,3})(?![0-9])/, (m) => [+m[1], +m[2]]],                      // 01,03
       [/^((?:19|20)\d\d)e\d{2,3}\b/i, (m) => [null, null, m[1]]],                              // 1933e00- (Popeye)
+      [/\bseason\s*(\d{1,2})\s*[,.\-]?\s*ep(?:isode)?\.?\s*(\d{1,3})\b/i, (m) => [+m[1], +m[2]]],    // "Season 1 Episode 2"
+      [/(?<![A-Za-z0-9])E(\d{2,3})(?![0-9])/, (m) => [null, +m[1]]],                          // "Disc 1 E01 Title"
       [/^(\d{1,3})[A-Za-z]?(?:\s*[-.)]\s*|\s+)(?=\S)/, (m) => [null, +m[1]]],                  // "01 Title", "10A - Title"
+      [/^(\d{1,3})$/, (m) => [null, +m[1]]],                                                    // just "07"
       [/\b(?:ep(?:isode)?|chapter|part)\.?\s*(\d{1,3})\b/i, (m) => [null, +m[1]]],
     ];
     const find = (t) => {
@@ -396,7 +399,9 @@
     };
     const junk = (t) => t
       .replace(/\s*[\[(][^\])]*\b(?:\d{3,4}p|AI|upscale[d]?|x26[45]|HEVC|DVD(?:rip)?|SDTV|HDTV)\b[^\])]*[\])]/gi, "")
-      .replace(/\s+\b(?:SDTV|HDTV|DVDrip|WEB-?DL|\d{3,4}p)\b\s*$/i, "");
+      .replace(/\s+\b(?:SDTV|HDTV|DVDrip|WEB-?DL|\d{3,4}p)\b\s*$/i, "")
+      .replace(/\s+\d{3,4}p\b.*$/i, "")                                // "… 540p DVD 10bit 50FPS"
+      .replace(/^\(([^()]+)\)$/, "$1");                                 // "(Mr. Big)"
     let title = hit && hit.t === src
       ? tidy(src.slice(hit.m.index + hit.m[0].length)) || tidy(src.slice(0, hit.m.index))
       : tidy(src);
@@ -443,13 +448,19 @@
     const res = await fetch(IA.meta(item.id));
     if (!res.ok) throw new Error("metadata " + res.status);
     const files = (await res.json()).files || [];
-    const originals = files.filter((f) => f.source === "original" && VIDEO_FORMAT.test(f.format || "") &&
+    let originals = files.filter((f) => f.source === "original" && VIDEO_FORMAT.test(f.format || "") &&
       !/(^|\/)(commercials?|promos?|trailers?|bumpers?)\//i.test(f.name));
+    // In an item of full-length episodes, drop the network logos, intros and ads (under 3 minutes).
+    if (originals.filter((f) => parseFloat(f.length) >= 900).length >= 4) {
+      originals = originals.filter((f) => !(parseFloat(f.length) > 0 && parseFloat(f.length) < 180));
+    }
     const eps = originals.map((f) => {
       const kids = files.filter((d) => d.original === f.name);
       // Prefer the Archive's browser-friendly MP4 copy; fall back to the upload itself if a browser can play it.
       const play = kids.find((d) => /h\.264|mpeg4/i.test(d.format || "") && /\.mp4$/i.test(d.name)) ||
                    (/\.(mp4|m4v|webm|ogv)$/i.test(f.name) ? f : null);
+      // MKV uploads the Archive never converted: most browsers play them anyway; if not, we fall back.
+      const mkv = !play && /\.mkv$/i.test(f.name) ? f : null;
       // The Archive saves a frame every couple of minutes; skip the first few (titles, black frames).
       const frames = kids.filter((d) => /thumbnail/i.test(d.format || "")).map((d) => d.name).sort();
       return {
@@ -457,7 +468,8 @@
         ...parseEpisode(f.name, f.title, item.title),
         length: formatRuntime(f.length || (play && play.length)),
         thumb: frames.length ? IA.file(item.id, frames[Math.min(3, frames.length - 1)]) : null,
-        src: play ? IA.file(item.id, play.name) : null,
+        src: play ? IA.file(item.id, play.name) : mkv ? IA.file(item.id, mkv.name) : null,
+        risky: !!mkv,
         source: `${IA.details(item.id)}/${enc(f.name)}`,
       };
     });
@@ -693,6 +705,8 @@
       });
       // When an episode ends, roll straight on to the next one.
       video.addEventListener("ended", () => { if (next) go(watchHash(item.id, next.key)); });
+      // A raw MKV this browser can't decode: show the Archive's own player for the item instead.
+      if (ep.risky) video.addEventListener("error", () => stage.replaceChildren(embedFrame(ep.title, item.id, true)));
       stage.replaceChildren(video);
     } else {
       stage.replaceChildren(embedFrame(ep.title, ep.embed || item.id, !ep.embed));

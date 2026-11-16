@@ -68,6 +68,9 @@ back to the episode list.
   The show's own name is trimmed off the front of episode titles, tags like `[1080p AI]`
   or `SDTV` are dropped, files in `Commercials/` folders are skipped, and anything without
   a season number lands in an **Extras** section at the end (season 0 shows as **Specials**).
+  Also understood: `Season 1 Episode 2` and `Disc 1 E01` names. When an item holds at least four full-length
+  episodes, clips under 3 minutes (network logos, intros, ads) are hidden. MKV files the Archive never
+  converted are played directly; a browser that can't play them gets the Archive's own player instead.
   Preview frames are the stills the Archive makes.
 - **Each episode is its own Archive item**: put the episode links, comma-separated and in
   order, in an `episodes` column. Titles and posters come from each item.
