@@ -2384,6 +2384,19 @@ window.CATALOG = [
     "poster": "https://coverartarchive.org/release/cd171e0b-4cb1-4bef-ab60-ccab0729cd73/1672858721-500.jpg"
   },
   {
+    "title": "New Traditional",
+    "type": "music",
+    "id": "alan-jackson-new-traditional",
+    "tags": [
+      "honky tonk",
+      "sad flannel"
+    ],
+    "artist": "Alan Jackson",
+    "poster": "https://coverartarchive.org/release/df7601f1-fc47-4f0a-a942-51a9f3b21d98/43551969903-500.jpg",
+    "year": "1987",
+    "description": "Alan Jackson's rare 1987 independent album, recorded before he got famous."
+  },
+  {
     "title": "Chocolates & Cigarettes",
     "type": "music",
     "id": "angus-julia-stone-chocolates-cigarettes",
@@ -2477,6 +2490,19 @@ window.CATALOG = [
     ],
     "artist": "Björk",
     "poster": "https://coverartarchive.org/release/45a2061b-675f-49f1-a5eb-63100b7ca8eb/9485372271-500.jpg"
+  },
+  {
+    "title": "The Greatest Hits Collection",
+    "type": "music",
+    "id": "16-brooks-dunn-mamma-dont-get-dressed-up-for-nothing",
+    "tags": [
+      "honky tonk",
+      "kitchen dance party"
+    ],
+    "artist": "Brooks & Dunn",
+    "poster": "https://coverartarchive.org/release/cf5ced34-5015-4683-ae0c-796f67c47bb0/46136840166-500.jpg",
+    "year": "1997",
+    "description": "Boot Scootin' Boogie, Neon Moon, My Maria, Hard Workin' Man. Line dancing is mandatory."
   },
   {
     "title": "Distopian Dream Girl",
@@ -2776,6 +2802,45 @@ window.CATALOG = [
     "poster": "https://coverartarchive.org/release/8db24ab1-708b-4d11-b885-30583b103c73/34505679802-500.jpg"
   },
   {
+    "title": "Fly",
+    "type": "music",
+    "id": "dixie-chicks-fly-cd-rip",
+    "tags": [
+      "honky tonk",
+      "villain era"
+    ],
+    "artist": "Dixie Chicks",
+    "poster": "https://coverartarchive.org/release/c464169f-eec9-3406-9690-5e5667ec091d/6201889696-500.jpg",
+    "year": "1999",
+    "description": "Cowboy Take Me Away, Ready to Run and Goodbye Earl, the cheeriest revenge song ever recorded."
+  },
+  {
+    "title": "Wide Open Spaces",
+    "type": "music",
+    "id": "dixie-chicks-wide-open-spaces",
+    "tags": [
+      "honky tonk",
+      "kitchen dance party"
+    ],
+    "artist": "Dixie Chicks",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/1/13/Dixie_Chicks_-_Wide_Open_Spaces.jpg",
+    "year": "1998",
+    "description": "The 1998 breakout: Wide Open Spaces, There's Your Trouble and I Can Love You Better."
+  },
+  {
+    "title": "Jolene",
+    "type": "music",
+    "id": "dolly-parton-1974-jolene",
+    "tags": [
+      "emotional damage",
+      "honky tonk"
+    ],
+    "artist": "Dolly Parton",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/a/ab/Jolene_%28Dolly_Parton_album_-_cover_art%29.jpg",
+    "year": "1974",
+    "description": "Jolene and the original I Will Always Love You on the same 1974 record."
+  },
+  {
     "title": "Born Like This (Redux)",
     "type": "music",
     "id": "born-like-this-redux-flac",
@@ -2966,6 +3031,57 @@ window.CATALOG = [
     "poster": "https://coverartarchive.org/release/81fd4218-d269-48d4-b2cc-1e74b6c28187/33157526921-500.jpg"
   },
   {
+    "title": "The Chase",
+    "type": "music",
+    "id": "that-summer",
+    "tags": [
+      "emotional damage",
+      "honky tonk"
+    ],
+    "artist": "Garth Brooks",
+    "poster": "https://coverartarchive.org/release/53ba8465-5c44-4e61-af10-728a20b5c01e/32910562468-500.jpg",
+    "year": "1992",
+    "description": "Garth's 1992 album with We Shall Be Free and Somewhere Other Than the Night. A vinyl rip."
+  },
+  {
+    "title": "Fresh Horses",
+    "type": "music",
+    "id": "that-ol-wind",
+    "tags": [
+      "honky tonk",
+      "kitchen dance party"
+    ],
+    "artist": "Garth Brooks",
+    "year": "1995",
+    "description": "The 1995 album with The Beaches of Cheyenne and a cover of Aerosmith's The Fever. A vinyl rip."
+  },
+  {
+    "title": "The Hits",
+    "type": "music",
+    "id": "Garth_Brooks-The_Hits",
+    "tags": [
+      "honky tonk",
+      "kitchen dance party"
+    ],
+    "artist": "Garth Brooks",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/0/0e/TheHitsGarthBrooksalbumcover.png",
+    "year": "1994",
+    "description": "Friends in Low Places, The Dance, Callin' Baton Rouge and the rest of the early hits. A cassette rip."
+  },
+  {
+    "title": "20th Century Masters: The Best of George Strait",
+    "type": "music",
+    "id": "george-strait-20th-century-masters-the-millennium-collection-the-best-of-george-strait",
+    "tags": [
+      "dad rock",
+      "honky tonk"
+    ],
+    "artist": "George Strait",
+    "poster": "https://coverartarchive.org/release/51447b37-b4d5-469e-a5c7-746cfd26f36e/12339291217-500.jpg",
+    "year": "2000",
+    "description": "Twelve early hits from the King of Country."
+  },
+  {
     "title": "Ironman",
     "type": "music",
     "id": "ironman1996",
@@ -3133,6 +3249,19 @@ window.CATALOG = [
     "poster": "https://coverartarchive.org/release/1304c724-7564-308a-80fe-d9243fb06d35/2729931236-500.jpg"
   },
   {
+    "title": "The Country Music Hall of Fame: Loretta Lynn",
+    "type": "music",
+    "id": "15-when-the-tingle-becomes-a-chill",
+    "tags": [
+      "emotional damage",
+      "honky tonk"
+    ],
+    "artist": "Loretta Lynn",
+    "poster": "https://coverartarchive.org/release/16ac770c-2758-48ac-9575-f5b9ef9d0183/13382974023-500.jpg",
+    "year": "1991",
+    "description": "You Ain't Woman Enough, Blue Kentucky Girl and more from the Coal Miner's Daughter."
+  },
+  {
     "title": "Back for the First Time",
     "type": "music",
     "id": "09-stick-em-up",
@@ -3162,6 +3291,44 @@ window.CATALOG = [
     ],
     "artist": "Madvillain",
     "poster": "https://coverartarchive.org/release/b88edf3d-7a88-4d1e-b51b-50022fde5708/28231687719-500.jpg"
+  },
+  {
+    "title": "Gunfighter Ballads and Trail Songs",
+    "type": "music",
+    "id": "marty_robbins-gunfighter_ballads-vinyl-1959",
+    "tags": [
+      "honky tonk",
+      "villain era"
+    ],
+    "artist": "Marty Robbins",
+    "poster": "https://coverartarchive.org/release/ed679b3c-0e20-43a2-bacc-0bf6a832fa90/30227087040-500.jpg",
+    "year": "1959",
+    "description": "El Paso, Big Iron and Cool Water. The cowboy album. A vinyl rip."
+  },
+  {
+    "title": "More Gunfighter Ballads and Trail Songs",
+    "type": "music",
+    "id": "marty_robbins-more_gunfighter_ballads_and_trail_songs",
+    "tags": [
+      "honky tonk",
+      "villain era"
+    ],
+    "artist": "Marty Robbins",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/5/50/More_Gunfighter_Ballads_and_Trail_Songs.png",
+    "year": "1960",
+    "description": "The 1960 sequel: more outlaws, more prairies, more Streets of Laredo. A vinyl rip."
+  },
+  {
+    "title": "Return of the Gunfighter",
+    "type": "music",
+    "id": "return-of-the-gunfighter",
+    "tags": [
+      "honky tonk",
+      "villain era"
+    ],
+    "artist": "Marty Robbins",
+    "year": "1963",
+    "description": "The third round of Marty's western ballads, from 1963."
   },
   {
     "title": "100th Window",
@@ -3865,6 +4032,18 @@ window.CATALOG = [
     "poster": "https://coverartarchive.org/release/57be3031-d63c-4c31-9be0-1d773a43eee9/33606688526-500.jpg"
   },
   {
+    "title": "Selections 1967-1974",
+    "type": "music",
+    "id": "tammy-wynette-selections__1967-1974",
+    "tags": [
+      "emotional damage",
+      "honky tonk"
+    ],
+    "artist": "Tammy Wynette",
+    "year": "1974",
+    "description": "Stand By Your Man, D-I-V-O-R-C-E and the rest of the First Lady of Country's heartbreak era."
+  },
+  {
     "title": "The Mirror Conspiracy",
     "type": "music",
     "id": "the-mirror-conspiracy",
@@ -3947,6 +4126,19 @@ window.CATALOG = [
     "poster": "https://coverartarchive.org/release/5d6db5ed-50ad-4bad-a4b8-514b41736013/32803268209-500.jpg"
   },
   {
+    "title": "The Very Best of Travis Tritt",
+    "type": "music",
+    "id": "ttvbtt",
+    "tags": [
+      "dad rock",
+      "honky tonk"
+    ],
+    "artist": "Travis Tritt",
+    "poster": "https://coverartarchive.org/release/e5f59422-f7cf-414b-8dec-91455c93199b/26647031894-500.jpg",
+    "year": "2007",
+    "description": "Here's a Quarter (Call Someone Who Cares), It's a Great Day to Be Alive and twenty tracks of mullet-era swagger."
+  },
+  {
     "title": "Beats, Rhymes & Life",
     "type": "music",
     "id": "beats-rhymes-and-life-flac",
@@ -3995,6 +4187,19 @@ window.CATALOG = [
     ],
     "artist": "A Tribe Called Quest",
     "poster": "https://coverartarchive.org/release/0d03d65f-69d2-4bc0-bd98-cfd94449c06a/10824837106-500.jpg"
+  },
+  {
+    "title": "Clean Shirt",
+    "type": "music",
+    "id": "waylon-willie-clean-shirt",
+    "tags": [
+      "dad rock",
+      "honky tonk"
+    ],
+    "artist": "Waylon & Willie",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/c/c2/WaylonJenningsWillieNelsonCleanShirt.jpg",
+    "year": "1991",
+    "description": "The two outlaws' 1991 duet album. Old age and treachery beat youth and skill."
   },
   {
     "title": "After Hours",
@@ -4049,6 +4254,33 @@ window.CATALOG = [
     ],
     "artist": "White Zombie",
     "poster": "https://upload.wikimedia.org/wikipedia/en/2/21/White_Zombie_La_Sexorcisto_Devil_Music%2C_Vol._1.jpg"
+  },
+  {
+    "title": "Always on My Mind",
+    "type": "music",
+    "id": "willie-nelson-always-on-my-mind",
+    "tags": [
+      "honky tonk",
+      "sad flannel"
+    ],
+    "artist": "Willie Nelson",
+    "poster": "https://coverartarchive.org/release/30a25a9a-695d-4db7-8766-b4086c8cef72/5679166279-500.jpg",
+    "year": "1982",
+    "description": "The 1982 album of covers built around the title track, plus Procol Harum's A Whiter Shade of Pale."
+  },
+  {
+    "title": "Red Headed Stranger",
+    "type": "music",
+    "id": "willie-nelson-red-headed-stranger",
+    "tags": [
+      "honky tonk",
+      "rainy window",
+      "sad flannel"
+    ],
+    "artist": "Willie Nelson",
+    "poster": "https://coverartarchive.org/release/d9812a80-e57b-4028-8df2-05d0e5d5a1dd/7516694715-500.jpg",
+    "year": "1975",
+    "description": "Willie's sparse 1975 concept album about a preacher on the run, with Blue Eyes Crying in the Rain."
   },
   {
     "title": "Enter the Wu-Tang (36 Chambers)",
