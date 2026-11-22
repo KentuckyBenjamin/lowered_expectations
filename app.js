@@ -450,6 +450,11 @@
     const files = (await res.json()).files || [];
     let originals = files.filter((f) => f.source === "original" && VIDEO_FORMAT.test(f.format || "") &&
       !/(^|\/)(commercials?|promos?|trailers?|bumpers?)\//i.test(f.name));
+    // An "episode filter" column in the media list: keep only files whose names contain one of its words.
+    if (item.fileFilter && item.fileFilter.length) {
+      const want = item.fileFilter.map((w) => w.toLowerCase());
+      originals = originals.filter((f) => want.some((w) => f.name.toLowerCase().includes(w)));
+    }
     // In an item of full-length episodes, drop the network logos, intros and ads (under 3 minutes).
     if (originals.filter((f) => parseFloat(f.length) >= 900).length >= 4) {
       originals = originals.filter((f) => !(parseFloat(f.length) > 0 && parseFloat(f.length) < 180));

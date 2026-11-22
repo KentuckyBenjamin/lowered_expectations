@@ -2343,6 +2343,21 @@ window.CATALOG = [
     "description": "That theme song. Wolverine brooding, Gambit flirting, Jubilee in a raincoat. All 76 episodes (AI upscaled)."
   },
   {
+    "title": "NOVA",
+    "type": "series",
+    "id": "nova_collection",
+    "tags": [
+      "space cadets"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/giUBXYnDAaJgNqA6iE3BMVE2EHp.jpg",
+    "year": "2022",
+    "description": "PBS's long-running science series: the 2022 and 2023 seasons, from the James Webb telescope and dinosaur apocalypse to the five-part Ancient Earth.",
+    "fileFilter": [
+      "Nova 2022-",
+      "Nova 2023-"
+    ]
+  },
+  {
     "title": "Rare Chandeliers",
     "type": "music",
     "id": "rare-chandeliers-action-bronson",
@@ -4354,6 +4369,153 @@ window.CATALOG = [
     ],
     "artist": "Yeah Yeah Yeahs",
     "poster": "https://coverartarchive.org/release/20c2c561-7346-4443-8acb-530e4d333429/45322656349-500.jpg"
+  },
+  {
+    "title": "A Charlie Brown Christmas",
+    "type": "music",
+    "id": "2012-remastered-and-expanded-edition",
+    "tags": [
+      "christmas"
+    ],
+    "artist": "Vince Guaraldi Trio",
+    "year": "1965"
+  },
+  {
+    "title": "A Christmas Gift for You from Phil Spector",
+    "type": "music",
+    "id": "AChristmasGiftForYouFromPhilSpector1963",
+    "tags": [
+      "christmas"
+    ],
+    "artist": "Phil Spector",
+    "year": "1963"
+  },
+  {
+    "title": "A Jolly Christmas from Frank Sinatra",
+    "type": "music",
+    "id": "a-jolly-christmas-from-frank-sinatra-2005-cd-rip",
+    "tags": [
+      "christmas"
+    ],
+    "artist": "Frank Sinatra",
+    "year": "1957"
+  },
+  {
+    "title": "Christmas with Bing Crosby, Nat King Cole and Dean Martin",
+    "type": "music",
+    "id": "various-christmas-with-bing-crosby-nat-king-cole-and-dean-martin-1995-cd-c",
+    "tags": [
+      "christmas"
+    ],
+    "artist": "Various Artists",
+    "year": "1995"
+  },
+  {
+    "title": "Christmas with Andy Williams and the Williams Brothers",
+    "type": "music",
+    "id": "lp_christmas-with-andy-williams-and-the-willi_andy-williams-the-williams-brothers",
+    "tags": [
+      "christmas"
+    ],
+    "artist": "Andy Williams",
+    "year": "1970"
+  },
+  {
+    "title": "The Sound of Christmas, Vol. 2",
+    "type": "music",
+    "id": "the-sound-of-christmas-volume-2-vinyl-rip",
+    "tags": [
+      "christmas"
+    ],
+    "artist": "Various Artists",
+    "year": "1967"
+  },
+  {
+    "title": "Let It Be Christmas",
+    "type": "music",
+    "id": "07-let-it-be-christmas_202609",
+    "tags": [
+      "christmas"
+    ],
+    "artist": "Alan Jackson",
+    "year": "2002"
+  },
+  {
+    "title": "A Christmas Together",
+    "type": "music",
+    "id": "JohnDenverTheMuppetsAChristmasTogether",
+    "tags": [
+      "christmas"
+    ],
+    "artist": "John Denver & The Muppets",
+    "year": "1979"
+  },
+  {
+    "title": "Chipmunks Christmas",
+    "type": "music",
+    "id": "chipmunks-christmas",
+    "tags": [
+      "christmas"
+    ],
+    "artist": "Alvin & The Chipmunks"
+  },
+  {
+    "title": "The Flintstones Motown Christmas",
+    "type": "music",
+    "id": "flintstones-motown-christmas",
+    "tags": [
+      "christmas"
+    ],
+    "artist": "Various Artists",
+    "year": "1996"
+  },
+  {
+    "title": "The Lost Christmas Eve",
+    "type": "music",
+    "id": "trans-siberian-orchestra-the-lost-christmas-eve-cd-rip",
+    "tags": [
+      "christmas"
+    ],
+    "artist": "Trans-Siberian Orchestra",
+    "year": "2004"
+  },
+  {
+    "title": "Christmas Symphony",
+    "type": "music",
+    "id": "mannheim-steamroller-christmas-symphony",
+    "tags": [
+      "christmas"
+    ],
+    "artist": "Mannheim Steamroller"
+  },
+  {
+    "title": "Voices of Christmas Past (1898-1922)",
+    "type": "music",
+    "id": "Voices_of_Christmas_Past_1898_to_1922",
+    "tags": [
+      "christmas"
+    ],
+    "artist": "Various Artists",
+    "year": "1922"
+  },
+  {
+    "title": "The 8bits of Christmas",
+    "type": "music",
+    "id": "8bp038",
+    "tags": [
+      "christmas"
+    ],
+    "artist": "The 8bitpeoples"
+  },
+  {
+    "title": "Christmasasaurus Vol. 2",
+    "type": "music",
+    "id": "CANDY032",
+    "tags": [
+      "christmas"
+    ],
+    "artist": "Various Artists",
+    "year": "2006"
   },
   {
     "title": "Adventures of Huckleberry Finn",

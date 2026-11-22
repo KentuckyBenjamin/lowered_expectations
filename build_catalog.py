@@ -22,6 +22,8 @@ CSV columns (first row is the header, order doesn't matter):
     year      - optional, overrides what the Archive reports
     featured  - optional, "yes" gives a movie extra chances to be the hero title (a random movie headlines each visit)
     episodes  - optional, series only: comma-separated archive.org links/identifiers
+    episode filter - optional, series only: comma-separated words; only the item's video files whose
+                names contain one of them are listed (e.g. "Nova 2022-, Nova 2023-")
     poster    - optional, a link to an image to use as the poster
     External Poster Link - optional, a link to any image; wins over every other image
 
@@ -238,6 +240,9 @@ def main():
         eps = [identifier_from(e) for e in split_list(rec.get("episodes"))]
         if kind == "series" and eps:
             item["episodes"] = [{"id": e} for e in eps]
+        only = split_list(rec.get("episode filter"))
+        if kind == "series" and only:
+            item["fileFilter"] = only
         items.append(item)
 
     try:

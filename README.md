@@ -72,6 +72,9 @@ back to the episode list.
   episodes, clips under 3 minutes (network logos, intros, ads) are hidden. MKV files the Archive never
   converted are played directly; a browser that can't play them gets the Archive's own player instead.
   Preview frames are the stills the Archive makes.
+- **Only some of a big item's episodes**: add an `episode filter` column with comma-separated
+  words, and only the video files whose names contain one of them are listed. For example
+  `Nova 2022-, Nova 2023-` shows just those two years from the 900-episode `nova_collection`.
 - **Each episode is its own Archive item**: put the episode links, comma-separated and in
   order, in an `episodes` column. Titles and posters come from each item.
 
