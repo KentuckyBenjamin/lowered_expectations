@@ -31,7 +31,7 @@ window.CATALOG = [
     "tags": [
       "kids"
     ],
-    "poster": "http://www.impawards.com/1938/posters/adventures_of_tom_sawyer.jpg"
+    "poster": "https://image.tmdb.org/t/p/w500/v91Ft1tHlKHLSfNp4XBL8H6JMOP.jpg"
   },
   {
     "title": "All Dogs Go to Heaven",
@@ -326,7 +326,7 @@ window.CATALOG = [
       "so bad it's good",
       "space cadets"
     ],
-    "poster": "https://images.theposterdb.com/prod/public/images/posters/optimized/movies/1740139/TGNm1s1MRSXo8DCEDLcXOGBte6PQcrArSULlkFuK.jpg"
+    "poster": "https://image.tmdb.org/t/p/w500/rgwlKEtg2Eyz1MEZm9JAXyhNwv2.jpg"
   },
   {
     "title": "The Care Bears Movie",
@@ -1011,7 +1011,7 @@ window.CATALOG = [
     "tags": [
       "creature feature"
     ],
-    "poster": "http://www.impawards.com/1987/posters/lost_boys.jpg"
+    "poster": "https://image.tmdb.org/t/p/w500/nH1lvyQvfbL5GKScTtT6zkIvDEn.jpg"
   },
   {
     "title": "Man with a Movie Camera",
@@ -1682,7 +1682,7 @@ window.CATALOG = [
       "so bad it's good",
       "space cadets"
     ],
-    "poster": "http://www.ohmygore.com/movies/voyage_to_the_planet_of_prehistoric_women/poster_01.jpg"
+    "poster": "https://image.tmdb.org/t/p/w500/aTZHuHghiEpB3WYM93V1FtYyJ4B.jpg"
   },
   {
     "title": "Walk Hard: The Dewey Cox Story",
@@ -1807,7 +1807,7 @@ window.CATALOG = [
     "tags": [
       "kids"
     ],
-    "poster": "https://images.theposterdb.com/prod/public/images/posters/optimized/shows/26535/season_1/nwBm9BCzKNzi62uE8mtnVyDZ4S1TbEhF8N88tni8.jpg"
+    "poster": "https://image.tmdb.org/t/p/w500/dpy7oL7fOlxcKRO74NZFfULGnx7.jpg"
   },
   {
     "title": "Betty Boop Cartoons",
@@ -2267,7 +2267,7 @@ window.CATALOG = [
     "tags": [
       "kids"
     ],
-    "poster": "https://images.theposterdb.com/prod/public/images/posters/optimized/shows/7732/season_3/M1NDxxmtNDyuCZoWUCobylyCCR0w6p21JX8IL4x9.jpg"
+    "poster": "https://image.tmdb.org/t/p/w500/gAbyJ3SiF9Wa0Iv0h8HF8cd5wfG.jpg"
   },
   {
     "title": "The Tom And Jerry Show Season Two Full Episodes",
@@ -2276,7 +2276,7 @@ window.CATALOG = [
     "tags": [
       "kids"
     ],
-    "poster": "https://images.theposterdb.com/prod/public/images/posters/optimized/shows/7732/season_2/VHmNFNuTBIQqSqExBYFLtn3INH2zR4GYu1JMDIyG.jpg"
+    "poster": "https://image.tmdb.org/t/p/w500/wOeIule6GvnfsfVxGlH558OUKpd.jpg"
   },
   {
     "title": "The Transformers Season 1",
