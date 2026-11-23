@@ -339,6 +339,9 @@ body:not([data-view="series"]) #series-view { display: none; }
   box-shadow: 0 0 0 1px var(--line); transition: transform .2s ease, box-shadow .2s ease;
 }
 .ep-art img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.ep-art.boxart img { object-fit: contain; padding: 6px 0; }
+.ep-art.boxart img.ep-backdrop { object-fit: cover; padding: 0; filter: blur(14px) brightness(.5); transform: scale(1.2); }
+.ep-art.boxart .ep-num { display: none; }
 .ep-art:hover, .ep-art:focus-visible { transform: translateY(-3px); box-shadow: 0 0 0 2px var(--accent), 0 18px 30px -16px rgba(0,0,0,.6); }
 .ep-num {
   position: absolute; inset: 0; display: grid; place-items: center;

@@ -199,10 +199,14 @@ def check_audio(kind, files):
 def check_series(row, files):
     if row["episodes"]:
         gone = []
-        for ep in row["episodes"]:
-            m = archive_meta(ep)
-            if m is not None and (not m.get("metadata") or m.get("is_dark")):
-                gone.append(ep)
+        for ident, file, _ in row["episodes"]:
+            m = archive_meta(ident)
+            if m is None:
+                continue
+            if not m.get("metadata") or m.get("is_dark"):
+                gone.append(ident)
+            elif file and not any(f.get("name") == file for f in m.get("files") or []):
+                gone.append(f"{ident}/{file}")
         if gone:
             return [(WONT, f"{len(gone)} of {len(row['episodes'])} episode links point at missing items: "
                            + ", ".join(gone[:5]) + (" ..." if len(gone) > 5 else ""),
@@ -239,18 +243,33 @@ def search_link(row):
     return "https://duckduckgo.com/?iax=images&ia=images&q=" + q
 
 
+def image_ok(url):
+    """True / False, or None if the site couldn't be reached."""
+    try:
+        status, ctype, body = fetch(url, browser=True, head_bytes=2048, timeout=15)
+    except ConnectionError:
+        return None
+    is_image = ctype.startswith("image/") or body[:4] in (b"\x89PNG", b"GIF8", b"RIFF") or body[:3] == b"\xff\xd8\xff"
+    return status < 400 and is_image
+
+
 def check_poster(row):
+    out = []
+    bad = [img for _, _, img in row["episodes"] if img and image_ok(img) is False]
+    if bad:
+        out.append((POSTER, f"{len(bad)} episode image link(s) are broken (those tiles show the Archive's picture): "
+                            + ", ".join(bad[:3]) + (" ..." if len(bad) > 3 else ""),
+                    "Replace the image after the second | in those episodes."))
     raw = row["external"] if is_url(row["external"]) else row["poster"] if is_url(row["poster"]) else ""
     if not raw:
-        return []
+        return out
     url = unwrap_image_link(raw) if raw == row["external"] else raw
     host = urllib.parse.urlsplit(raw).netloc.lower()
-    out = []
     wrapped = any(p in host for p in SEARCH_PROXIES)
     try:
         status, ctype, body = fetch(url, browser=True, head_bytes=2048, timeout=15)
     except ConnectionError as exc:
-        return [("unchecked", f"couldn't reach the poster's site ({exc})", "Run the check again later.")]
+        return out + [("unchecked", f"couldn't reach the poster's site ({exc})", "Run the check again later.")]
     is_image = ctype.startswith("image/") or body[:4] in (b"\x89PNG", b"GIF8", b"RIFF") or body[:3] == b"\xff\xd8\xff"
     if status >= 400 or not is_image:
         what = f"answers {status}" if status >= 400 else f"returns a web page ({ctype or 'no type'}), not an image"
@@ -260,6 +279,15 @@ def check_poster(row):
         out.append((POSTER, "poster is an image-search link (" + host + "); it works today but these expire",
                     "Swap in the direct image address: " + url))
     return out
+
+
+def parse_episode(entry):
+    """'link', 'name | link' or 'name | link | image' -> (identifier, file inside it or '', image or '')."""
+    parts = [p.strip() for p in entry.split("|")]
+    link = parts[0] if len(parts) == 1 else parts[1]
+    image = parts[2] if len(parts) > 2 and is_url(parts[2]) else ""
+    m = re.search(r"archive\.org/(?:details|download)/[^/?#\s]+/([^?#\s]+)", link)
+    return identifier_from(link), urllib.parse.unquote(m.group(1)) if m else "", image
 
 
 # ---------- main ----------
@@ -278,7 +306,7 @@ def load_rows(src):
             "n": n, "title": get("title") or identifier_from(get("link")), "artist": get("artist") if get("artist").lower() != "n/a" else "",
             "type": kind if kind in VALID_TYPES else kind or "?", "link": get("link"), "id": identifier_from(get("link")),
             "tags": [t.lower() for t in split_list(get("tags"))], "external": get("external poster link"),
-            "poster": get("poster"), "episodes": [identifier_from(e.rpartition("|")[2].strip()) for e in split_list(get("episodes"))],
+            "poster": get("poster"), "episodes": [parse_episode(e) for e in split_list(get("episodes"))],
             "filter": split_list(get("episode filter")), "pico8": "lexaloffle" in get("link").lower(),
         })
     return out

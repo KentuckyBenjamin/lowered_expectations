@@ -21,8 +21,9 @@ CSV columns (first row is the header, order doesn't matter):
     tags      - optional, comma-separated (e.g. "kids, animation")
     year      - optional, overrides what the Archive reports
     featured  - optional, "yes" gives a movie extra chances to be the hero title (a random movie headlines each visit)
-    episodes  - optional, series only: comma-separated archive.org links/identifiers; put a name and
-                a | in front of a link to name that episode ("Zelda II | https://archive.org/details/...")
+    episodes  - optional, series only: comma-separated archive.org links/identifiers. Each can be
+                "link", "name | link" or "name | link | image" (an image link for the episode's tile).
+                A link can point at one video inside an item: .../details/<item>/<file>.mp4
     episode filter - optional, series only: comma-separated words; only the item's video files whose
                 names contain one of them are listed (e.g. "Nova 2022-, Nova 2023-")
     poster    - optional, a link to an image to use as the poster
@@ -240,10 +241,17 @@ def main():
             item["featured"] = True
         eps = []
         for entry in split_list(rec.get("episodes")):
-            name, bar, link = entry.rpartition("|")       # "Super Mario Bros. 3 | link" names the episode
-            ep = {"id": identifier_from(link.strip() if bar else entry)}
-            if bar and name.strip():
-                ep["title"] = name.strip()
+            # "link", "name | link" or "name | link | image"; a link can point at one file inside an item
+            parts = [part.strip() for part in entry.split("|")]
+            name, link, image = (["", ""] + parts)[-2:] + [""] if len(parts) < 3 else parts[:3]
+            ep = {"id": identifier_from(link)}
+            in_item = re.search(r"archive\.org/(?:details|download)/[^/?#\s]+/([^?#\s]+)", link)
+            if in_item:
+                ep["file"] = urllib.parse.unquote(in_item.group(1))
+            if name:
+                ep["title"] = name
+            if is_url(image):
+                ep["image"] = unwrap_image_link(image)
             eps.append(ep)
         if kind == "series" and eps:
             item["episodes"] = eps

@@ -2468,99 +2468,435 @@ window.CATALOG = [
       "longplay",
       "rainy window"
     ],
-    "description": "Sit back and watch someone else beat the classics, start to finish: Mario, Zelda, Metroid, Castlevania, Ninja Gaiden and more. No Game Over screens.",
+    "poster": "https://upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png",
+    "description": "Sit back and watch someone else beat the 8-bit classics, start to finish: Mario, Zelda, Metroid, Castlevania, all six Mega Mans and more. No Game Over screens.",
     "episodes": [
       {
         "id": "NES_Longplay_Super_Mario_Bros",
-        "title": "Super Mario Bros."
+        "title": "Super Mario Bros.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png"
       },
       {
         "id": "NES_Longplay_068_Super_Mario_Bros_2",
-        "title": "Super Mario Bros. 2"
+        "title": "Super Mario Bros. 2",
+        "image": "https://upload.wikimedia.org/wikipedia/en/7/78/Super_Mario_Bros._2_box_art.png"
       },
       {
         "id": "NES-Longplay_052_Super_Mario_Bros_3",
-        "title": "Super Mario Bros. 3"
+        "title": "Super Mario Bros. 3",
+        "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Super_Mario_Bros._3_coverart.png"
       },
       {
         "id": "NES_Longplay_040_The_Legend_of_Zelda_1st_Quest",
-        "title": "The Legend of Zelda"
+        "title": "The Legend of Zelda",
+        "image": "https://upload.wikimedia.org/wikipedia/en/4/41/Legend_of_zelda_cover_%28with_cartridge%29_gold.png"
       },
       {
         "id": "NES_Longplay_100_Zelda_II",
-        "title": "Zelda II: The Adventure of Link"
+        "title": "Zelda II: The Adventure of Link",
+        "image": "https://upload.wikimedia.org/wikipedia/en/f/fd/Zelda_II_The_Adventure_of_Link_box.jpg"
       },
       {
         "id": "MetroidNESLP",
-        "title": "Metroid"
+        "title": "Metroid",
+        "image": "https://upload.wikimedia.org/wikipedia/en/5/5d/Metroid_boxart.jpg"
       },
       {
         "id": "NES_Longplay-020-022-Castlevania",
-        "title": "Castlevania"
+        "title": "Castlevania",
+        "image": "https://upload.wikimedia.org/wikipedia/en/5/51/Castlevania_1_cover.png"
       },
       {
         "id": "nes-longplay-castlevania-ii-simons-quest-us",
-        "title": "Castlevania II: Simon's Quest"
+        "title": "Castlevania II: Simon's Quest",
+        "image": "https://upload.wikimedia.org/wikipedia/en/3/36/Castlevania_2_cover.png"
       },
       {
         "id": "NES_Longplay_400_Castlevania_III_-_Draculas_Curse",
-        "title": "Castlevania III: Dracula's Curse"
+        "title": "Castlevania III: Dracula's Curse",
+        "image": "https://upload.wikimedia.org/wikipedia/en/9/95/Castlevania_III_Dracula%27s_Curse.jpg"
+      },
+      {
+        "id": "NES_Longplays_-_Mega_Man_Series",
+        "file": "NES_Longplay_-_Mega_Man_-_US.mp4",
+        "title": "Mega Man",
+        "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Rockman_1987.jpg"
+      },
+      {
+        "id": "NES_Longplays_-_Mega_Man_Series",
+        "file": "NES_Longplay_-_Mega_Man_2_-_US.mp4",
+        "title": "Mega Man 2",
+        "image": "https://upload.wikimedia.org/wikipedia/en/b/be/Megaman2_box.jpg"
+      },
+      {
+        "id": "NES_Longplays_-_Mega_Man_Series",
+        "file": "NES_Longplay_-_Mega_Man_3_-_US.mp4",
+        "title": "Mega Man 3",
+        "image": "https://upload.wikimedia.org/wikipedia/en/4/49/Megaman3_box.jpg"
+      },
+      {
+        "id": "NES_Longplays_-_Mega_Man_Series",
+        "file": "NES_Longplay_-_Mega_Man_4_-_US.mp4",
+        "title": "Mega Man 4",
+        "image": "https://upload.wikimedia.org/wikipedia/en/8/8f/Megaman4_box.jpg"
+      },
+      {
+        "id": "NES_Longplays_-_Mega_Man_Series",
+        "file": "NES_Longplay_-_Mega_Man_5_-_US.mp4",
+        "title": "Mega Man 5",
+        "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/Megaman5_box.jpg"
+      },
+      {
+        "id": "NES_Longplays_-_Mega_Man_Series",
+        "file": "NES_Longplay_-_Mega_Man_6_-_US.mp4",
+        "title": "Mega Man 6",
+        "image": "https://upload.wikimedia.org/wikipedia/en/1/17/Megaman6_box.jpg"
       },
       {
         "id": "NES_Longplay_-_Ninja_Gaiden_-_US",
-        "title": "Ninja Gaiden"
+        "title": "Ninja Gaiden",
+        "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Ninja_Gaiden_%28NES%29.jpg"
       },
       {
         "id": "NES_Longplay_-_Disneys_DuckTales_-_US",
-        "title": "DuckTales"
+        "title": "DuckTales",
+        "image": "https://upload.wikimedia.org/wikipedia/en/6/64/DuckTales_NES_Cover.png"
       },
       {
         "id": "NES_Longplay_-_Teenage_Mutant_Ninja_Turtles_-_US",
-        "title": "Teenage Mutant Ninja Turtles"
+        "title": "Teenage Mutant Ninja Turtles",
+        "image": "https://upload.wikimedia.org/wikipedia/en/5/54/Teenage_Mutant_Ninja_Turtles_%281989_video_game%29.jpg"
       },
       {
         "id": "NES_Longplay_429_Teenage_Mutant_Ninja_Turtles_III_-_The_Manhattan_Project_a",
-        "title": "TMNT III: The Manhattan Project"
+        "title": "TMNT III: The Manhattan Project",
+        "image": "https://upload.wikimedia.org/wikipedia/en/c/c9/TMTN3_CoverArt.jpg"
       },
       {
         "id": "NesLongplay240BlasterMaster",
-        "title": "Blaster Master"
+        "title": "Blaster Master",
+        "image": "https://upload.wikimedia.org/wikipedia/en/9/99/Blaster_Master_boxart.jpg"
       },
       {
         "id": "NES_Longplay_110_Bionic_Commando",
-        "title": "Bionic Commando"
+        "title": "Bionic Commando",
+        "image": "https://upload.wikimedia.org/wikipedia/en/1/1e/BionicCommando.jpg"
       },
       {
         "id": "NES_Longplay_337_Little_Nemo_-_The_Dream_Master",
-        "title": "Little Nemo: The Dream Master"
+        "title": "Little Nemo: The Dream Master",
+        "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/Littlenemocover.png"
       },
       {
         "id": "NES_Longplay_128_Chip_N_Dale_Rescue_Rangers",
-        "title": "Chip 'n Dale Rescue Rangers"
+        "title": "Chip 'n Dale Rescue Rangers",
+        "image": "https://upload.wikimedia.org/wikipedia/en/0/02/Chip_%27n_Dale_Rescue_Rangers_NES_Cover.png"
       },
       {
         "id": "NES_Longplay_448_Super_Contra",
-        "title": "Super C"
+        "title": "Super C",
+        "image": "https://upload.wikimedia.org/wikipedia/en/4/4e/Super_contra.jpg"
       },
       {
         "id": "Longplay-PunchOut_NES",
-        "title": "Punch-Out!!"
+        "title": "Punch-Out!!",
+        "image": "https://upload.wikimedia.org/wikipedia/en/c/c8/Mike_Tyson%27s_Punch-Out%21%21_NES_Box.jpg"
       },
       {
         "id": "NES_Longplay_326_Dragon_Warrior",
-        "title": "Dragon Warrior"
+        "title": "Dragon Warrior",
+        "image": "https://upload.wikimedia.org/wikipedia/en/8/84/Dragon_Warrior.jpg"
       }
     ]
   },
   {
-    "title": "Mega Man Longplays",
+    "title": "SNES Longplays",
     "type": "series",
-    "id": "NES_Longplays_-_Mega_Man_Series",
+    "id": "SNES_Longplay-011-Super_Mario_World",
     "tags": [
       "longplay",
       "rainy window"
     ],
-    "description": "All six NES Mega Man games played through, Robot Masters and Wily Castles included. Yes, you still have to pick Metal Man first."
+    "poster": "https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png",
+    "description": "The 16-bit Nintendo greats played all the way through: Super Mario World, A Link to the Past, Super Metroid, Donkey Kong Country, Mega Man X and more.",
+    "episodes": [
+      {
+        "id": "SNES_Longplay-011-Super_Mario_World",
+        "title": "Super Mario World",
+        "image": "https://upload.wikimedia.org/wikipedia/en/3/32/Super_Mario_World_Coverart.png"
+      },
+      {
+        "id": "SNES_Longplay-070-Super-Mario-World-2_-_Yoshis-Island",
+        "title": "Super Mario World 2: Yoshi's Island",
+        "image": "https://upload.wikimedia.org/wikipedia/en/9/9a/Yoshi%27s_Island_%28Super_Mario_World_2%29_box_art.jpg"
+      },
+      {
+        "id": "SNES_Longplay_110_Super_Mario_Kart",
+        "title": "Super Mario Kart",
+        "image": "https://upload.wikimedia.org/wikipedia/en/3/38/Supermariokart_box.JPG"
+      },
+      {
+        "id": "SNES_Longplay_315_The_Legend_of_Zelda_A_Link_to_the_Past_a",
+        "title": "The Legend of Zelda: A Link to the Past",
+        "image": "https://upload.wikimedia.org/wikipedia/en/2/21/The_Legend_of_Zelda_A_Link_to_the_Past_SNES_Game_Cover.jpg"
+      },
+      {
+        "id": "SNES_Longplay-050-Super_MetroidV2",
+        "title": "Super Metroid",
+        "image": "https://upload.wikimedia.org/wikipedia/en/e/e4/Smetroidbox.jpg"
+      },
+      {
+        "id": "SNES_Longplay-071-Donkey_Kong_Country",
+        "title": "Donkey Kong Country",
+        "image": "https://upload.wikimedia.org/wikipedia/en/1/1a/Donkey_Kong_Country_SNES_cover.png"
+      },
+      {
+        "id": "SNES_Longplay-073-Donkey_Kong_Country_2-Diddys_Kongs_Quest",
+        "title": "Donkey Kong Country 2: Diddy's Kong Quest",
+        "image": "https://upload.wikimedia.org/wikipedia/en/c/c3/DK_Country_2.jpg"
+      },
+      {
+        "id": "SNES_Longplay_-_Mega_Man_X_-_US",
+        "title": "Mega Man X",
+        "image": "https://upload.wikimedia.org/wikipedia/en/f/f1/Mega_Man_X_Coverart.png"
+      },
+      {
+        "id": "SNES_Longplay_322_Rockman_X2",
+        "title": "Mega Man X2",
+        "image": "https://upload.wikimedia.org/wikipedia/en/c/cb/Mmx2_box.jpg"
+      },
+      {
+        "id": "SnesLongplay217MegaManX3a",
+        "title": "Mega Man X3",
+        "image": "https://upload.wikimedia.org/wikipedia/en/1/17/Mmx3_box.jpg"
+      },
+      {
+        "id": "SNES_Longplay-054-Mega_Man_7",
+        "title": "Mega Man 7",
+        "image": "https://upload.wikimedia.org/wikipedia/en/2/27/Mega_Man_7_Coverart.jpg"
+      },
+      {
+        "id": "SNES_Longplay-007-Super_Castlevania_IV",
+        "title": "Super Castlevania IV",
+        "image": "https://upload.wikimedia.org/wikipedia/en/c/c2/Super_Castlevania_IV_North_American_SNES_box_art.png"
+      },
+      {
+        "id": "SNES_Longplay-018-Super_Ghouls_n_Ghosts",
+        "title": "Super Ghouls 'n Ghosts",
+        "image": "https://upload.wikimedia.org/wikipedia/en/3/35/GhoulsSNES_boxart.JPG"
+      },
+      {
+        "id": "SNES_Longplay-030-Teenage_Mutant_Ninja_Turtles_IV_Turtles_in_Time",
+        "title": "TMNT IV: Turtles in Time",
+        "image": "https://upload.wikimedia.org/wikipedia/en/6/6d/Teenage_Mutant_Ninja_Turtles-_Turtles_in_Time_%28flyer%29.jpg"
+      },
+      {
+        "id": "SNESLongplay001ContraIIITheAlienWars_201707",
+        "title": "Contra III: The Alien Wars",
+        "image": "https://upload.wikimedia.org/wikipedia/en/b/b1/Contra_III_game_cover.png"
+      },
+      {
+        "id": "SNES_Longplay-024-Star_Fox",
+        "title": "Star Fox",
+        "image": "https://upload.wikimedia.org/wikipedia/en/5/52/Star_Fox_SNES.jpg"
+      },
+      {
+        "id": "SNES_Longplay_142_F-Zero",
+        "title": "F-Zero",
+        "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/SNES_F-Zero_boxart.jpg"
+      },
+      {
+        "id": "SNES_Longplay_320_Street_Fighter_II__The_World_Warrior",
+        "title": "Street Fighter II",
+        "image": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Genesis Longplays",
+    "type": "series",
+    "id": "MegaDriveLongplay016SonicTheHedgehog",
+    "tags": [
+      "longplay",
+      "rainy window"
+    ],
+    "poster": "https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg",
+    "description": "Sega does what Nintendon't: Sonic 1 to 3 & Knuckles, Streets of Rage 2, Gunstar Heroes, Earthworm Jim and more, beaten start to finish.",
+    "episodes": [
+      {
+        "id": "MegaDriveLongplay016SonicTheHedgehog",
+        "title": "Sonic the Hedgehog",
+        "image": "https://upload.wikimedia.org/wikipedia/en/b/ba/Sonic_the_Hedgehog_1_Genesis_box_art.jpg"
+      },
+      {
+        "id": "MegaDriveLongplay019SonicTheHedgehog2",
+        "title": "Sonic the Hedgehog 2",
+        "image": "https://upload.wikimedia.org/wikipedia/en/0/0c/Sonic_2_US_Cover.jpg"
+      },
+      {
+        "id": "Genesis_Longplay_-_Sonic_3_and_Knuckles_-_US",
+        "title": "Sonic 3 & Knuckles",
+        "image": "https://upload.wikimedia.org/wikipedia/en/0/07/Sonic3-box-us-225.jpg"
+      },
+      {
+        "id": "Longplay-StreetsOfRage2_Gen",
+        "title": "Streets of Rage 2",
+        "image": "https://upload.wikimedia.org/wikipedia/en/2/26/Streets_of_Rage_2.jpg"
+      },
+      {
+        "id": "Mega_Drive_Longplay_323_Golden_Axe_A",
+        "title": "Golden Axe",
+        "image": "https://upload.wikimedia.org/wikipedia/en/a/ab/Golden_Axe_Promo_Flyer.jpeg"
+      },
+      {
+        "id": "Mega_Drive_Longplay_188_Gunstar_Heroes",
+        "title": "Gunstar Heroes",
+        "image": "https://upload.wikimedia.org/wikipedia/en/8/80/Gunstar_Heroes.jpg"
+      },
+      {
+        "id": "Mega_Drive_Longplay_189_Shinobi_III_Return_of_the_Ninja_Master",
+        "title": "Shinobi III: Return of the Ninja Master",
+        "image": "https://upload.wikimedia.org/wikipedia/en/1/1c/Shinobi_III_Return_of_the_Ninja_Master.jpg"
+      },
+      {
+        "id": "Mega_Drive_Longplay_225_Castlevania_Bloodlines",
+        "title": "Castlevania: Bloodlines",
+        "image": "https://upload.wikimedia.org/wikipedia/en/a/af/Castlevania_Bloodlines.jpg"
+      },
+      {
+        "id": "Mega_Drive_Longplay-048-Earthworm_Jim",
+        "title": "Earthworm Jim",
+        "image": "https://upload.wikimedia.org/wikipedia/en/6/6f/Earthworm_Jim_Neutral_Cover.jpg"
+      },
+      {
+        "id": "Mega_Drive_Longplay-027-Comix_Zone",
+        "title": "Comix Zone",
+        "image": "https://upload.wikimedia.org/wikipedia/en/1/19/Comix_Zone_Cover.jpeg"
+      },
+      {
+        "id": "Mega_DriveLongplay_304_Rocket_Knight_Adventures_a",
+        "title": "Rocket Knight Adventures",
+        "image": "https://upload.wikimedia.org/wikipedia/en/9/92/Rocket_Knight_Adventures_North_American_Genesis_box_art.jpg"
+      },
+      {
+        "id": "MegaDriveLongplay163ToejamEarl",
+        "title": "ToeJam & Earl",
+        "image": "https://upload.wikimedia.org/wikipedia/en/c/c7/ToeJam_%26_Earl.png"
+      },
+      {
+        "id": "Mega_Drive_Longplay-031-Mortal_Kombat_II",
+        "title": "Mortal Kombat II",
+        "image": "https://upload.wikimedia.org/wikipedia/en/d/df/Mortal_Kombat_II_boxart.png"
+      },
+      {
+        "id": "Mega_Drive_Longplay_114_Mega_Man_-_The_Wily_Wars",
+        "title": "Mega Man: The Wily Wars",
+        "image": "https://upload.wikimedia.org/wikipedia/en/e/e0/Mega_Man_-_The_Wily_Wars_Coverart.png"
+      }
+    ]
+  },
+  {
+    "title": "PlayStation Longplays",
+    "type": "series",
+    "id": "PSXLongplay001MetalGearSolid",
+    "tags": [
+      "longplay",
+      "rainy window"
+    ],
+    "poster": "https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png",
+    "description": "The original PlayStation, played through: Metal Gear Solid, Symphony of the Night, Crash, Spyro, Silent Hill, the Mega Man X games and more.",
+    "episodes": [
+      {
+        "id": "PSXLongplay001MetalGearSolid",
+        "title": "Metal Gear Solid",
+        "image": "https://upload.wikimedia.org/wikipedia/en/3/33/Metal_Gear_Solid_cover_art.png"
+      },
+      {
+        "id": "PSX_Longplay_383_Castlevania_Symphony_of_the_Night",
+        "title": "Castlevania: Symphony of the Night",
+        "image": "https://upload.wikimedia.org/wikipedia/en/c/cf/Castlevania_SOTN_PAL.jpg"
+      },
+      {
+        "id": "PSXLongplay032CrashBandicoot",
+        "title": "Crash Bandicoot",
+        "image": "https://upload.wikimedia.org/wikipedia/en/4/44/Crash_Bandicoot_Cover.png"
+      },
+      {
+        "id": "PSX-Longplay_041_Crash_Bandicoot_2-Cortex_Strikes_back",
+        "title": "Crash Bandicoot 2: Cortex Strikes Back",
+        "image": "https://upload.wikimedia.org/wikipedia/en/e/e6/Crash_Bandicoot_2_Cortex_Strikes_Back_Game_Cover.jpg"
+      },
+      {
+        "id": "PSX_Longplay_160_Spyro_the_Dragon",
+        "title": "Spyro the Dragon",
+        "image": "https://upload.wikimedia.org/wikipedia/en/5/53/Spyro_the_Dragon.jpg"
+      },
+      {
+        "id": "PSX_Longplay_037_Resident_Evil_3_Nemesis",
+        "title": "Resident Evil 3: Nemesis",
+        "image": "https://upload.wikimedia.org/wikipedia/en/a/a5/Resident_Evil_3_Cover.jpg"
+      },
+      {
+        "id": "PSX_Longplay_Silent_Hill",
+        "title": "Silent Hill",
+        "image": "https://upload.wikimedia.org/wikipedia/en/9/96/Silent_Hill_video_game_cover.png"
+      },
+      {
+        "id": "PS1_Longplay-019-Tomb_Raider",
+        "title": "Tomb Raider",
+        "image": "https://upload.wikimedia.org/wikipedia/en/6/69/Tomb_Raider_%281996%29.png"
+      },
+      {
+        "id": "PS1_Longplay_-_Oddworld_Abes_Oddysee_-_US",
+        "title": "Oddworld: Abe's Oddysee",
+        "image": "https://upload.wikimedia.org/wikipedia/en/a/ab/Abe%27s_Oddysee_Cover.jpg"
+      },
+      {
+        "id": "PS1_Longplay_Ape_Escape",
+        "title": "Ape Escape",
+        "image": "https://upload.wikimedia.org/wikipedia/en/0/00/ApeEscapeNACover.jpg"
+      },
+      {
+        "id": "PSX-Longplay-030-Megaman-X4",
+        "title": "Mega Man X4",
+        "image": "https://upload.wikimedia.org/wikipedia/en/b/bf/Mega_Man_X4_PSX.jpg"
+      },
+      {
+        "id": "PS1_Longplay-029-Mega_Man_8x",
+        "title": "Mega Man 8",
+        "image": "https://upload.wikimedia.org/wikipedia/en/3/3e/Mega_Man_8_Japan_Sega_Saturn_cover.jpg"
+      },
+      {
+        "id": "PSX_Longplay_642_Rockman_X5",
+        "title": "Mega Man X5",
+        "image": "https://upload.wikimedia.org/wikipedia/en/8/8d/Mmx5box.jpg"
+      },
+      {
+        "id": "PSX_Longplay_170_Mega_Man_X6",
+        "title": "Mega Man X6",
+        "image": "https://upload.wikimedia.org/wikipedia/en/f/fc/Mmx6box.JPG"
+      },
+      {
+        "id": "PSX_Longplay_646_Mega_Man_Legends",
+        "title": "Mega Man Legends",
+        "image": "https://upload.wikimedia.org/wikipedia/en/3/3d/MMLegendsBox.jpg"
+      },
+      {
+        "id": "PSX_Longplay_002_PaRappa_the_Rapper",
+        "title": "PaRappa the Rapper",
+        "image": "https://upload.wikimedia.org/wikipedia/en/7/74/JPPaRappacover.jpg"
+      },
+      {
+        "id": "PSX_Longplay_325_Twisted_Metal_4",
+        "title": "Twisted Metal 4",
+        "image": "https://upload.wikimedia.org/wikipedia/en/e/e5/Twisted_Metal_4.jpg"
+      },
+      {
+        "id": "PSX_Longplay_086_Gran_Turismo_Arcade_Mode",
+        "title": "Gran Turismo",
+        "image": "https://upload.wikimedia.org/wikipedia/en/c/c8/Gran_Turismo_-_Cover_-_JP.jpg"
+      }
+    ]
   },
   {
     "title": "Rare Chandeliers",

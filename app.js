@@ -491,18 +491,27 @@
   // An "episodes" column in the media list: every episode is its own Archive item.
   async function episodesFromItems(item) {
     const eps = item.episodes.map((ep, n) => ({
-      key: ep.id, season: null, number: n + 1, title: ep.title || `Episode ${n + 1}`, named: !!ep.title,
-      thumb: IA.thumb(ep.id), embed: ep.id, source: IA.details(ep.id), length: null,
+      key: ep.file ? `${ep.id}/${ep.file}` : ep.id, season: null, number: n + 1,
+      title: ep.title || `Episode ${n + 1}`, named: !!ep.title,
+      thumb: ep.image || IA.thumb(ep.id), boxart: !!ep.image,
+      // One file inside an item plays straight in the video player; a whole item uses the Archive's.
+      embed: ep.file ? null : ep.id, src: ep.file ? IA.file(ep.id, ep.file) : null,
+      source: ep.file ? `${IA.details(ep.id)}/${enc(ep.file)}` : IA.details(ep.id), length: null,
+      item: ep.id, file: ep.file || null,
     }));
     const queue = eps.slice();
     const worker = async () => {
       while (queue.length) {
         const ep = queue.shift();
         try {
-          const m = (await (await fetch(IA.meta(ep.key))).json()).metadata || {};
+          const data = await (await fetch(IA.meta(ep.item))).json();
+          const m = data.metadata || {}, files = data.files || [];
           const first = (v) => (Array.isArray(v) ? v[0] : v);
           if (first(m.title) && !ep.named) ep.title = parseEpisode("", first(m.title)).title;
-          ep.length = formatRuntime(first(m.runtime));
+          const vids = files.filter((f) => VIDEO_FORMAT.test(f.format || "") || /\.(mp4|mkv|avi|ogv|webm)$/i.test(f.name || ""));
+          const own = ep.file ? files.find((f) => f.name === ep.file) : null;
+          ep.length = formatRuntime(own ? own.length : first(m.runtime) ||
+            Math.max(0, ...vids.map((f) => parseFloat(f.length) || 0)) || null);
         } catch (_) { /* keep "Episode N" */ }
       }
     };
@@ -614,7 +623,12 @@
     }, el("span", { class: "ep-num", "aria-hidden": "true" }, ep.number != null ? pad(ep.number) : "+"));
     if (ep.thumb) {
       const img = el("img", { alt: "", loading: "lazy", decoding: "async", src: ep.thumb });
-      img.onerror = () => img.remove();
+      img.onerror = () => { img.remove(); art.classList.remove("boxart"); art.querySelector(".ep-backdrop")?.remove(); };
+      if (ep.boxart) {
+        // Box art is portrait: show it whole, over a blurred copy that fills the tile.
+        art.classList.add("boxart");
+        art.append(el("img", { class: "ep-backdrop", alt: "", loading: "lazy", decoding: "async", src: ep.thumb }));
+      }
       art.append(img);
     }
     art.append(el("span", { class: "play-badge", "aria-hidden": "true" }, playIcon()));
