@@ -21,7 +21,8 @@ CSV columns (first row is the header, order doesn't matter):
     tags      - optional, comma-separated (e.g. "kids, animation")
     year      - optional, overrides what the Archive reports
     featured  - optional, "yes" gives a movie extra chances to be the hero title (a random movie headlines each visit)
-    episodes  - optional, series only: comma-separated archive.org links/identifiers
+    episodes  - optional, series only: comma-separated archive.org links/identifiers; put a name and
+                a | in front of a link to name that episode ("Zelda II | https://archive.org/details/...")
     episode filter - optional, series only: comma-separated words; only the item's video files whose
                 names contain one of them are listed (e.g. "Nova 2022-, Nova 2023-")
     poster    - optional, a link to an image to use as the poster
@@ -237,9 +238,15 @@ def main():
                 item["embed"] = True
         if text(rec.get("featured")).lower() in {"yes", "y", "true", "1", "x"}:
             item["featured"] = True
-        eps = [identifier_from(e) for e in split_list(rec.get("episodes"))]
+        eps = []
+        for entry in split_list(rec.get("episodes")):
+            name, bar, link = entry.rpartition("|")       # "Super Mario Bros. 3 | link" names the episode
+            ep = {"id": identifier_from(link.strip() if bar else entry)}
+            if bar and name.strip():
+                ep["title"] = name.strip()
+            eps.append(ep)
         if kind == "series" and eps:
-            item["episodes"] = [{"id": e} for e in eps]
+            item["episodes"] = eps
         only = split_list(rec.get("episode filter"))
         if kind == "series" and only:
             item["fileFilter"] = only

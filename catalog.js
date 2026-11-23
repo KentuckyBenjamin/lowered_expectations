@@ -1764,6 +1764,109 @@ window.CATALOG = [
     "poster": "https://image.tmdb.org/t/p/original/zvBmSzAaIJs8LxOSSaA8ZT7ysqW.jpg"
   },
   {
+    "title": "The Room",
+    "type": "movie",
+    "id": "theroom2003",
+    "tags": [
+      "so bad it's good"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/9QscHN4pXj6Ja1k7e1ZT4vWDGnr.jpg",
+    "year": "2003",
+    "description": "Tommy Wiseau's sincere, baffling melodrama about a banker, his future wife and his best friend Mark. Oh hi, Mark. You're tearing me apart, Lisa!"
+  },
+  {
+    "title": "Troll 2",
+    "type": "movie",
+    "id": "troll-2_202407",
+    "tags": [
+      "so bad it's good",
+      "creature feature"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/eFth6zw4PEInzr2Y64mYVN1zbBi.jpg",
+    "year": "1990",
+    "description": "A family vacations in a town of vegetarian goblins. There are no trolls in it. They're eating her, and then they're going to eat me. Oh my Gooood!"
+  },
+  {
+    "title": "A Princess for Christmas",
+    "type": "movie",
+    "id": "a-princess-for-christmas-2011-1080p",
+    "tags": [
+      "christmas"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/qv7fx4gW2bNU3eUiwtaxh829Imq.jpg",
+    "year": "2011"
+  },
+  {
+    "title": "The Good Witch's Gift",
+    "type": "movie",
+    "id": "the-good-witchs-gift-001_202212",
+    "tags": [
+      "christmas"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/cw6gQD0QRS3MA3bdGnAqQYSYhdr.jpg",
+    "year": "2010"
+  },
+  {
+    "title": "Call Me Mrs. Miracle",
+    "type": "movie",
+    "id": "call-me-mrs.-miracle",
+    "tags": [
+      "christmas"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/qwVwpK2xIUzRfgrlSHiwIfIdHie.jpg",
+    "year": "2010"
+  },
+  {
+    "title": "Snow Bride",
+    "type": "movie",
+    "id": "snow-bride",
+    "tags": [
+      "christmas"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/QiRWSeBSY2LJxpTXfN5QeyJoLX.jpg",
+    "year": "2013"
+  },
+  {
+    "title": "A Wish for Christmas",
+    "type": "movie",
+    "id": "a-wish-for-christmas-2016",
+    "tags": [
+      "christmas"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/9z81XnaxHJ7LYptef6augvgwake.jpg",
+    "year": "2016"
+  },
+  {
+    "title": "If I Only Had Christmas",
+    "type": "movie",
+    "id": "if.-i.-only.-had.-christmas.-2020.1080p.-webrip.x-264.-aac-yts.-mx",
+    "tags": [
+      "christmas"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/oJ465N1mV9FgYrsuph7ZxNtCJLn.jpg",
+    "year": "2020"
+  },
+  {
+    "title": "The Christmas Contest",
+    "type": "movie",
+    "id": "the.-christmas.-contest.-2021.-hallmark.-720p.-hdtv.-x-264.-solar",
+    "tags": [
+      "christmas"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/8qcRGnqeCyYFekRNAK4A366cbNF.jpg",
+    "year": "2021"
+  },
+  {
+    "title": "A Merry Scottish Christmas",
+    "type": "movie",
+    "id": "a-merry-scottish-christmas-x-264",
+    "tags": [
+      "christmas"
+    ],
+    "poster": "https://image.tmdb.org/t/p/w500/joJJfcxIO106BS4iy1kAdbgJxeQ.jpg",
+    "year": "2023"
+  },
+  {
     "title": "ALF",
     "type": "series",
     "id": "ALF-The-Complete-Series",
@@ -2356,6 +2459,108 @@ window.CATALOG = [
       "Nova 2022-",
       "Nova 2023-"
     ]
+  },
+  {
+    "title": "NES Longplays",
+    "type": "series",
+    "id": "NesLongplays",
+    "tags": [
+      "longplay",
+      "rainy window"
+    ],
+    "description": "Sit back and watch someone else beat the classics, start to finish: Mario, Zelda, Metroid, Castlevania, Ninja Gaiden and more. No Game Over screens.",
+    "episodes": [
+      {
+        "id": "NES_Longplay_Super_Mario_Bros",
+        "title": "Super Mario Bros."
+      },
+      {
+        "id": "NES_Longplay_068_Super_Mario_Bros_2",
+        "title": "Super Mario Bros. 2"
+      },
+      {
+        "id": "NES-Longplay_052_Super_Mario_Bros_3",
+        "title": "Super Mario Bros. 3"
+      },
+      {
+        "id": "NES_Longplay_040_The_Legend_of_Zelda_1st_Quest",
+        "title": "The Legend of Zelda"
+      },
+      {
+        "id": "NES_Longplay_100_Zelda_II",
+        "title": "Zelda II: The Adventure of Link"
+      },
+      {
+        "id": "MetroidNESLP",
+        "title": "Metroid"
+      },
+      {
+        "id": "NES_Longplay-020-022-Castlevania",
+        "title": "Castlevania"
+      },
+      {
+        "id": "nes-longplay-castlevania-ii-simons-quest-us",
+        "title": "Castlevania II: Simon's Quest"
+      },
+      {
+        "id": "NES_Longplay_400_Castlevania_III_-_Draculas_Curse",
+        "title": "Castlevania III: Dracula's Curse"
+      },
+      {
+        "id": "NES_Longplay_-_Ninja_Gaiden_-_US",
+        "title": "Ninja Gaiden"
+      },
+      {
+        "id": "NES_Longplay_-_Disneys_DuckTales_-_US",
+        "title": "DuckTales"
+      },
+      {
+        "id": "NES_Longplay_-_Teenage_Mutant_Ninja_Turtles_-_US",
+        "title": "Teenage Mutant Ninja Turtles"
+      },
+      {
+        "id": "NES_Longplay_429_Teenage_Mutant_Ninja_Turtles_III_-_The_Manhattan_Project_a",
+        "title": "TMNT III: The Manhattan Project"
+      },
+      {
+        "id": "NesLongplay240BlasterMaster",
+        "title": "Blaster Master"
+      },
+      {
+        "id": "NES_Longplay_110_Bionic_Commando",
+        "title": "Bionic Commando"
+      },
+      {
+        "id": "NES_Longplay_337_Little_Nemo_-_The_Dream_Master",
+        "title": "Little Nemo: The Dream Master"
+      },
+      {
+        "id": "NES_Longplay_128_Chip_N_Dale_Rescue_Rangers",
+        "title": "Chip 'n Dale Rescue Rangers"
+      },
+      {
+        "id": "NES_Longplay_448_Super_Contra",
+        "title": "Super C"
+      },
+      {
+        "id": "Longplay-PunchOut_NES",
+        "title": "Punch-Out!!"
+      },
+      {
+        "id": "NES_Longplay_326_Dragon_Warrior",
+        "title": "Dragon Warrior"
+      }
+    ]
+  },
+  {
+    "title": "Mega Man Longplays",
+    "type": "series",
+    "id": "NES_Longplays_-_Mega_Man_Series",
+    "tags": [
+      "longplay",
+      "rainy window"
+    ],
+    "description": "All six NES Mega Man games played through, Robot Masters and Wily Castles included. Yes, you still have to pick Metal Man first."
   },
   {
     "title": "Rare Chandeliers",

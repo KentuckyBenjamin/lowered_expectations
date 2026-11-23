@@ -491,7 +491,7 @@
   // An "episodes" column in the media list: every episode is its own Archive item.
   async function episodesFromItems(item) {
     const eps = item.episodes.map((ep, n) => ({
-      key: ep.id, season: null, number: n + 1, title: ep.title || `Episode ${n + 1}`,
+      key: ep.id, season: null, number: n + 1, title: ep.title || `Episode ${n + 1}`, named: !!ep.title,
       thumb: IA.thumb(ep.id), embed: ep.id, source: IA.details(ep.id), length: null,
     }));
     const queue = eps.slice();
@@ -501,7 +501,7 @@
         try {
           const m = (await (await fetch(IA.meta(ep.key))).json()).metadata || {};
           const first = (v) => (Array.isArray(v) ? v[0] : v);
-          if (first(m.title)) ep.title = parseEpisode("", first(m.title)).title;
+          if (first(m.title) && !ep.named) ep.title = parseEpisode("", first(m.title)).title;
           ep.length = formatRuntime(first(m.runtime));
         } catch (_) { /* keep "Episode N" */ }
       }

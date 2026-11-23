@@ -13,6 +13,7 @@ A static front end for a hand-picked Internet Archive catalog. No server, no bui
 | `app.js` | Browsing, search, tag filters, the player |
 | `catalog.js` | Your titles (generated from the CSV) |
 | `build_catalog.py` | Turns `ia_media_list.csv` into `catalog.js` |
+| `check_catalog.py` | Checks every title and poster link and lists what needs fixing |
 | `ia_media_list.csv` | The media list you edit (plain CSV: any text editor, Numbers or Excel) |
 
 ## Adding titles
@@ -76,7 +77,9 @@ back to the episode list.
   words, and only the video files whose names contain one of them are listed. For example
   `Nova 2022-, Nova 2023-` shows just those two years from the 900-episode `nova_collection`.
 - **Each episode is its own Archive item**: put the episode links, comma-separated and in
-  order, in an `episodes` column. Titles and posters come from each item.
+  order, in an `episodes` column. Titles and posters come from each item. To name an episode
+  yourself, put the name and a `|` in front of its link: `Zelda II | https://archive.org/details/...`
+  (names can't contain commas).
 
 ## Icon
 
@@ -96,6 +99,22 @@ into the CSV so you can check or edit them. Add tags yourself if you want them.
 - Commas inside a cell (like `kids, animation` in tags) need the cell wrapped in double
   quotes when editing by hand: `"kids, animation"`. Excel and Numbers do this for you.
 - Lookups are remembered in `archive_cache.json`, so later builds are quick and work offline.
+
+## Checking the catalog
+
+Run `python3 check_catalog.py` now and then (it needs an internet connection and takes a few
+minutes). It looks up every title on the Archive and tests every poster link, then lists:
+
+- **Won't play**: the item is gone, taken down or restricted, or has nothing the app can play
+  (including an episode filter that matches no files).
+- **May not play**: plays today, but in a way that tends to break, such as albums that are only
+  `.m4a` files, or MKV-only episodes (Safari).
+- **Posters**: broken poster links (the card falls back to the Archive's picture) and
+  image-search links that will expire, with a search link to find a replacement.
+
+The same list is saved to `catalog_report.csv`. It only reads; nothing in the media list is
+changed. Narrow it down with `--type music`, `--tag christmas`, `--title "lost boys"`,
+`--no-posters` or `--posters-only`.
 
 ## Posters
 

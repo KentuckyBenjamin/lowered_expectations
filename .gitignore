@@ -11,3 +11,5 @@ pandora_archive_matches.csv
 __pycache__/
 *.pyc
 .DS_Store
+
+catalog_report.csv
